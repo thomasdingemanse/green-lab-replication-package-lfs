@@ -224,20 +224,22 @@ class Experiment(object):
         self.scripts.run('before_run', device, *args, **kwargs)
 
     def after_launch(self, device, path, run, *args, **kwargs):
-        self.scripts.run('after_launch', device, device.id, device.current_activity())
+        self.scripts.run('after_launch', device, device.id, device.current_activity(), *args, **kwargs)
 
     def start_profiling(self, device, path, run, *args, **kwargs):
-        self.profilers.start_profiling(device)
+        #FIXME: handle *args
+        self.profilers.start_profiling(device, **kwargs)
 
     def interaction(self, device, path, run, *args, **kwargs):
         """Interactions on the device to be profiled"""
         self.scripts.run('interaction', device, self, *args, **kwargs)
 
     def stop_profiling(self, device, path, run, *args, **kwargs):
-        self.profilers.stop_profiling(device)
+        # FIXME: handle *args
+        self.profilers.stop_profiling(device, **kwargs)
 
     def before_close(self, device, path, run, *args, **kwargs):
-        self.scripts.run('before_close', device, device.id, device.current_activity())
+        self.scripts.run('before_close', device, device.id, device.current_activity(), *args, **kwargs)
 
     def after_run(self, device, path, run, *args, **kwargs):
         """Hook executed after a run"""

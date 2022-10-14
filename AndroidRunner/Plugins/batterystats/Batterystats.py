@@ -1,8 +1,10 @@
 import csv
+import logging
 import os
 import os.path as op
 import subprocess
 import time
+import shlex
 from collections import OrderedDict
 
 from AndroidRunner.Plugins.batterystats import BatterystatsParser
@@ -58,7 +60,7 @@ class Batterystats(Profiler):
             app = kwargs.get('app', None)
         # TODO: add support for other browsers, required form: app = 'package.name'
         elif self.type == 'web':
-            app = self.browsers[0].to_string()
+            app = kwargs['browser'].package_name
 
         # Create files on system
         systrace_file = op.join(self.output_dir,
@@ -80,10 +82,8 @@ class Batterystats(Profiler):
         global sysproc
 
         # Run systrace in another thread.
-        cmd = '{} freq idle -e {} -a {} -o {}'.format(self.systrace, device.id, application,
-                                                          systrace_file) 
-        cmd = cmd.split()
-        sysproc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+        cmd = '{} freq idle -b 81920 -e {} -a {} -o {}'.format(self.systrace, device.id, application, systrace_file)
+        sysproc = subprocess.Popen(shlex.split(cmd), stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     def stop_profiling(self, device, **kwargs):
         # batterystats does not need to be stopped. systrace is stopped in the collect_results function
@@ -125,7 +125,12 @@ class Batterystats(Profiler):
         return energy_consumed_j
 
     def get_systrace_results(self, device):
+        logger = logging.getLogger(self.__class__.__name__)
+        global sysproc
         stdout, stderr = sysproc.communicate(input=b"\n")
+        sysproc.wait()
+        logger.info("systrace.py stdout: " + stdout.decode('ascii'))
+        logger.info("systrace.py stderr: " + stderr.decode('ascii'))
 
         cores = int(device.shell('cat /proc/cpuinfo | grep processor | wc -l'))
 

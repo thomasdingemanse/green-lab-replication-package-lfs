@@ -21,24 +21,27 @@ class WebExperiment(Experiment):
         for browserItem in self.browsers:
             if browser_name in browserItem.to_string():
                 browser = browserItem
-        self.before_run(device, path, run, browser)
-        self.after_launch(device, path, run, browser)
+        kwargs = {
+            'browser': browser
+        }
+        self.before_run(device, path, run, **kwargs)
+        self.after_launch(device, path, run, **kwargs)
 
         self.usb_handler.disable_usb()
-        self.start_profiling(device, path, run, browser)
+        self.start_profiling(device, path, run, **kwargs)
 
         if self.run_stopping_condition_config:
             self.queue = mp.Queue()
-            premature_stoppable_run = PrematureStoppableRun(self.run_stopping_condition_config, self.queue, self.interaction, device, path, run, browser)
+            premature_stoppable_run = PrematureStoppableRun(self.run_stopping_condition_config, self.queue, self.interaction, device, path, run, **kwargs)
             premature_stoppable_run.run()
         else:
-            self.interaction(device, path, run, browser)
+            self.interaction(device, path, run, **kwargs)
 
-        self.stop_profiling(device, path, run, browser)
+        self.stop_profiling(device, path, run, **kwargs)
         self.usb_handler.enable_usb()
 
-        self.before_close(device, path, run, browser)
-        self.after_run(device, path, run, browser)
+        self.before_close(device, path, run, **kwargs)
+        self.after_run(device, path, run, **kwargs)
 
     def last_run_subject(self, current_run):
         if self.progress.subject_finished(current_run['device'], current_run['path'], current_run['browser']):
@@ -52,33 +55,29 @@ class WebExperiment(Experiment):
         makedirs(paths.OUTPUT_DIR)
 
     def before_run_subject(self, device, path, *args, **kwargs):
-        super(WebExperiment, self).before_run_subject(device, path)
+        super(WebExperiment, self).before_run_subject(device, path, *args, **kwargs)
         self.logger.info('URL: %s' % path)
 
     def before_run(self, device, path, run, *args, **kwargs):
-        super(WebExperiment, self).before_run(device, path, run)
+        super(WebExperiment, self).before_run(device, path, run, *args, **kwargs)
         device.shell('logcat -c')
-        browser = args[0]
-        browser.start(device)
+        kwargs['browser'].start(device)
         time.sleep(5)
 
     def interaction(self, device, path, run, *args, **kwargs):
-        browser = args[0]
-        browser.load_url(device, path)
+        kwargs['browser'].load_url(device, path)
         time.sleep(5)
         super(WebExperiment, self).interaction(device, path, run, *args, **kwargs)
         # TODO: Fix web experiments running longer than self.duration
         time.sleep(self.duration)
 
     def after_run(self, device, path, run, *args, **kwargs):
-        browser = args[0]
-        browser.stop(device, self.clear_cache)
+        kwargs['browser'].stop(device, self.clear_cache)
         time.sleep(3)
-        super(WebExperiment, self).after_run(device, path, run)
+        super(WebExperiment, self).after_run(device, path, run, *args, **kwargs)
 
     def after_last_run(self, device, path, *args, **kwargs):
         super(WebExperiment, self).after_last_run(device, path, *args, **kwargs)
-        # https://stackoverflow.com/a/2860193
 
     def cleanup(self, device):
         super(WebExperiment, self).cleanup(device)
