@@ -1,8 +1,10 @@
 import threading
-from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
 import csv
 import os
+import http
+from http.server import HTTPServer
+import logging
 
 navigationTime= {'fetchTime':0 , 'workerTime':0 , 'totalTime':0, 'downloadTime':0, 'timeToFirstByte':0, 'headerSize':0, 'dnsLookupTime': 0}
 networkInf = {'downlink': 0, 'effectiveType': 0, 'rtt':0, 'saveData':False}
@@ -15,12 +17,14 @@ clsResult = {'cls':0}
 tbtResult = {'tbt':0}
 httpd = 0
 
-class TestHandler(BaseHTTPRequestHandler):
+class HTTPHandler(http.server.SimpleHTTPRequestHandler):
 
     def do_POST(self):
+        logging.getLogger(self.__class__.__name__).info("POST request received")
         length = int(self.headers['Content-Length']) # <--- Gets the size of data      
         data_string = self.rfile.read(length)
         data_string = data_string.decode("utf-8")
+        logging.getLogger(self.__class__.__name__).debug(f"Data: {data_string}")
         
         if 'perfumeResults' in data_string:	
             if 'navigationTiming' in data_string:
@@ -63,12 +67,12 @@ class TestHandler(BaseHTTPRequestHandler):
             if 'tbt' in data_string:
                tbtResult['tbt'] = data_string.split("tbt\",\"data\":")[1].split(",\"eventProperties",1)[0]
 
-            outputDir = "output"
+            outputDir = "perfume-output"
 
             if not os.path.exists(outputDir):
                os.makedirs(outputDir)
             else:
-               print("The file already exists")
+               logging.getLogger(self.__class__.__name__).debug(f"The directory {outputDir} already exists")
             try:
                file2 = open(outputDir + '/MyFile2_results_{}.txt'.format(time.strftime('%Y.%m.%d_%H%M%S')),"w+")
                file2.write(data_string)
@@ -109,20 +113,24 @@ class TestHandler(BaseHTTPRequestHandler):
                   w.writeheader()
                   w.writerow(tbtResult)
 
-               print(data_string)
-
-            except:
-               print('error')
+            except Exception as ex:
+               logging.getLogger(self.__class__.__name__).error('error: ' + str(ex))
         self.wfile.write(b'')
 
 def start_server():
     """Start the server."""
     server_address = ('', 8080)
     global httpd
-    httpd = HTTPServer(server_address, TestHandler)
+    httpd = http.server.HTTPServer(server_address, HTTPHandler)
+    logging.getLogger("PerfumeJS").info(f"Listening on all interfaces, on port 8080, and serving directory: {os.getcwd()}")
     httpd.serve_forever()
 
 def stop_server():
    """Stop the server."""
    global httpd
+   logging.getLogger("PerfumeJS").info("Shutting down server")
    httpd.server_close()
+
+if __name__ == '__main__':
+    start_server()
+    stop_server()
