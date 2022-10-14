@@ -505,7 +505,7 @@ class TestExperiment(object):
 
         default_experiment.after_launch(mock_device, path, run, *args, **kwargs)
 
-        script_run.assert_called_once_with('after_launch', mock_device, 123, current_activity)
+        script_run.assert_called_once_with('after_launch', mock_device, 123, current_activity, *args, **kwargs)
 
     @patch('AndroidRunner.Profilers.Profilers.start_profiling')
     def test_start_profiling(self, start_profiling, default_experiment):
@@ -517,7 +517,7 @@ class TestExperiment(object):
 
         default_experiment.start_profiling(mock_device, path, run, *args, **kwargs)
 
-        start_profiling.assert_called_once_with(mock_device)
+        start_profiling.assert_called_once_with(mock_device, **kwargs)
 
     @patch('AndroidRunner.Scripts.Scripts.run')
     def test_interaction(self, script_run, default_experiment):
@@ -541,7 +541,7 @@ class TestExperiment(object):
 
         default_experiment.stop_profiling(mock_device, path, run, *args, **kwargs)
 
-        start_profiling.assert_called_once_with(mock_device)
+        start_profiling.assert_called_once_with(mock_device, **kwargs)
 
     @patch('AndroidRunner.Scripts.Scripts.run')
     def test_before_close(self, script_run, default_experiment):
@@ -556,7 +556,7 @@ class TestExperiment(object):
 
         default_experiment.before_close(mock_device, path, run, *args, **kwargs)
 
-        script_run.assert_called_once_with('before_close', mock_device, 123, current_activity)
+        script_run.assert_called_once_with('before_close', mock_device, 123, current_activity, *args, **kwargs)
 
     @patch('time.sleep')
     @patch('AndroidRunner.Adb.reset')
@@ -961,13 +961,13 @@ class TestWebExperiment(object):
 
         web_experiment.run(mock_device, path, run, 'chrome')
 
-        expected_calls = [call.before_run_managed(mock_device, path, run, mock_browser),
-                          call.after_launch_managed(mock_device, path, run, mock_browser),
-                          call.start_profiling_managed(mock_device, path, run, mock_browser),
-                          call.interaction_managed(mock_device, path, run, mock_browser),
-                          call.stop_profiling_managed(mock_device, path, run, mock_browser),
-                          call.before_close_managed(mock_device, path, run, mock_browser),
-                          call.after_run_managed(mock_device, path, run, mock_browser)]
+        expected_calls = [call.before_run_managed(mock_device, path, run, browser=mock_browser),
+                          call.after_launch_managed(mock_device, path, run, browser=mock_browser),
+                          call.start_profiling_managed(mock_device, path, run, browser=mock_browser),
+                          call.interaction_managed(mock_device, path, run, browser=mock_browser),
+                          call.stop_profiling_managed(mock_device, path, run, browser=mock_browser),
+                          call.before_close_managed(mock_device, path, run, browser=mock_browser),
+                          call.after_run_managed(mock_device, path, run, browser=mock_browser)]
         assert mock_manager.mock_calls == expected_calls
 
     @patch('AndroidRunner.WebExperiment.WebExperiment.after_run')
@@ -992,6 +992,9 @@ class TestWebExperiment(object):
         web_experiment.browsers = [mock_browser]
         web_experiment.run_stopping_condition_config = run_stopping_condition_config
         web_experiment.queue = queue
+        kwargs = {
+            'browser': mock_browser
+        }
 
         queue_value = None
         queue.return_value = queue_value
@@ -1008,14 +1011,14 @@ class TestWebExperiment(object):
 
         web_experiment.run(mock_device, path, run, 'chrome')
 
-        expected_calls = [call.before_run_managed(mock_device, path, run, mock_browser),
-                          call.after_launch_managed(mock_device, path, run, mock_browser),
-                          call.start_profiling_managed(mock_device, path, run, mock_browser),
-                          call.premature_stoppable_run_init(run_stopping_condition_config, queue_value, interaction, mock_device, path, run, mock_browser),
+        expected_calls = [call.before_run_managed(mock_device, path, run, **kwargs),
+                          call.after_launch_managed(mock_device, path, run, **kwargs),
+                          call.start_profiling_managed(mock_device, path, run, **kwargs),
+                          call.premature_stoppable_run_init(run_stopping_condition_config, queue_value, interaction, mock_device, path, run, **kwargs),
                           call.premature_stoppable_run_run(),
-                          call.stop_profiling_managed(mock_device, path, run, mock_browser),
-                          call.before_close_managed(mock_device, path, run, mock_browser),
-                          call.after_run_managed(mock_device, path, run, mock_browser)]
+                          call.stop_profiling_managed(mock_device, path, run, **kwargs),
+                          call.before_close_managed(mock_device, path, run, **kwargs),
+                          call.after_run_managed(mock_device, path, run, **kwargs)]
         assert mock_manager.mock_calls == expected_calls
 
     @patch('AndroidRunner.WebExperiment.WebExperiment.after_last_run')
@@ -1075,14 +1078,14 @@ class TestWebExperiment(object):
 
         web_experiment.before_run_subject(mock_device, path, *args, **kwargs)
 
-        before_run_subject.assert_called_once_with(mock_device, path)
+        before_run_subject.assert_called_once_with(mock_device, path, *args, **kwargs)
 
     @patch('time.sleep')
     @patch('AndroidRunner.Experiment.Experiment.before_run')
     def test_before_run(self, before_run, sleep, web_experiment):
         mock_browser = Mock()
-        args = (mock_browser, 2, 3)
-        kwargs = {'arg1': 1, 'arg2': 2}
+        args = (2, 3)
+        kwargs = {'arg1': 1, 'arg2': 2, 'browser': mock_browser}
         mock_device = Mock()
         mock_device.id = 'id'
         current_activity = "playing euro truck simulator 2"
@@ -1096,7 +1099,7 @@ class TestWebExperiment(object):
 
         web_experiment.before_run(mock_device, path, run, *args, **kwargs)
 
-        expected_calls = [call.before_run_managed(mock_device, path, run),
+        expected_calls = [call.before_run_managed(mock_device, path, run, *args, **kwargs),
                           call.mock_browser_managed.start(mock_device),
                           call.sleep_managed(5)]
         assert mock_manager.mock_calls == expected_calls
@@ -1105,8 +1108,8 @@ class TestWebExperiment(object):
     @patch('AndroidRunner.Experiment.Experiment.interaction')
     def test_interaction(self, interaction, sleep, web_experiment):
         mock_browser = Mock()
-        args = (mock_browser, 2, 3)
-        kwargs = {'arg1': 1, 'arg2': 2}
+        args = (2, 3)
+        kwargs = {'arg1': 1, 'arg2': 2, 'browser': mock_browser}
         mock_device = Mock()
         path = 'test/path'
         run = 123456789
@@ -1127,8 +1130,8 @@ class TestWebExperiment(object):
     @patch('AndroidRunner.Experiment.Experiment.after_run')
     def test_after_run(self, after_run,  sleep, web_experiment):
         mock_browser = Mock()
-        args = (mock_browser, 2, 3)
-        kwargs = {'arg1': 1, 'arg2': 2}
+        args = (2, 3)
+        kwargs = {'arg1': 1, 'arg2': 2, 'browser': mock_browser}
         mock_device = Mock()
         mock_device.id = 'id'
         current_activity = "playing euro truck simulator 2"
@@ -1145,7 +1148,7 @@ class TestWebExperiment(object):
 
         expected_calls = [call.mock_browser_managed.stop(mock_device, False),
                           call.sleep_managed(3),
-                          call.after_run_managed(mock_device, path, run)]
+                          call.after_run_managed(mock_device, path, run, *args, **kwargs)]
         assert mock_manager.mock_calls == expected_calls
 
         mock_manager.reset_mock()
@@ -1154,7 +1157,7 @@ class TestWebExperiment(object):
 
         expected_calls = [call.mock_browser_managed.stop(mock_device, True),
                           call.sleep_managed(3),
-                          call.after_run_managed(mock_device, path, run)]
+                          call.after_run_managed(mock_device, path, run, *args, **kwargs)]
         assert mock_manager.mock_calls == expected_calls
 
     @patch('AndroidRunner.Experiment.Experiment.after_last_run')

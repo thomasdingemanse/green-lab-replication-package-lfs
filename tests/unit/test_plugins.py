@@ -382,6 +382,13 @@ class TestBatterystatsPlugin(object):
         return Mock()
 
     @pytest.fixture()
+    def mock_browser(self):
+        mock = Mock()
+        mock.package_name = 'com.android.chrome'
+        return mock
+
+
+    @pytest.fixture()
     @patch('AndroidRunner.Tests.is_integer')
     @patch('AndroidRunner.util.load_json')
     def batterystats_plugin(self, load_json_mock, is_integer_mock):
@@ -472,12 +479,12 @@ class TestBatterystatsPlugin(object):
 
     @patch('time.strftime')
     @patch('AndroidRunner.Plugins.batterystats.Batterystats.Batterystats.get_data')
-    def test_start_profiling_web(self, get_data_mock, time_mock, batterystats_plugin, mock_device, tmpdir, capsys):
+    def test_start_profiling_web(self, get_data_mock, time_mock, batterystats_plugin, mock_device, mock_browser, tmpdir, capsys):
         batterystats_plugin.type = 'web'
         time_mock.return_value = 'strftime'
         batterystats_plugin.output_dir = str(tmpdir)
 
-        batterystats_plugin.start_profiling(mock_device)
+        batterystats_plugin.start_profiling(mock_device, browser=mock_browser)
         capsys.readouterr()  # Catch print
 
         mock_device.shell.assert_called_once_with('dumpsys batterystats --reset')
@@ -486,16 +493,16 @@ class TestBatterystatsPlugin(object):
 
     @patch('time.strftime')
     @patch('subprocess.Popen')
-    def test_get_data(self, popen_mock, time_mock, batterystats_plugin, mock_device, tmpdir, capsys):
+    def test_get_data(self, popen_mock, time_mock, batterystats_plugin, mock_device, mock_browser, tmpdir, capsys):
         mock_device.id = '123'
         batterystats_plugin.type = 'web'
         time_mock.return_value = 'strftime'
         batterystats_plugin.output_dir = str(tmpdir)
 
-        batterystats_plugin.start_profiling(mock_device)  # start profiling call get_data
+        batterystats_plugin.start_profiling(mock_device, browser=mock_browser)  # start profiling call get_data
 
         capsys.readouterr()  # Catch print
-        popen_mock.assert_called_once_with(["systrace", "freq", "idle", "-e", "123", "-a", "com.android.chrome", "-o", "{}".format(op.join(str(tmpdir), "systrace_123_strftime.html"))], stdin=-1)
+        popen_mock.assert_called_once_with(["systrace", "freq", "idle", "-b", "81920", "-e", "123", "-a", "com.android.chrome", "-o", "{}".format(op.join(str(tmpdir), "systrace_123_strftime.html"))], stdin=-1, stdout=-1, stderr=-1)
 
     def test_stop_profiling(self, batterystats_plugin, mock_device):
         batterystats_plugin.profile = True
@@ -506,7 +513,7 @@ class TestBatterystatsPlugin(object):
 
     @patch('time.strftime')
     @patch('AndroidRunner.Plugins.batterystats.Batterystats.Batterystats.get_data')
-    def test_pull_logcat(self, get_data_mock, time_mock, batterystats_plugin, mock_device, tmpdir, capsys):
+    def test_pull_logcat(self, get_data_mock, time_mock, batterystats_plugin, mock_device, mock_browser, tmpdir, capsys):
         get_data_mock.return_value = None
         # set global variables
         mock_device.id = '123'
@@ -514,7 +521,7 @@ class TestBatterystatsPlugin(object):
         batterystats_plugin.type = 'web'
         time_mock.return_value = 'strftime'
         batterystats_plugin.output_dir = str(tmpdir)
-        batterystats_plugin.start_profiling(mock_device)
+        batterystats_plugin.start_profiling(mock_device, browser=mock_browser)
         capsys.readouterr()  # Catch print
 
         batterystats_plugin.pull_logcat(mock_device)
@@ -526,7 +533,7 @@ class TestBatterystatsPlugin(object):
 
     @patch('time.strftime')
     @patch('AndroidRunner.Plugins.batterystats.Batterystats.Batterystats.get_data')
-    def test_pull_logcat_android_11(self, get_data_mock, time_mock, batterystats_plugin, mock_device, tmpdir, capsys):
+    def test_pull_logcat_android_11(self, get_data_mock, time_mock, batterystats_plugin, mock_device, mock_browser, tmpdir, capsys):
         get_data_mock.return_value = None
         # set global variables
         mock_device.id = '123'
@@ -534,7 +541,7 @@ class TestBatterystatsPlugin(object):
         batterystats_plugin.type = 'web'
         time_mock.return_value = 'strftime'
         batterystats_plugin.output_dir = str(tmpdir)
-        batterystats_plugin.start_profiling(mock_device)
+        batterystats_plugin.start_profiling(mock_device, browser=mock_browser)
         capsys.readouterr()  # Catch print
 
         batterystats_plugin.pull_logcat(mock_device)
@@ -547,7 +554,7 @@ class TestBatterystatsPlugin(object):
     @patch('AndroidRunner.Plugins.batterystats.BatterystatsParser.parse_batterystats')
     @patch('time.strftime')
     @patch('subprocess.Popen')
-    def test_get_batterystats_results(self, popen_mock, time_mock, parse_mock, batterystats_plugin, mock_device, tmpdir,
+    def test_get_batterystats_results(self, popen_mock, time_mock, parse_mock, batterystats_plugin, mock_device, mock_browser, tmpdir,
                                       capsys):
         # set global variables
         popen_return_value = Mock()
@@ -559,7 +566,7 @@ class TestBatterystatsPlugin(object):
         batterystats_plugin.type = 'web'
         time_mock.return_value = 'strftime'
         batterystats_plugin.output_dir = str(tmpdir)
-        batterystats_plugin.start_profiling(mock_device)
+        batterystats_plugin.start_profiling(mock_device, browser=mock_browser)
         capsys.readouterr()  # Catch print
 
         parse_return_value = Mock()
@@ -596,7 +603,7 @@ class TestBatterystatsPlugin(object):
     @patch('time.strftime')
     @patch('AndroidRunner.Plugins.batterystats.Batterystats.Batterystats.get_data')
     @patch('os.remove')
-    def test_cleanup_logs_true(self, os_remove_mock, get_data_mock, time_mock, batterystats_plugin, mock_device, tmpdir,
+    def test_cleanup_logs_true(self, os_remove_mock, get_data_mock, time_mock, batterystats_plugin, mock_device, mock_browser, tmpdir,
                                capsys):
         get_data_mock.return_value = None
         batterystats_plugin.cleanup = True
@@ -605,7 +612,7 @@ class TestBatterystatsPlugin(object):
         batterystats_plugin.type = 'web'
         time_mock.return_value = 'strftime'
         batterystats_plugin.output_dir = str(tmpdir)
-        batterystats_plugin.start_profiling(mock_device)
+        batterystats_plugin.start_profiling(mock_device, browser=mock_browser)
         capsys.readouterr()  # Catch print
 
         batterystats_plugin.cleanup_logs()
@@ -652,11 +659,11 @@ class TestBatterystatsPlugin(object):
     @patch('AndroidRunner.Plugins.batterystats.BatterystatsParser.parse_systrace')
     @patch('time.strftime')
     @patch('subprocess.Popen')
-    def test_get_systrace_result(self, popen_mock, time_mock, parse_mock, batterystats_plugin, mock_device, tmpdir,
+    def test_get_systrace_result(self, popen_mock, time_mock, parse_mock, batterystats_plugin, mock_device, mock_browser, tmpdir,
                                  capsys):
         # set global variables
         proc = Mock()
-        proc.communicate.return_value = [Mock(), Mock()]
+        proc.communicate.return_value = [b'', b'']
         popen_return_value = proc
         popen_mock.return_value = popen_return_value
         parse_return_value = Mock()
@@ -666,7 +673,7 @@ class TestBatterystatsPlugin(object):
         batterystats_plugin.type = 'web'
         time_mock.return_value = 'strftime'
         batterystats_plugin.output_dir = str(tmpdir)
-        batterystats_plugin.start_profiling(mock_device)
+        batterystats_plugin.start_profiling(mock_device, browser=mock_browser)
         capsys.readouterr()  # Catch print
 
         parse_return_value = Mock()
@@ -687,11 +694,11 @@ class TestBatterystatsPlugin(object):
     @patch('AndroidRunner.Plugins.batterystats.BatterystatsParser.parse_systrace')
     @patch('time.strftime')
     @patch('subprocess.Popen')
-    def test_get_systrace_result_parsing_disabled(self, popen_mock, time_mock, parse_mock, batterystats_plugin_systrace_parsing_disabled, mock_device, tmpdir,
+    def test_get_systrace_result_parsing_disabled(self, popen_mock, time_mock, parse_mock, batterystats_plugin_systrace_parsing_disabled, mock_device, mock_browser, tmpdir,
                                  capsys):
         # set global variables
         proc = Mock()
-        proc.communicate.return_value = [Mock(), Mock()]
+        proc.communicate.return_value = [b'', b'']
         popen_return_value = proc
         popen_mock.return_value = popen_return_value
         parse_return_value = Mock()
@@ -701,7 +708,7 @@ class TestBatterystatsPlugin(object):
         batterystats_plugin_systrace_parsing_disabled.type = 'web'
         time_mock.return_value = 'strftime'
         batterystats_plugin_systrace_parsing_disabled.output_dir = str(tmpdir)
-        batterystats_plugin_systrace_parsing_disabled.start_profiling(mock_device)
+        batterystats_plugin_systrace_parsing_disabled.start_profiling(mock_device, browser=mock_browser)
         capsys.readouterr()  # Catch print
 
         parse_return_value = Mock()
@@ -716,14 +723,14 @@ class TestBatterystatsPlugin(object):
 
     @patch('AndroidRunner.Plugins.batterystats.Batterystats.Batterystats.get_data')
     @patch('time.strftime')
-    def test_write_results(self, time_mock, get_data, batterystats_plugin, mock_device, tmpdir, capsys):
+    def test_write_results(self, time_mock, get_data, batterystats_plugin, mock_device, mock_browser, tmpdir, capsys):
         get_data.return_value = None
         mock_device.id = '123'
         mock_device.shell.return_value = 8
         batterystats_plugin.type = 'web'
         time_mock.return_value = 'strftime'
         batterystats_plugin.output_dir = str(tmpdir)
-        batterystats_plugin.start_profiling(mock_device)
+        batterystats_plugin.start_profiling(mock_device, browser=mock_browser)
         capsys.readouterr()  # Catch print
 
         batterystats_results = ['0,13.395,13.395,screen bright,12.309721026',
