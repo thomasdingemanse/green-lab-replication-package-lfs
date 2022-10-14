@@ -1,14 +1,13 @@
 import logging
+from abc import ABC
 
-
-class Browser(object):
-    # https://stackoverflow.com/a/1151260
+class Browser(ABC):
 
     # noinspection PyUnusedLocal
-    def __init__(self, config):
+    def __init__(self, package_name, main_activity):
         self.logger = logging.getLogger(self.__class__.__name__)
-        self.package_name = ""
-        self.main_activity = ""
+        self.package_name = package_name
+        self.main_activity = main_activity
 
     def start(self, device):
         self.logger.info('%s: Start' % device.id)

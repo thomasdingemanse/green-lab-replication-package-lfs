@@ -8,7 +8,7 @@ from AndroidRunner.Browsers import Browser, Chrome, Firefox, Opera
 class TestBrowsers(object):
     @pytest.fixture()
     def browser(self):
-        return Browser.Browser(None)
+        return Browser.Browser('com.example', 'MainActivity')
 
     def test_get_browser_chrome(self):
         assert isinstance(BrowserFactory.get_browser('chrome'), Chrome.Chrome.__class__)
@@ -25,43 +25,34 @@ class TestBrowsers(object):
         assert "No Browser found" in str(except_result.value)
 
     def test_browsers_to_string_browser(self, browser):
-        assert browser.to_string() == ''
+        assert browser.to_string() == 'com.example'
 
     def test_browsers_to_string_opera(self, browser):
-        assert BrowserFactory.get_browser('opera')(None).to_string() == 'com.opera.browser'
+        assert BrowserFactory.get_browser('opera')().to_string() == 'com.opera.browser'
 
     def test_browsers_to_string_chrome(self, browser):
-        assert BrowserFactory.get_browser('chrome')(None).to_string() == 'com.android.chrome'
+        assert BrowserFactory.get_browser('chrome')().to_string() == 'com.android.chrome'
 
     def test_browsers_to_string_firefox(self, browser):
-        assert BrowserFactory.get_browser('firefox')(None).to_string() == 'org.mozilla.firefox'
+        assert BrowserFactory.get_browser('firefox')().to_string() == 'org.mozilla.firefox'
 
-    @patch('AndroidRunner.Browsers.Browser.Browser.__init__')
-    def test_chrome_init(self, mock_browser):
-        mock_config = Mock()
-        chrome_browser = Chrome.Chrome(mock_config)
+    def test_chrome_init(self):
+        chrome_browser = Chrome.Chrome()
 
-        mock_browser.assert_called_once_with(mock_config)
-        chrome_browser.package_name = 'com.android.chrome'
-        chrome_browser.main_activity = 'com.google.android.apps.chrome.Main'
+        assert chrome_browser.package_name == 'com.android.chrome'
+        assert chrome_browser.main_activity =='com.google.android.apps.chrome.Main'
 
-    @patch('AndroidRunner.Browsers.Browser.Browser.__init__')
-    def test_firefox_init(self, mock_browser):
-        mock_config = Mock()
-        firefox_browser = Firefox.Firefox(mock_config)
+    def test_firefox_init(self):
+        firefox_browser = Firefox.Firefox()
 
-        mock_browser.assert_called_once_with(mock_config)
-        firefox_browser.package_name = 'org.mozilla.firefox'
-        firefox_browser.main_activity = 'org.mozilla.gecko.BrowserApp'
+        assert firefox_browser.package_name == 'org.mozilla.firefox'
+        assert firefox_browser.main_activity == 'org.mozilla.gecko.BrowserApp'
 
-    @patch('AndroidRunner.Browsers.Browser.Browser.__init__')
-    def test_opera_init(self, mock_browser):
-        mock_config = Mock()
-        opera_browser = Opera.Opera(mock_config)
+    def test_opera_init(self):
+        opera_browser = Opera.Opera()
 
-        mock_browser.assert_called_once_with(mock_config)
-        opera_browser.package_name = 'com.opera.browser'
-        opera_browser.main_activity = 'com.opera.Opera'
+        assert opera_browser.package_name == 'com.opera.browser'
+        assert opera_browser.main_activity == 'com.opera.Opera'
 
     @patch('logging.Logger.info')
     def test_start(self, mock_log, browser):
@@ -96,8 +87,8 @@ class TestBrowsers(object):
         mock_device.id = "fake_device"
         browser.stop(mock_device, True)
         mock.assert_called_once_with('fake_device: Stop')
-        mock_device.force_stop.assert_called_once_with("")
-        mock_device.clear_app_data.assert_called_once_with("")
+        mock_device.force_stop.assert_called_once_with(browser.package_name)
+        mock_device.clear_app_data.assert_called_once_with(browser.package_name)
         assert mock_device.clear_app_data.call_count == 1
 
     @patch('logging.Logger.info')
@@ -106,6 +97,6 @@ class TestBrowsers(object):
         mock_device.id = "fake_device"
         browser.stop(mock_device, False)
 
-        mock_device.force_stop.assert_called_once_with("")
+        mock_device.force_stop.assert_called_once_with(browser.package_name)
         mock.assert_called_with('fake_device: Stop')
         assert mock_device.clear_app_data.call_count == 0

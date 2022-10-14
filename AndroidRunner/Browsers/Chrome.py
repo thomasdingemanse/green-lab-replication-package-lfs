@@ -2,11 +2,7 @@ from .Browser import Browser
 
 
 class Chrome(Browser):
-    def __init__(self, config):
-        super(Chrome, self).__init__(config)
-        self.package_name = 'com.android.chrome'
+    def __init__(self):
         # https://stackoverflow.com/a/28151563
-        self.main_activity = 'com.google.android.apps.chrome.Main'
+        super(Chrome, self).__init__('com.android.chrome', 'com.google.android.apps.chrome.Main')
 
-    def to_string(self):
-        return self.package_name
