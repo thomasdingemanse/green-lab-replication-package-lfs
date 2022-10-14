@@ -34,7 +34,7 @@ class Batterystats(Profiler):
         self.powerprofile = config_f['powerprofile_path']
         self.duration = Tests.is_integer(config_f.get('duration', 0)) / 1000
         if self.type == 'web':
-            self.browsers = [BrowserFactory.get_browser(b)(config_f) for b in config_f.get('browsers', ['chrome'])]
+            self.browsers = [BrowserFactory.get_browser(b)() for b in config_f.get('browsers', ['chrome'])]
 
         if os.path.exists(self.systrace): # If it does not exist, then there might be a prefix already added to the path
             self.systrace  = ' '.join([self.python2_path, self.systrace])

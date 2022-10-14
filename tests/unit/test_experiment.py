@@ -2,6 +2,8 @@ import filecmp
 import os
 from collections import OrderedDict
 from http.server import HTTPServer
+
+from AndroidRunner.Browsers import Browser
 from AndroidRunner.StopRunWebserver import StopRunWebserver 
 import pytest
 import psutil
@@ -903,11 +905,11 @@ class TestWebExperiment(object):
         device_config = {'devices': 'fake_device'}
         return WebExperiment(device_config, None, False)
 
+    @patch('AndroidRunner.Browsers.Browser')
     @patch('AndroidRunner.BrowserFactory.BrowserFactory.get_browser')
     @patch('AndroidRunner.Tests.check_dependencies')
     @patch('AndroidRunner.Devices.Devices.__init__')
-    def test_init_empty_config(self, device, check_dependencies, get_browser):
-        mock_browser = Mock()
+    def test_init_empty_config(self, device, check_dependencies, get_browser, mock_browser):
         get_browser.return_value = mock_browser
 
         device.return_value = None
@@ -917,7 +919,7 @@ class TestWebExperiment(object):
         assert check_dependencies.call_count == 2
         assert web_experiment.duration == 0
         get_browser.assert_called_once_with('chrome')
-        mock_browser.assert_called_once_with(device_config)
+        mock_browser.assert_called_once_with()
 
     @patch('AndroidRunner.BrowserFactory.BrowserFactory.get_browser')
     @patch('AndroidRunner.Tests.check_dependencies')
@@ -930,7 +932,7 @@ class TestWebExperiment(object):
         assert check_dependencies.call_count == 2
         assert web_experiment.duration == 1
         assert len(web_experiment.browsers) == 2
-        expected_calls = [call('firefox'), call()(device_config), call('opera'), call()(device_config)]
+        expected_calls = [call('firefox'), call()(), call('opera'), call()()]
         assert get_browser.mock_calls == expected_calls
 
     @patch('AndroidRunner.WebExperiment.WebExperiment.after_run')

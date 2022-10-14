@@ -2,10 +2,5 @@ from .Browser import Browser
 
 
 class Opera(Browser):
-    def __init__(self, config):
-        super(Opera, self).__init__(config)
-        self.package_name = 'com.opera.browser'
-        self.main_activity = 'com.opera.Opera'
-
-    def to_string(self):
-        return self.package_name
+    def __init__(self):
+        super(Opera, self).__init__('com.opera.browser', 'com.opera.Opera')
