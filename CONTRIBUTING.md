@@ -54,7 +54,7 @@ This framework requires Python 3 along with MacOS or Linux.  Current and former 
             ```
             - Reload your .bashrc or .zshrc settings by running source ~/.bashrc or source ~/.zshrc
             - To verify if everything works correctly run `adb --version`. This should return its version number and install location. To do the same for Monkey Runner run `monkeyrunner --version`. This should return a `Unrecognized argument: --version`. but no other errors.
-            - Install lxml using `sudo apt install python3-lxml`.
+            - Install lxml using `sudo apt install python3-lxml` (assuming python3 is being used).
         - On Mac OS
              - Make sure you have <a href="https://brew.sh/">Homebrew</a> installed
              - `brew cask install homebrew/cask-versions/adoptopenjdk8 android-sdk android-platform-tools`
