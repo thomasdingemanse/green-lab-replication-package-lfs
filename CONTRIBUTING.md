@@ -43,8 +43,8 @@ This framework requires Python 3 along with MacOS or Linux.  Current and former 
             - Move all the original contents from `cmdline-tools` into the newly created `latest` directory.
             - cd into `cmdline-tools/latest/bin` and run the following commands to install adb and monkeyrunner:
             ```bash
-                sdkmanager "platform-tools"
-                sdkmanager "build-tools;30.0.0"
+                ./sdkmanager "platform-tools"
+                ./sdkmanager "build-tools;30.0.0"
             ```
             - Add the following to your .bashrc or .zshrc file:
             ```bash
