@@ -35,6 +35,26 @@ This framework requires Python 3 along with MacOS or Linux.  Current and former 
                 - Once JDK8 is installed we need to actually set it as default. See [here](https://askubuntu.com/questions/740757/switch-between-multiple-java-versions) how to do that.
             - To verify if everything works correctly run `adb --version`. This should return its version number and install location. To do the same for Monkey Runner run `monkeyrunner --version`. This should return a `Unrecognized argument: --version.` but no other errors.
             - Install lxml using `sudo apt install python-lxml`.
+        - On Linux (Ubuntu 22.04 command-line only)
+            - Install JDK8 `sudo apt install openjdk-8-jre`.
+            - Download the`sdkmanager` from the latest "command line tools only" package available [here](https://developer.android.com/studio) and unzip the package to your `$HOME` directory.
+            - Create a directory called `android-sdk` in your `$HOME` directory and move the unzipped `cmdline-tools` directory there.
+            - In the directory `cmdline-tools` create a sub-directory called `latest`.
+            - Move all the original contents from `cmdline-tools` into the newly created `latest` directory.
+            - cd into `cmdline-tools/latest/bin` and run the following commands to install adb and monkeyrunner:
+            ```bash
+                ./sdkmanager "platform-tools"
+                ./sdkmanager "build-tools;30.0.0"
+            ```
+            - Add the following to your .bashrc or .zshrc file:
+            ```bash
+                export PATH=$HOME/android-sdk/cmdline-tools/latest/bin:$PATH
+                export PATH=$HOME/android-sdk/platform-tools:$PATH
+                export PATH=$HOME/android-sdk/tools/bin:$PATH
+            ```
+            - Reload your .bashrc or .zshrc settings by running source ~/.bashrc or source ~/.zshrc
+            - To verify if everything works correctly run `adb --version`. This should return its version number and install location. To do the same for Monkey Runner run `monkeyrunner --version`. This should return a `Unrecognized argument: --version`. but no other errors.
+            - Install lxml using `sudo apt install python3-lxml` (assuming python3 is being used).
         - On Mac OS
              - Make sure you have <a href="https://brew.sh/">Homebrew</a> installed
              - `brew cask install homebrew/cask-versions/adoptopenjdk8 android-sdk android-platform-tools`
