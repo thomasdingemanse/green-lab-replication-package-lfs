@@ -15,6 +15,7 @@ fidResult = {'fid':0}
 lcpResult = {'lcp':0}
 clsResult = {'cls':0}
 tbtResult = {'tbt':0}
+loadTimeResult = {'loadTime':0}
 httpd = 0
 
 class HTTPHandler(http.server.SimpleHTTPRequestHandler):
@@ -67,6 +68,9 @@ class HTTPHandler(http.server.SimpleHTTPRequestHandler):
             if 'tbt' in data_string:
                tbtResult['tbt'] = data_string.split("tbt\",\"data\":")[1].split(",\"eventProperties",1)[0]
 
+            if 'loadTime' in data_string:
+               loadTimeResult['loadTime'] = data_string.split("loadTime\":")[2].split("}]}",1)[0]
+           
             outputDir = "perfume-output"
 
             if not os.path.exists(outputDir):
@@ -112,6 +116,10 @@ class HTTPHandler(http.server.SimpleHTTPRequestHandler):
                   w = csv.DictWriter(f, tbtResult.keys())
                   w.writeheader()
                   w.writerow(tbtResult)
+               with open(outputDir + '/loadTime_results_{}.csv'.format(time.strftime('%Y.%m.%d_%H%M%S')), 'w') as f:  # Just use 'w' mode in 3.x 'w' mode in 3.x
+                  w = csv.DictWriter(f, loadTimeResult.keys())
+                  w.writeheader()
+                  w.writerow(loadTimeResult)
 
             except Exception as ex:
                logging.getLogger(self.__class__.__name__).error('error: ' + str(ex))
