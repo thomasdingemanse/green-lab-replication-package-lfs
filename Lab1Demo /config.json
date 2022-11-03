@@ -1,0 +1,82 @@
+{
+  "type": "web",
+  "devices": {
+    "nexus5x": {}
+  },
+  "repetitions": 20,
+  "duration": 60000,
+  "randomization": true,
+  "clear_cache": true,
+  "reset_adb_among_runs": false,
+  "systrace_path": "/Users/sushmita/Work/Code/python/greenlab/platform-tools-systrace/systrace.py",
+  "powerprofile_path": "/Users/sushmita/Work/Code/python/greenlab/android-runner/examples/lab1-demo/Scripts/power_profile.xml",
+  "paths": [
+    "http://192.168.178.178:5500/ALL_SUBJECTS/bloomberg.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/bluehost.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/cbsnews.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/cnbc.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/exacttarget.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/ft.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/hbr.org/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/hostgator.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/kaspersky.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/nbcnews.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/quizlet.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/reddit.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/researchgate.net/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/salesforce.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/ted.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/theatlantic.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/trello.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/washingtonpost.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/wsj.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/zillow.com/preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/bloomberg.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/bluehost.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/cbsnews.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/cnbc.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/exacttarget.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/ft.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/hbr.org/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/hostgator.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/kaspersky.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/nbcnews.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/quizlet.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/reddit.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/researchgate.net/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/salesforce.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/ted.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/theatlantic.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/trello.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/washingtonpost.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/wsj.com/no-preload/index.html",
+    "http://192.168.178.178:5500/ALL_SUBJECTS/zillow.com/no-preload/index.html"
+    ],
+  "browsers": [
+    "chrome",
+    "opera"
+  ],
+  "profilers": {
+    "batterystats": {
+      "cleanup": true,
+      "python2_path": "/Users/sushmita/miniconda3/envs/py27/bin/python"
+    },
+    "perfume_js": {
+      "metrics": [
+        "fp",
+        "fcp",
+        "lcp",
+        "loadTime"
+      ]
+    }
+  },
+  "scripts": {
+    "before_experiment": "Scripts/before_experiment.py",
+    "before_run": "Scripts/before_run.py",
+    "after_launch": "Scripts/after_launch.py",
+    "before_close": "Scripts/before_close.py",
+    "after_run": "Scripts/after_run.py",
+    "after_experiment": "Scripts/after_experiment.py"
+  },
+  "time_between_run": 30000
+}
