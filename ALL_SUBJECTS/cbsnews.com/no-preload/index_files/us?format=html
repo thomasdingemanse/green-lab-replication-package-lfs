@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><div class="flyout-inner row">
+        <div class="row">
+            <ul class="site-nav site-nav--level-2"><li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/atlanta/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Atlanta</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/baltimore/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Baltimore</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/sanfrancisco/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Bay Area</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/boston/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Boston</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/chicago/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Chicago</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/colorado/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Colorado</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/dfw/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Dallas/Fort Worth</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/detroit/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Detroit</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/losangeles/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Los Angeles</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/miami/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Miami</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/minnesota/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Minnesota</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/newyork/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">New York</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/philadelphia/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Philadelphia</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/pittsburgh/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Pittsburgh</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/sacramento/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Sacramento</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/seattle/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Seattle</span>
+    </a>
+  </li>
+  <li class="site-nav__item site-nav__item--level-2 site-nav__item--type-">
+    <a href="https://www.cbsnews.com/tampa/" class="site-nav__item-anchor site-nav__item-anchor--level-2" data-invalid-url-rewritten-http="">
+      <span class="site-nav__item-text">Tampa</span>
+    </a>
+  </li>
+</ul></div>
+    </div></body></html>

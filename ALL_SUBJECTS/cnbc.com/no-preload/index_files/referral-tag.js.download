@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(t){try{const c=new URLSearchParams(t.location.search).get("rtid");c&&t.localStorage.setItem("rtid",c)}catch(t){}}(window)})();

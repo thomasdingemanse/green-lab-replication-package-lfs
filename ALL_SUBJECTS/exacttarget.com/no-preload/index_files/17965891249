@@ -1,0 +1,137 @@
+
+(function() {
+  !function(){"use strict";function e(){return window&&window.performance&&window.performance.mark&&window.performance.measure&&window.performance.getEntriesByName}function t(...e){return window.performance.getEntriesByName(...e)}function n(...e){return window.performance.mark(...e)}function i(...e){return window.performance.measure(...e)}function r(){return window.performance.now()}var o={t:e,i:t,o:n,u:i,l:r};let s={};function a(e){return s[e]}function c(e,t){Object.assign(s,{[e]:t})}function u(){s={}}var d={get:a,set:c,reset:u};const l=(e,t)=>{for(var n in e)e.hasOwnProperty(n)&&t(e[n],n)},h=e=>"function"==typeof e,_=e=>!!e&&"object"==typeof e,f=e=>"string"==typeof e,p=e=>void 0===e,m=e=>Array.isArray(e);let w=0;const g=()=>w++;function v(e){let t=document.createElement("a");return t.href=e,t}var b={h:e=>{var t=document.createElement("script");t.type="text/javascript",t.src=e;var n=document.querySelector("head");n.insertBefore(t,n.firstChild)},_:e=>{var t=document.createElement("link");t.href=e,t.as="script",t.rel="preload";var n=document.querySelector("head");n.insertBefore(t,n.firstChild)},p:e=>Array.prototype.slice.call(e.querySelectorAll("*")),m:h,g:_,k:f,I:m,A:p,O:l,T:()=>{w=0},C:g};function y(){A("debug",[].slice.call(arguments))}function E(){A("info",[].slice.call(arguments))}function k(){A("warn",[].slice.call(arguments))}function I(){A("error",[].slice.call(arguments))}const A=(e,t)=>{var n,i=console;switch(e){case"debug":n=i.debug;break;case"warn":n=i.warn;break;case"error":n=i.error;break;default:n=i.log,e="info"}n.apply(console,T(t))};function O(){if(!o.t())return null;let e=d.get("timeOrigin");if(!b.A(e))return e;const t=o.i("edge-begin")[0],n=t?t.startTime:null;return d.set("timeOrigin",n),n}function T(e){const t=O();if(!t)return[`Optly-μ / ${e[0]}`].concat(e.slice(1));return[`${("     "+Math.round(o.l()-t)).slice(-6)}| Optly-μ / ${e[0]}`].concat(e.slice(1))}var C={D:y,S:I,P:E,j:k};function D(e){window.optimizely.push({type:"clientMetadata",clientName:"edge",clientVersion:"____v1_40_0",forceVariationIds:e.forceVariationIds})}const S=e=>{var t=window.optimizely.push.bind(window.optimizely);e.errorData&&t({type:"microsnippetError",engine:"microsnippet",errorData:e.errorData}),e.logLevel&&t({type:"log",level:e.logLevel}),e.visitorId&&t({type:"user",visitorId:e.visitorId,IP:e.visitorIp,location:e.location,queryParams:e.queryParams,url:e.targetPageURL}),e.priorRedirectCookie&&t({type:"priorRedirectString",value:e.priorRedirectCookie}),e.decisions&&e.decisions.forEach((e=>{t({type:"event",eventType:"decision",eventData:{layerId:e.layerId,isLayerHoldback:e.isLayerHoldback||!1,experimentId:e.experimentId,variationId:e.variationId}})})),e.activeViews&&e.activeViews.forEach((e=>{t({type:"event",eventType:"pageview",eventData:{id:e.id,apiName:e.apiName}})})),e.viewStates&&0!==Object.keys(e.viewStates).length&&t({type:"initialViewStates",states:e.viewStates})};function P(e){window.optimizely.push({type:"event",eventType:"click",eventData:{id:e.id,apiName:e.apiName,eventFilter:{selector:e.selector}}})}var j={N:D,R:S};function N(e,{message:t,err:n=null,args:i=[]},r=!0){let o=t,s=[o].concat(i);if(n&&(s=s.concat(n)),C.S.apply(this,s),r&&!d.get("disableTracking")){const e={errorData:{code:o,metadata:{},msVersion:d.get("msVersion"),requestId:d.get("requestId"),projectId:d.get("projectId")}};n&&(e.errorData.metadata.err=n),i.length&&(e.errorData.args=i),j.R(e)}}var R={M:{$:1e3,L:10},U:{F:"after",V:"append",G:"before",B:"prepend"},H:{J:"afterbegin",W:"afterend",q:"beforebegin",X:"beforeend"},K:"optly_change_",Y:{attributes:!0,childList:!0,subtree:!0,characterData:!0},Z:{ee:"class",te:"href",ne:"html",ie:"src",re:"style",oe:"text",se:"remove",ae:"hide"}};const M="Observe Selector",$=document;let x,L;const U=()=>{x={},L=new MutationObserver((function(){this.disconnect(),Object.keys(x).forEach(V),this.observe($,R.Y)}))},F=()=>{L.observe($,R.Y)},z=(e,t)=>{L||U();const n=g();return x[n]={selector:e,callback:t},setTimeout(V.bind(null,n),0),F(),()=>{delete x[n],0===Object.keys(x).length&&L.disconnect()}},V=e=>{let t;try{if(t=x[e],!t||!t.selector)return void delete x[e];let n=[];n=document.querySelectorAll(t.selector),Array.prototype.forEach.call(n,(n=>{n.optimizelyEdgeObserveSelectorIds&&n.optimizelyEdgeObserveSelectorIds[e]||(n.optimizelyEdgeObserveSelectorIds=n.optimizelyEdgeObserveSelectorIds||{},n.optimizelyEdgeObserveSelectorIds[e]=!0,t.callback(n))}))}catch(n){N(M,{err:n,message:"3.0: Error using selector:",args:[t.selector]}),delete x[e]}};var G={ce:()=>{L&&(x=null,L.disconnect(),L=null)},ue:U,de:z};const B=20,H=e=>new Promise((function(t){z(e,t)}));const J={utils:{observeSelector:z,waitUntil:e=>new Promise((function(t){if(e())return void t();const n=setInterval((function(){e()&&(clearInterval(n),t())}),B)})),waitForElement:H},state:{getActiveExperiments:()=>{let e,t;return window.optimizely.get?(e=window.optimizely.get("state").getExperimentStates({isActive:!0}),e=Object.keys(e).filter((t=>!e[t].isInExperimentHoldback)).map((t=>e[t])),t=e=>({id:e.id,name:e.experimentName,variation:{id:e.variation.id,name:e.variation.name}})):(e=d.get("data").decisions.filter((e=>e.variationId)),t=e=>({id:e.experimentId,name:e.experimentName,variation:{id:e.variationId,name:e.variationName}})),e.reduce(((e,n)=>{const i=t(n);return e[i.id]=i,e}),{})},getActivePages:()=>{let e;return window.optimizely.get?(e=window.optimizely.get("state").getPageStates({isActive:!0}),e=Object.keys(e).map((t=>e[t]))):e=d.get("data").activeViews,e.reduce(((e,t)=>(e[t.id]={id:t.id,apiName:t.apiName},e)),{})},getRedirectInfo:()=>d.get("data").redirectInfo||null}};function W(e){if(e in J)return J[e]}function q(e){window.optimizely.push(e)}var X={le:()=>{window.optimizely&&(C.j("DEPRECATION: window.optimizely is defined, but it ought not be used on pages running Performance Edge. window.optimizelyEdge is the object hosting the Performance Edge API; any push API calls should be made to it instead."),d.set("unsafeTrackingGlobalPushUsed",!0)),window.optimizely instanceof Array||(window.optimizely=[]),window.optimizelyEdge instanceof Array&&(window.optimizely=window.optimizely.concat(window.optimizelyEdge)),window.optimizelyEdge={get:W,push:q,he:!0}}};const K="ProjectJS";var Y={_e:e=>{try{h(e)?e():N(K,{message:"2.0: ProjectJS is not a function"})}catch(t){N(K,{message:"2.1: Error executing ProjectJS:",err:t},!1)}}};function Z(){let e,t,n=new Promise((function(n,i){e=n,t=i}));return n.resolve=function(){return e.apply(null,Array.from(arguments)),n},n.reject=function(){return t.apply(null,Array.from(arguments)),n},n}const Q="optimizelyChangeData";function ee(e,t){return e[Q]&&e[Q][t]?e[Q][t]:null}function te(e,t){e[Q]&&delete e[Q][t]}function ne(e,t,n){if("object"!=typeof n)throw new Error("setData expects an object");e[Q]||(e[Q]={}),e[Q][t]=n}var ie={fe:ee,pe:te,me:ne};function re(){return window.location.hostname}function oe(e,t){return window.setTimeout((function(){try{e()}catch(t){C.j("Deferred function threw error:",t)}}),t)}var se={we:re,ge:oe};function ae(e){this.ve=e,this.be=0,this.ye={},this.Ee=!1}ae.prototype.ke=function(){this.Ee||(this.Ee=!0,this.Ie(),se.ge((()=>{this.Ee=!1}),0))},ae.prototype.Ie=function(){this.be+=1;const e=this.ye[String(this.be)];e&&e.forEach((e=>{e()})),se.ge((()=>{this.Ae()}),this.ve)},ae.prototype.Ae=function(){this.be-=1,this.be<0&&(C.j("Decremented down to negative count: ",this.be),this.be=0)},ae.prototype.Oe=function(e,t){this.ye[e]||(this.ye[e]=[]),this.ye[e].push(t)};const ce="Append Change Applier";function ue(e){this.Te=e,this.Ce=new ae(R.M.$),this.Ce.Oe(R.M.L,(()=>{C.j(`${ce} / Change has overheated and will no longer apply or reapply`,this),this.De()}))}function de(e){const t=document.createElement("div");return t.innerHTML=e,t.childNodes.length}function le(e,t,n){let i=e;const r=[];for(let o=0;o<t;o++)n?(r.push(i.nextSibling),i=i.nextSibling):(r.push(i.previousSibling),i=i.previousSibling);return r}function he(e){let t=e.parentNode;for(;t.nodeType!==Node.ELEMENT_NODE;)t=t.parentNode;return t}function _e(e,t,n){const i=ie.fe(n,e)||[];Array.prototype.forEach.call(i,(e=>{e.parentNode.removeChild(e)})),n.removeAttribute(t),ie.pe(n,e),b.p(n).forEach((e=>{e.removeAttribute(t)}))}ue.prototype._e=function(){return this.Se=Z(),this.Pe=b.C(),this.je=G.de(this.Te.selector,this.Ne.bind(this,this.Te,this.Pe)),this.Se},ue.prototype.Ne=function(e,t,n){const i=R.K+t;n.hasAttribute(i)||(this.Ce.ke(),this.Re(e,t,n,i)),this.Se.resolve()},ue.prototype.Re=function(e,t,n,i){let r;switch(e.operator){case R.U.F:r=R.H.W;break;case R.U.V:r=R.H.X;break;case R.U.G:r=R.H.q;break;case R.U.B:r=R.H.J;break;default:r=R.H.X}n.insertAdjacentHTML(r,e.value);const o=de(e.value)-1;let s,a;r===R.H.X?(s=n.lastChild,a=le(s,o,!1)):r===R.H.J?(s=n.firstChild,a=le(s,o,!0)):r===R.H.q?(s=n.previousSibling,a=le(s,o,!1)):r===R.H.W&&(s=n.nextSibling,a=le(s,o,!0)),a.unshift(s),Array.prototype.forEach.call(a,(e=>{const n=e.nodeType===Node.ELEMENT_NODE?e:he(e);n.setAttribute(i,"");const r=ie.fe(n,t)||[];r.push(e),ie.me(n,t,r),b.p(n).forEach((e=>{e.setAttribute(i,"")}))}))},ue.prototype.De=function(){this.je&&this.je()},ue.prototype.Me=function(){const e=R.K+this.Pe,t=document.querySelectorAll("["+e+"]");Array.prototype.forEach.call(t,_e.bind(null,this.Pe,e))};const fe=(e,t)=>{if(0===Object.keys(t.css))return t.attributes.style;var n="",i=t.attributes&&t.attributes.style||"";return l(t.css,((e,t)=>{new RegExp(t+"\\s?:").test(i)||(n+=t+":"+e+";")})),p(t.attributes.style)?(e||"")+n:n+i};var pe={$e:e=>new MutationObserver(e),xe:(e,t)=>{e.observe(t,R.Y)}};const me="Attribute Change Applier";function we(e){this.Te=e,this.Le=[],this.Ce=new ae(R.M.$),this.Ce.Oe(R.M.L,(()=>{C.j(`${me} / Change has overheated and will no longer apply or reapply`,this),this.De()})),this.Ue=!1}function ge(e,t){const n=ie.fe(t,e);n&&b.O(n,(function(e,n){switch(n){case R.Z.ee:t.className=e;break;case R.Z.te:t.href=e;break;case R.Z.ne:t.innerHTML=e;break;case R.Z.ie:t.src=e;break;case R.Z.re:t.style.cssText=e;break;case R.Z.oe:t.textContent=e;break;default:throw new Error("Unrecognized attribute: "+n)}})),t.removeAttribute(R.K+e),ie.pe(t,e)}we.prototype._e=function(){this.Pe=b.C(),this.Se=Z();const e=this.Ne.bind(this,this.Te,this.Pe);this.je=G.de(this.Te.selector,e);const t=document.querySelectorAll(this.Te.selector);return t?Array.prototype.forEach.call(t,e):this.Se.resolve(`${me} / AttributeChange not being applied. Element does not exist in DOM`),this.Se},we.prototype.Ne=function(e,t,n){const i=R.K+t;if(n.hasAttribute(i))return void this.Se.resolve();this.Ce.ke();const r=this.Re.bind(this,n,e,t,i);if(r(),d.get("dynamicWebsiteSupport")){const e=()=>{se.ge((()=>{this.Ue||pe.xe(t,n)}))},t=pe.$e((()=>{this.Ce.ke(),t.disconnect(),r(),e()}));e(),this.Le.push(t.disconnect.bind(t))}this.Se.resolve()},we.prototype.Re=function(e,t,n,i){const r={};b.O(t.attributes,((t,n)=>{switch(n){case R.Z.ee:b.A(e.className)||(r[R.Z.ee]=e.className,e.className=t);break;case R.Z.te:b.A(e.href)||(r[R.Z.te]=e.href,e.href=t);break;case R.Z.ne:b.A(e.innerHTML)||(r[R.Z.ne]=e.innerHTML,e.innerHTML=t,b.p(e).forEach((e=>{e.setAttribute(i,"")})));break;case R.Z.ie:b.A(e.src)||(r[R.Z.ie]=e.src,e.src=t);break;case R.Z.re:break;case R.Z.oe:b.A(e.textContent)||(r[R.Z.oe]=e.textContent,e.textContent=t);break;default:N(me,{message:"1.1: Unrecognized attribute:",args:[n]})}}));const o=fe(e.style.cssText,t);b.k(o)&&(r[R.Z.re]=e.style.cssText,e.style.cssText=o),e.setAttribute(i,""),ie.me(e,n,r)},we.prototype.De=function(){this.je&&this.je(),this.Le.forEach((e=>{try{e()}catch(t){}})),this.Ue=!0},we.prototype.Me=function(){const e=document.querySelectorAll("["+R.K+this.Pe+"]");Array.prototype.forEach.call(e,ge.bind(null,this.Pe))};const ve="Custom Code Change Applier";function be(e){this.Te=e}function ye(e){this.Te=e}function Ee(e,t){const n=ie.fe(t,e),i=n.element.parentNode.removeChild(n.element),r=n.undoElement,o=r.parentNode;let s;switch(n.undoType){case R.U.F:o.insertBefore(i,r.nextSibling);break;case R.U.B:s=r.firstChild,r.insertBefore(i,s)}t.removeAttribute(R.K+e),ie.pe(t,e)}function ke(e){if(!e)return null;const t=document.createElement("a");return t.href=e,t}be.prototype._e=function(){try{this.Te.value()}catch(e){N(ve,{message:"1.2: Apply Custom JS Error",err:e},!1)}},ye.prototype._e=function(){this.Pe=b.C(),Promise.all([new Promise((e=>{this.je=G.de(this.Te.selector,e)})),new Promise((e=>{this.Fe=G.de(this.Te.insertSelector,e)}))]).then(this.Ne.bind(this,this.Te))},ye.prototype.Ne=function(e){const t=document.querySelectorAll(e.selector);Array.prototype.forEach.call(t,(t=>{const n={undoElement:t.previousSibling,undoType:R.U.F};t.parentNode.firstChild===t&&(n.undoElement=t.parentNode,n.undoType=R.U.B);const i=t.parentNode.removeChild(t),r=document.querySelector(e.insertSelector),o=r.parentNode;let s;switch(n.element=i,e.operator){case R.U.G:o.insertBefore(i,r);break;case R.U.F:o.insertBefore(i,r.nextSibling);break;case R.U.B:s=r.firstChild,r.insertBefore(i,s);break;case R.U.V:r.appendChild(i)}i.setAttribute(R.K+this.Pe,""),ie.me(i,this.Pe,n)}))},ye.prototype.De=function(){this.je&&this.je(),this.Fe&&this.Fe()},ye.prototype.Me=function(){const e=document.querySelectorAll("["+R.K+this.Pe+"]");Array.prototype.forEach.call(e,Ee.bind(null,this.Pe))};const Ie="Redirect Change Applier";function Ae(e){this.Te=e}Ae.prototype._e=function(){const e=this.Te;h(e.dest)&&(e.dest=e.dest()),f(e.dest)?(document.cookie=e.cookie.replace(/(^|&)t=(&|$)/,`$1t=${Date.now()}$2`).replace(/(^|&)r=(&|$)/,`$1r=${encodeURIComponent(document.referrer)}$2`),this.ze(e,this.Ve(e))):N(Ie,{message:"1.3.1 Redirect destination function did not evaluate to a string",args:[String(e.dest)]})},Ae.prototype.Ve=function(e){const t=ke(e.dest);if(e.preserveParameters){const e=this.Ge();e&&(t.search?t.search+="&"+e.substr(1):t.search=e)}return t.toString()},Ae.prototype.ze=function(e,t){(!e.hasOwnProperty("hidePage")||e.hidePage)&&this.Be(),this.He(t)},Ae.prototype.Be=function(){const e=document.createElement("style");e.setAttribute("type","text/css"),e.innerHTML="body{display:none;visibility:hidden;}",document.head.appendChild(e)},Ae.prototype.He=function(e){window.location.replace(e)},Ae.prototype.Ge=function(){return window.location.search};const Oe="Change Applier";function Te(e){const t=new De(e);return t._e(),t}function Ce(e){window.optimizely.push({type:"addListener",filter:{type:"lifecycle",name:"pageDeactivated"},handler:function(t){const n=t.data.page,i=e[n.id];i&&n.deactivationEnabled&&(i.forEach((e=>e.De())),n.undoOnDeactivation&&i.forEach((e=>e.Me()))),delete e[n.id]}})}function De(e){this.Je=[],e.forEach((e=>{let t;switch(e.type){case"attribute":t=new we(e);break;case"append":t=new ue(e);break;case"custom_code":t=new be(e);break;case"rearrange":t=new ye(e);break;case"redirect":t=new Ae(e);break;default:N(Oe,{message:"1.0: Unknown change type:",args:[e.type]})}t&&this.Je.push(t)}))}De.prototype._e=function(){this.Je.forEach((e=>e._e()))},De.prototype.De=function(){this.Je.forEach((e=>{e.De&&e.De()}))},De.prototype.Me=function(){this.Je.forEach((e=>{e.Me&&e.Me()}))};var Se={We:Te,qe:De,Xe:Ce};let Pe;const je="Click Tracking";function Ne(){Pe||(Pe=new xe((function(e){P(e)})))}function Re(e){Pe||Ne(),Pe.Ke()||Pe.Ye(),Pe.Ze(e)}function Me(e){Pe.Qe(e),Pe.Ke()||Pe.et()}function $e(e){window.optimizely.push({type:"addListener",filter:{type:"lifecycle",name:"pageDeactivated"},handler:function(t){const n=t.data.page.id;e[n]&&e[n].forEach(Me)}})}class xe{constructor(e){this.tt=e,this.nt=[],this.it=null,this.rt=function(e){this.nt.forEach(function(t){try{var n=t.selector;Le(e,n)&&this.tt(t)}catch(i){N(je,{message:"Click handler error:",err:i},!1)}}.bind(this))}.bind(this)}Ye(){this.it=document.addEventListener("click",this.rt,!0)}et(){this.it&&(this.it(),this.it=null)}Ke(){return this.nt.length>0}Ze(e){this.nt.push(e)}Qe(e){this.nt=this.nt.filter((function(t){return t.apiName!==e.apiName}))}}function Le(e,t){for(var n=e.target;n;){var i;try{i=n.matches(t)}catch(r){return!1}if(i)return!0;n=n.parentElement}return!1}var Ue={ot:Re,st:Ne,ct:$e};var Fe={ut:function(e,t,n,i){var r={id:e,policy:"single_experiment",holdback:0,experiments:[{id:t||"",variations:[{id:n||"",actions:[]}]}],integrationStringVersion:1};return i&&Object.assign(r,{pageIds:[i]}),r},dt:function(e,t,n,i){return{campaignId:e,decision:{campaignId:e,experimentId:t,variationId:n,isCampaignHoldback:i||!1},decisionTicket:{audienceIds:[]}}}};const ze={LIFECYCLE:"lifecycle"},Ve={CAMPAIGN_DECIDED:"campaignDecided",INITIALIZED:"initialized"};var Ge={lt:function(e){var t=Fe.ut(e.layerId,e.experimentId,e.variationId,e.viewId),n=Fe.dt(e.layerId,e.experimentId,e.variationId,e.isLayerHoldback);return{type:ze.LIFECYCLE,name:Ve.CAMPAIGN_DECIDED,data:{campaign:t,decisionTicket:n.decisionTicket,decision:n.decision}}},ht:()=>({type:ze.LIFECYCLE,name:Ve.INITIALIZED})};const Be="Side Emitter";function He(e){return _(e)&&e.type&&"addListener"===e.type&&e.filter&&_(e.filter)&&h(e.handler)}function Je(e){var t=[];return m(window.optimizely)&&window.optimizely.forEach((n=>{He(n)&&n.filter.type===e.type&&n.filter.name===e.name&&t.push(n.handler)})),t}function We(e){Je(e).forEach((t=>{try{t.call(void 0,e)}catch(n){N(Be,{message:"4.0: Error in listener handler for event:",err:n,args:[e]})}}))}var qe={_t:e=>{let t=[Ge.ht()];e.decisions&&(t=t.concat(e.decisions.map(Ge.lt))),t.forEach(We)}};function Xe(){return document.currentScript}function Ke(e){document.cookie=e}var Ye={ft:Xe,wt:Ke};function Ze(e){Ye.wt(e)}function Qe(e,t="/"){const n=se.we().split(".");for(;n.length>0;)this.gt(`${e}=;expires=${new Date(0)};path=${t};domain=.${n.join(".")}`),n.shift()}var et={gt:Ze,vt:Qe};const tt="Main",nt="optimizelyOptOut",it=()=>window&&document&&window.MutationObserver,rt=()=>window&&window.optlyDesktop&&void 0!==window.optlyDesktop.p13nInner;var ot=(e,t=null)=>{if(X.le(),rt())return void C.P(`${tt} /  Disabling because of desktop app.`);if(!b.g(e))return void N(tt,{message:"0.1: Not a valid input"});const n=e.snippetURL;if(n){let t,i,r;const o=()=>b.h(n),s=e.experimental&&e.experimental.features.tracking_snippet_install;if(s){s.enabled&&(({install_mode:t,delay:i,preload:r}=s),t=t.toLowerCase());const e=i>=0?()=>setTimeout(o,i):o;"load"===t?window.onload=e:"domcontentloaded"===t?window.addEventListener("DOMContentLoaded",e):(t&&C.j(`Ignoring unknown install mode: ${t}`),e()),r&&b._(n)}else e.trackingSnippetOnload?window.onload=o:o()}if(it()){if(e.optIn&&(C.P(`${tt} / Processing opt in`),et.vt(nt)),e.visitorIdCookie&&et.gt(e.visitorIdCookie),"projectJS"in e&&Y._e(e.projectJS),e.disableTracking||(j.N(e),j.R(e)),e.disableTracking||qe._t(e),"changeSets"in e){const t=e.changeSets.reduce(((e,t)=>{const{changes:n,viewId:i}=t;return e[i]||(e[i]=[]),e[i].push(Se.We(n)),e}),{});Object.keys(t).length&&Se.Xe(t)}if("activeClickEvents"in e&&!e.disableTracking){const t=Object.keys(e.activeClickEvents);t.length&&(Ue.st(),t.forEach((t=>e.activeClickEvents[t].forEach(Ue.ot))),Ue.ct(e.activeClickEvents))}}else N(tt,{message:"0.2: Not a supported environment"})};const st="https://rum.optimizely.com/rum";function at(e,t){const{accountId:n,dynamicWebsiteSupport:i,experimental:r,groups:o,projectId:s,revision:a,rum:c}=e,{id:u,inRumSample:d,sampleRate:l}=c;if(!d)return window.optimizely.push({type:"rum",eventData:{inRumSample:d}}),Promise.resolve();const h={sampleRate:l,extras:{edge:Object.assign(ct(),{groups:o||0,microsnippetTimestamp:t,spa:i||!1}),experimental:r}};window.optimizely.push({type:"rum",eventData:{id:u,inRumSample:d,data:h}});const _=Object.assign({id:u,v:"1.0",account:n,project:s,revision:a,clientVersion:"____v1_40_0"},h),f=(e,t)=>Object.assign({},e,{extras:Object.assign({},e.extras,{[t]:!0,beacon:{microsnippet:!0}})});return"function"==typeof navigator.sendBeacon&&navigator.sendBeacon(st,JSON.stringify(f(_,"sendBeacon"))),fetch(st,{method:"POST",credentials:"include",body:JSON.stringify(f(_,"fetch")),headers:{"Content-Type":"text/plain;charset=UTF-8"}})}function ct(){const{async:e}=Ye.ft(),{defer:t,src:n}=Ye.ft();return{async:e,defer:t,performanceMeasures:dt(),subresource:ut(n),unsafeTrackingGlobalPushUsed:d.get("unsafeTrackingGlobalPushUsed")||!1}}function ut(e){if(!e)return;const t=v(e),n=o.t()?o.i(e)[0].toJSON():null;return{scheme:t.protocol.slice(0,-1),host:t.host,path:t.pathname,resourceTiming:n}}function dt(){if(!o.t())return;const e={"time-to-edge-complete":[void 0,"edge-end"],"edge-execution":["edge-begin","edge-end"]};return Object.keys(e).reduce(((t,n)=>{o.u(n,e[n][0],e[n][1]);const{startTime:i,duration:r}=o.i(n)[0];return t[n]={startTime:i,duration:r},t}),{})}var lt="Index";try{ht()}catch(_t){try{N(lt,{message:"0.0: Main: Unhandled error",err:_t})}catch(ft){console.warn(_t)}}function ht(){if(window.optimizelyEdge&&window.optimizelyEdge.he||window.optimizely&&window.optimizely.initialized)console.warn("Disabling this snippet because Optimizely has already initialized on this page load. Are there multiple snippets on the page?");else{o.t()&&o.o("edge-begin");var e={"accountId":"10681260716","activeClickEvents":{},"activeViews":[],"changeSets":[],"decisions":[],"groups":0,"projectId":"17965891249","projectJS":function(){/*
+ * Javascript written in this tab will run every time a user is
+ * assigned to an experiment and variation, but before any experiment
+ * code runs. This hook is useful for tracking which variations a
+ * visitor has been assigned to. Click the help icon for more information.
+ */
+
+
+var obj = {
+    'campaignId': typeof campaignId !== 'undefined' ? campaignId : undefined,
+    'experimentId': typeof experimentId !== 'undefined' ? experimentId : undefined,
+    'variationId': typeof variationId !== 'undefined' ? variationId : undefined,
+    'isHoldback': typeof isHoldback !== 'undefined' ? isHoldback : undefined,
+    'campaignName': typeof campaign === 'object' && campaign.name ? campaign.name : undefined,
+    'campaignPolicy': typeof campaign === 'object' && campaign.policy ? campaign.policy : undefined
+};
+
+var saved = false;
+
+if (typeof Util !== 'undefined' && typeof optimizelyEdge !== 'undefined'){
+	var redirectInfo = optimizelyEdge.get('state').getRedirectInfo;
+	if (redirectInfo && redirectInfo()) {
+		Util.setCookie(redirectInfo.referrer, 'referrer');
+	}
+}
+
+function saveToDigitalData() {
+  if (typeof digitalData !== 'undefined'){    
+    digitalData.personalization = digitalData.personalization || {};
+    digitalData.personalization.optimizely = digitalData.personalization.optimizely || [];
+    digitalData.personalization.optimizely.push(obj);
+  }
+  saved = true;
+}
+
+function statusPoll(condition) {
+	var counter = 0;
+
+	var conditionPromise = new Promise(function(resolve, reject) {
+    var handled = false;
+		function checkCondition(counter){
+		  if(!condition || counter === 30){
+		    reject();
+        handled = true;
+		  } else if(condition()){
+		    resolve();
+        handled = true;
+		  }
+      if(!handled) {
+	    	counter += 1;
+	    	window.setTimeout(checkCondition, 1000, counter);
+      }
+		}
+		checkCondition(counter);
+	});
+
+	return conditionPromise;
+}
+
+
+// DO GA TRACKING
+  try {
+      statusPoll(function(){
+          return typeof dataLayer === 'object' && typeof ga === 'function' && typeof digitalData === 'object' && typeof window.optlyHelper === 'object';
+      }).then(function(){
+        digitalData.util.gaPageviewComplete.then(function(g) {
+          if(!window.optlyHelper.activeExperiments)
+              return;
+          var optlyHelper = window.optlyHelper;
+
+          for(var x in optlyHelper.activeExperiments) {
+            var experimentObj = optlyHelper.activeExperiments[x];
+            if (!saved) {
+                saveToDigitalData();
+              }
+              var dataLayerObj = {
+                'event': 'custEv_optimizely',
+                'eventCat': 'Optimizely',
+                'eventAct': experimentObj.id ? 'Experiment: ' + experimentObj.id : '',
+                'eventLbl': experimentObj.variation.id ? 'Variant: ' + experimentObj.variation.id : '',
+                'eventVal': 0,
+                'nonInteraction': 1,
+                'optimizelyExp': experimentObj.id,
+                'optimizelyVar': experimentObj.variation.id,
+                'experimentParticipation':'1'
+              };
+
+              dataLayer.push(dataLayerObj);
+          }
+        });
+      });
+  } catch(err){
+      console.log("Error tracking Opti/GA.", err);
+  }
+
+
+
+// DO AA TRACKING
+try {
+    statusPoll(function(){
+        return typeof window.s === 'object' && typeof window.s.tl === 'function' && window.s.pageLoaded === true && typeof digitalData === 'object';
+        }).then(function(){
+          var s_experiments = window.s.oe_experiments;
+      		if(!s_experiments || s_experiments.length == 0)
+            return;
+
+          s_experiments.forEach(function(e) {
+            if (!saved) {
+                saveToDigitalData();
+            }
+
+            var optiEvarValue = e;
+      
+            window.s.events = 'event90';
+            window.s.linkTrackEvents = 'event90';
+            window.s.campaign = digitalData.page.scampaign;
+            window.s.eVar27 = digitalData.page.scampaign;
+            window.s.eVar91 = optiEvarValue;
+            window.s.eVar92 = optiEvarValue;      
+            window.s.linkTrackVars = 'campaign,eVar27,eVar91,eVar92';
+            window.s.linkTracked = true;
+            window.s.tl(true, 'o', 'optimizely');
+            window.s.linkTracked = false;
+            window.s.events="";
+            window.s.linkTrackVars="";
+            window.s.linkTrackEvents="";
+          });
+
+        });
+} catch(err){
+    console.log("Error tracking Opti/AA.", err);
+}
+},"queryParams":[["d","exacttarget.com/"],["internal","true"]],"requestId":"75ede72bcb30b7c6","revision":"1204","rum":{"inRumSample":false,"sampleRate":0.003},"snippetURL":"https://cdn.optimizely.com/public/10681260716/17965891249/1204_b03f87e0d01a1e92dc4277ec40eaa663251670766d29c6d2638c2a9b34b4e9cb_tracking.js","targetPageURL":"https://www.salesforce.com/products/marketing-cloud/email-marketing/?d=exacttarget.com%2F&internal=true","trackingSnippetOnload":false,"visitorId":"oeu1666564077412r0.4625831925578403","visitorIdCookie":"optimizelyEndUserId=oeu1666564077412r0.4625831925578403; Max-Age=15552000; Domain=salesforce.com; Path=/","visitorIp":"2001:1c00:306:100:54ed:694f:75a:39c4"},t=null;d.set("msVersion","____v1_40_0"),d.set("requestId",e.requestId),d.set("projectId",e.projectId),d.set("data",e),d.set("disableTracking",e.disableTracking),d.set("dynamicWebsiteSupport",e.dynamicWebsiteSupport),ot(e,t),o.t()&&(o.o("edge-end"),o.u("edgeExecution","edge-end","edge-begin")),"rum"in e&&at(e,Date.now()).then((e=>{e&&e.status&&C.P(`${lt} / Tracked RUM: ${e.status}`)}),(e=>{N(lt,{message:"0.3: RUM Error",err:e})}))}}}();
+
+})()

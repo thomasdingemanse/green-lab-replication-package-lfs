@@ -1,0 +1,25 @@
+{
+  "short_name": "HostGator",
+  "name": "HostGator Web Hosting",
+  "background_color": "#4077B5",
+  "theme_color": "#4077B5",
+  "display": "browser",
+  "icons": [
+    {
+      "src": "/static/cs/img/rsz_flatlogo_separated_v19-09.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/static/cs/img/rsz_1rsz_1flatlogo_separated_v19-09.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/static/cs/img/rsz_1flatlogo_separated_v19-09.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen&launcher=true"
+}

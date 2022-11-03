@@ -1,0 +1,105 @@
+<!-- partial slug=search-queryly -->
+    <div class="container slug--search-queryly type--content-search">
+  <div class="row">
+                <div class="row">
+    
+            
+                                
+    <div class="col-12 ">
+                    
+                            
+                                    
+                                                        <form action="/search/" class="component search-form lazyload" id="component--search-from" method="get" name="siteSearch" data-component="search" data-search-options='{"adapter":"managers\/adapter-search-queryly","customData":[{"name":"q","value":""},{"name":"creator","value":""}],"searchField":".search-field","resultsContainer":".search-results","facetsContainer":".search-facets__container","facetsClearButton":".search-button--clear-facets"}'>
+  <div class="component__item-wrapper">
+    <div class="row">
+      <div class="col-12">
+        <div class="row">
+          <div class="component search-field__container">
+            <div class="component__item-wrapper">
+              <input name="q" type="search" required autocomplete="false" placeholder="Search CBS News" class="search-field" aria-label="Search query"><button class="search-button search-button--reset" type="reset" title="Clear the search form" aria-label="Clear the search form">
+                <svg viewbox="0 0 32 32" class="search-button__icon search-button__icon--reset" aria-hidden="true"><use xlink:href="#icon-close"></use></svg></button>
+              <!-- <button type="submit" class="search-button search-button--submit" title="Submit the search form" aria-label="Submit the search form">Advanced Search</button> -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <div class="row">
+              <div class="component search-facets">
+                <div class="component__item-wrapper">
+                  <div class="search-popular__container">
+                    <!-- popular queries -->
+                  </div>
+                  <div class="search-facets__container">
+                    <!-- facets -->
+                  </div>
+                  <button type="button" class="search-button search-button--clear-facets">
+                    Clear Filters
+                    <svg viewbox="0 0 32 32" class="search-button__icon" aria-hidden="true"><use xlink:href="#icon-close"></use></svg></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="row">
+              <section class="component list list-river search-results"><!-- results --></section>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
+<link rel="preload" href="https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/components/search.js?v=52e64cebf154a24ec7e6a2420267edfa" as="script">
+<link rel="preload" href="https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/managers/adapter-search-queryly.js?v=52e64cebf154a24ec7e6a2420267edfa" as="script">
+</div>
+            </div>
+                <div class="row">
+    
+            
+            
+    <div class="col-12 nocontent">
+                    
+                            
+                                                      
+
+
+                                            
+        
+
+<section class="component component--view-bulk-component" id="component-emergency-component" data-id="dff76b49-842a-490c-b0c4-53eef3c3d687" data-slug="emergency-component"><div class="component__item-wrapper">
+      <style>
+	link.lazyload {
+		position: absolute;
+	}
+</style>
+</div>
+  
+  </section><section class="component component--view-bulk-component" id="component-emergency-component-2" data-id="dff76b49-842a-490c-b0c4-53eef3c3d687" data-slug="emergency-component"><div class="component__item-wrapper">
+      <style>
+.content__meta-wrapper::before {
+	width: 100%;
+}
+
+.device--type-mobile .content__meta-wrapper::before {
+	width: calc(100vw - 40px);
+}
+</style>
+</div>
+  
+  </section><section class="component component--view-bulk-component" id="component-emergency-component-3" data-id="dff76b49-842a-490c-b0c4-53eef3c3d687" data-slug="emergency-component"><div class="component__item-wrapper">
+      <style>
+	#soft-login-gate { display: none; }
+</style>
+</div>
+  
+  </section><section class="component component--view-bulk-component" id="component-emergency-component-4" data-id="dff76b49-842a-490c-b0c4-53eef3c3d687" data-slug="emergency-component"><div class="component__item-wrapper">
+      <script defer src="https://disco.headliner.link/d/cbsnews/web/js/widget.js"></script>
+</div>
+  
+  </section>
+</div>
+            </div>
+      </div>
+</div>
