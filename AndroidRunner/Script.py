@@ -52,7 +52,8 @@ class Script(object):
         with script_timeout(seconds=self.timeout):
             processes = []
             try:
-                queue = mp.Queue()
+                mp.set_start_method('fork',force=True)
+                queue = mp.Queue()              
                 processes.append(mp.Process(target=self.mp_run, args=(queue, device,) + args, kwargs=kwargs))
                 if self.logcat_event is not None and device is not None:
                     processes.append(mp.Process(target=self.mp_logcat_regex, args=(queue, device, self.logcat_event)))
