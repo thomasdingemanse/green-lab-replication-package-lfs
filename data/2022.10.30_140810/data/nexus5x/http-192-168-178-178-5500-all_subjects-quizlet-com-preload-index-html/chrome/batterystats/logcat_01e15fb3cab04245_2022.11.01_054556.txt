@@ -1,0 +1,468 @@
+--------- beginning of system
+11-01 05:44:57.436   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 05:45:47.863   772 10893 I ActivityManager: Force stopping com.android.chrome appid=10060 user=0: from pid 29201
+11-01 05:45:47.864   772 10893 I ActivityManager: Killing 28239:com.google.android.googlequicksearchbox:search/u0a45 (adj 900): stop com.android.chrome
+--------- beginning of main
+11-01 05:45:47.875  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+11-01 05:45:47.889  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+11-01 05:45:47.907   772   996 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=2427, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ], android.os.BinderProxy@ee8d83b)
+11-01 05:45:47.908   772   862 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=2427, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+11-01 05:45:48.122   772 10893 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x10008000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+11-01 05:45:48.149   772 10893 I ActivityManager: Start proc 29203:com.android.chrome/u0a60 for activity com.android.chrome/com.google.android.apps.chrome.Main
+11-01 05:45:48.183   772 10894 W LocalDisplayAdapter: Unable to find color mode 0, ignoring request.
+11-01 05:45:48.187   772   846 I InputReader: Reconfiguring input devices.  changes=0x00000004
+11-01 05:45:48.231 29203 29203 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome isIsolated=false
+11-01 05:45:48.299 29486 17541 I FontLog : Received query Google Sans, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-01 05:45:48.300 29486 17541 I FontLog : Query [Google Sans] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-01 05:45:48.302 29486 17541 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-01 05:45:48.303 29486 17541 I FontLog : Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-01 05:45:48.317 29486 29498 I FontLog : Pulling font file for id = 1077, cache size = 10 [CONTEXT service_id=132 ]
+11-01 05:45:48.327 29486 29651 I FontLog : Received query Google Sans:500, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-01 05:45:48.328 29486 29651 I FontLog : Query [Google Sans:500] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-01 05:45:48.329 29486 29651 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-01 05:45:48.330 29486 29651 I FontLog : Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-01 05:45:48.338 29486 29497 I FontLog : Pulling font file for id = 1078, cache size = 11 [CONTEXT service_id=132 ]
+11-01 05:45:48.346 29486 30686 I FontLog : Received query Google Sans:700, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-01 05:45:48.347 29486 30686 I FontLog : Query [Google Sans:700] resolved to {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-01 05:45:48.349 29486 30686 I FontLog : Fetch {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-01 05:45:48.354 29486 29650 I FontLog : Pulling font file for id = 1079, cache size = 10 [CONTEXT service_id=132 ]
+11-01 05:45:48.383 29203 29225 I cr_LibraryLoader: Successfully loaded native library
+11-01 05:45:48.383 29203 29225 I cr_CachingUmaRecorder: Flushed 19 samples from 19 histograms.
+11-01 05:45:48.465 29203 29203 E ResourceType: Style contains key with bad entry: 0x0101062c
+11-01 05:45:48.479 29203 29233 W DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
+11-01 05:45:48.496 29203 29233 W zygote  : Skipping duplicate class check due to unrecognized classloader
+11-01 05:45:48.499 29203 29233 I DynamiteModule: Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:7
+11-01 05:45:48.499 29203 29233 I DynamiteModule: Selected remote version of com.google.android.gms.googlecertificates, version >= 7
+11-01 05:45:48.507   772  4540 I ActivityManager: START u0 {cmp=com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity (has extras)} from uid 10060
+11-01 05:45:48.522 29203 29203 E ResourceType: Style contains key with bad entry: 0x0101062c
+11-01 05:45:48.547 29203 29233 W zygote  : Skipping duplicate class check due to unrecognized classloader
+11-01 05:45:48.589   772  2969 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+11-01 05:45:48.589   772  2969 W AppOps  : java.lang.RuntimeException: here
+11-01 05:45:48.589   772  2969 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+11-01 05:45:48.589   772  2969 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+11-01 05:45:48.589   772  2969 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+11-01 05:45:48.589   772  2969 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+11-01 05:45:48.590   772 10895 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+11-01 05:45:48.590   772 10895 W AppOps  : java.lang.RuntimeException: here
+11-01 05:45:48.590   772 10895 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+11-01 05:45:48.590   772 10895 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+11-01 05:45:48.590   772 10895 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+11-01 05:45:48.590   772 10895 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+11-01 05:45:48.596   772  3041 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+11-01 05:45:48.596   772  3041 W AppOps  : java.lang.RuntimeException: here
+11-01 05:45:48.596   772  3041 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+11-01 05:45:48.596   772  3041 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+11-01 05:45:48.596   772  3041 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+11-01 05:45:48.596   772  3041 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+11-01 05:45:48.599   772   996 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+11-01 05:45:48.599   772   996 W AppOps  : java.lang.RuntimeException: here
+11-01 05:45:48.599   772   996 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+11-01 05:45:48.599   772   996 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+11-01 05:45:48.599   772   996 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+11-01 05:45:48.599   772   996 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+11-01 05:45:48.667 29203 29203 W ResourceType: Failure getting entry for 0x7f010055 (t=0 e=85) (error -75)
+11-01 05:45:48.704 29203 29241 D OpenGLRenderer: HWUI GL Pipeline
+11-01 05:45:48.747 29203 29241 I Adreno  : QUALCOMM build                   : 7142022, Ib5823dd10c
+11-01 05:45:48.747 29203 29241 I Adreno  : Build Date                       : 06/23/17
+11-01 05:45:48.747 29203 29241 I Adreno  : OpenGL ES Shader Compiler Version: EV031.18.00.00
+11-01 05:45:48.747 29203 29241 I Adreno  : Local Branch                     : O11A
+11-01 05:45:48.747 29203 29241 I Adreno  : Remote Branch                    : 
+11-01 05:45:48.747 29203 29241 I Adreno  : Remote Branch                    : 
+11-01 05:45:48.747 29203 29241 I Adreno  : Reconstruct Branch               : 
+11-01 05:45:48.748 29486 29723 E bfry    : Phenotype API error. Event # ddoj@5979c745, EventCode: 7 [CONTEXT service_id=51 ]
+11-01 05:45:48.748 29486 29723 E bfry    : bfra: 29505: No config packages for log source, or config package not registered
+11-01 05:45:48.748 29486 29723 E bfry    : 	at bfst.b(:com.google.android.gms@223616019@22.36.16 (040400-476895098):4)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at bfsq.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at bfry.e(:com.google.android.gms@223616019@22.36.16 (040400-476895098):4)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at bfry.f(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at arjg.ep(:com.google.android.gms@223616019@22.36.16 (040400-476895098):1)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at arjm.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):12)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at cjoq.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 05:45:48.748 29486 29723 E bfry    : 	at java.lang.Thread.run(Thread.java:764)
+11-01 05:45:48.749 29486 29723 W AsyncOperation: operation=GetExperimentTokensOperationCall, opStatusCode=29505 [CONTEXT service_id=51 ]
+11-01 05:45:48.749 29486 29723 W AsyncOperation: OperationException[Status{statusCode=No config packages for log source, or config package not registered, resolution=null}]
+11-01 05:45:48.749 29486 29723 W AsyncOperation: 	at bfry.e(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+11-01 05:45:48.749 29486 29723 W AsyncOperation: 	at bfry.f(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+11-01 05:45:48.749 29486 29723 W AsyncOperation: 	at arjg.ep(:com.google.android.gms@223616019@22.36.16 (040400-476895098):1)
+11-01 05:45:48.749 29486 29723 W AsyncOperation: 	at arjm.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):12)
+11-01 05:45:48.749 29486 29723 W AsyncOperation: 	at cjoq.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+11-01 05:45:48.749 29486 29723 W AsyncOperation: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+11-01 05:45:48.749 29486 29723 W AsyncOperation: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+11-01 05:45:48.749 29486 29723 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+11-01 05:45:48.749 29486 29723 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+11-01 05:45:48.749 29486 29723 W AsyncOperation: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 05:45:48.749 29486 29723 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+11-01 05:45:48.750 29203 29241 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8992.so from the current namespace instead.
+11-01 05:45:48.763 29203 29203 W RecyclerView: No adapter attached; skipping layout
+11-01 05:45:48.812 29203 29241 I Adreno  : PFP: 0x00000000, ME: 0x00000000
+11-01 05:45:48.817 29203 29241 I OpenGLRenderer: Initialized EGL, version 1.4
+11-01 05:45:48.817 29203 29241 D OpenGLRenderer: Swap behavior 2
+11-01 05:45:48.827 29203 29203 I cr_StartSurfaceConfig: Recorded Startup.Android.FirstDrawCompletedTime.NoInstant = 208 ms
+11-01 05:45:48.842 29203 29234 D NetworkSecurityConfig: Using Network Security Config from resource 0_resource_name_obfuscated debugBuild: false
+11-01 05:45:48.864   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: SocketTimeoutException timeout when fetching variations seed.
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: java.net.SocketTimeoutException: failed to connect to clientservices.googleapis.com/172.217.168.195 (port 443) from /192.168.178.248 (port 37900) after 1000ms
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at libcore.io.IoBridge.connectErrno(IoBridge.java:185)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at libcore.io.IoBridge.connect(IoBridge.java:130)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:129)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:356)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:356)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at java.net.Socket.connect(Socket.java:616)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:145)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:141)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.connect(DelegatingHttpsURLConnection.java:89)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.connect(Unknown Source:0)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at gY3.a(chromium-Monochrome.aab-stable-524907923:429)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at un.run(chromium-Monochrome.aab-stable-524907923:356)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at ly3.g(chromium-Monochrome.aab-stable-524907923:214)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at jy3.run(chromium-Monochrome.aab-stable-524907923:0)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at HU.run(chromium-Monochrome.aab-stable-524907923:42)
+11-01 05:45:50.977 29203 29234 W cr_VariationsSeedFetch: 	at java.lang.Thread.run(Thread.java:764)
+11-01 05:45:51.021 29245 29245 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99197: Permission denied
+11-01 05:45:51.021 29245 29245 E Zygote  : createProcessGroup(99197, 0) failed: Permission denied
+11-01 05:45:51.030   772  1327 I ActivityManager: Start proc 29245:com.android.chrome:sandboxed_process0/u0i197 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService0
+11-01 05:45:51.047 29245 29245 I SamplingProfilerIntegration: Profiling disabled.
+11-01 05:45:51.068 29259 29259 E asset   : setgid: Operation not permitted
+11-01 05:45:51.121 29245 29245 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process0 isIsolated=true
+11-01 05:45:51.137 29203 29262 W chromium: [WARNING:dns_config_service_android.cc(115)] Failed to read DnsConfig.
+11-01 05:45:51.139 29245 29245 W SystemServiceRegistry: No service published for: uimode
+11-01 05:45:51.157 29245 29245 I cr_ChildProcessService: Creating new ChildProcessService pid=29245
+11-01 05:45:51.161   772 29404 I ActivityManager: Start proc 29275:com.android.chrome:privileged_process0/u0a60 for service com.android.chrome/org.chromium.content.app.PrivilegedProcessService0
+11-01 05:45:51.174 29245 29245 E WebViewFactory: can't load with relro file; address space not reserved
+11-01 05:45:51.209 29203 29203 I cr_SmsProviderGms: construction successfull y93@58d7a89, v93@7891a8e
+11-01 05:45:51.216 29692 29692 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.key.retrieval.service.START dat=chimera-action:com.google.android.gms.auth.key.retrieval.service.START cmp=com.google.android.gms/.chimera.GmsApiService }
+11-01 05:45:51.216 29692 29692 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.key.retrieval.service.START dat=chimera-action:com.google.android.gms.auth.key.retrieval.service.START cmp=com.google.android.gms/.chimera.GmsApiService }
+11-01 05:45:51.220 29275 29275 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:privileged_process0 isIsolated=false
+11-01 05:45:51.232 29275 29275 I cr_ChildProcessService: Creating new ChildProcessService pid=29275
+11-01 05:45:51.241   772 10860 D ConnectivityService: Returning blocked NetworkInfo to uid=10060
+11-01 05:45:51.289 29275 29293 I cr_LibraryLoader: Successfully loaded native library
+11-01 05:45:51.290 29275 29293 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+11-01 05:45:51.298 29203 29203 W cr_KnoxSettingsProvider: Permission to read device policy denied.
+11-01 05:45:51.303 29275 29293 I Adreno  : QUALCOMM build                   : 7142022, Ib5823dd10c
+11-01 05:45:51.303 29275 29293 I Adreno  : Build Date                       : 06/23/17
+11-01 05:45:51.303 29275 29293 I Adreno  : OpenGL ES Shader Compiler Version: EV031.18.00.00
+11-01 05:45:51.303 29275 29293 I Adreno  : Local Branch                     : O11A
+11-01 05:45:51.303 29275 29293 I Adreno  : Remote Branch                    : 
+11-01 05:45:51.303 29275 29293 I Adreno  : Remote Branch                    : 
+11-01 05:45:51.303 29275 29293 I Adreno  : Reconstruct Branch               : 
+11-01 05:45:51.303 29275 29293 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8992.so from the current namespace instead.
+11-01 05:45:51.308 29275 29293 I Adreno  : PFP: 0x00000000, ME: 0x00000000
+11-01 05:45:53.486 29203 29203 E cr_BTSPrefs: No data found for task id: 53
+11-01 05:45:53.487 29203 29203 E cr_BkgrdTaskScheduler: Task cannot be canceled because no data was found instorage or data was invalid
+11-01 05:45:55.039 29325 29325 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-01 05:45:55.207 29325 29325 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-01 05:45:55.234 29325 29325 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1660.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=596453489, downTime=596453489, deviceId=8, source=0x1002 }
+11-01 05:45:55.236 29325 29325 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1660.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=596453489, downTime=596453489, deviceId=8, source=0x1002 }
+11-01 05:45:55.238 29325 29325 D AndroidRuntime: Shutting down VM
+11-01 05:45:56.792 29335 29335 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-01 05:45:56.948 29335 29335 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-01 05:45:56.967 29335 29335 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=180.0, y[0]=1690.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=596455218, downTime=596455218, deviceId=8, source=0x1002 }
+11-01 05:45:56.969 29335 29335 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=180.0, y[0]=1690.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=596455218, downTime=596455218, deviceId=8, source=0x1002 }
+11-01 05:45:56.970 29335 29335 D AndroidRuntime: Shutting down VM
+11-01 05:45:57.515   772 10893 E BatteryStatsService: no controller energy info supplied
+11-01 05:45:57.516   772 10893 E BatteryStatsService: no controller energy info supplied
+11-01 05:45:58.863   772 10860 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://192.168.178.178:5500/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+11-01 05:45:58.885 29203 29203 E ResourceType: Style contains key with bad entry: 0x0101062c
+11-01 05:45:58.891   772  1259 I ActivityManager: START u0 {cmp=com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity (has extras)} from uid 10060
+11-01 05:45:58.900 29203 29203 E ResourceType: Style contains key with bad entry: 0x0101062c
+11-01 05:45:58.962 29203 29203 W ResourceType: Failure getting entry for 0x7f010055 (t=0 e=85) (error -75)
+11-01 05:45:58.983 29203 29265 W chromium: [WARNING:dns_config_service_android.cc(115)] Failed to read DnsConfig.
+11-01 05:45:59.015 29203 29203 W RecyclerView: No adapter attached; skipping layout
+11-01 05:45:59.033 29203 29203 I cr_StartSurfaceConfig: Recorded Startup.Android.FirstDrawCompletedTime.NoInstant = 77 ms
+11-01 05:46:00.383 29275 29287 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 05:46:00.383 29203 29218 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 05:46:00.385 29015 29027 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 05:46:00.386 29245 29258 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 05:46:00.387 28540 28553 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 05:46:00.389 28313 28325 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 05:46:00.393 28931 28952 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 05:46:00.394 28985 29005 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 05:46:00.395   556   687 E Parcel  : Reading a NULL string not supported here.
+11-01 05:46:00.395   556   687 W Parcel  : **** enforceInterface() expected 'IAAudioService' but read ''
+11-01 05:46:00.396   360   360 E SELinux : avc:  denied  { find } for service=android.service.gatekeeper.IGateKeeperService pid=29413 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:gatekeeper_service:s0 tclass=service_manager
+11-01 05:46:00.396   360   360 E SELinux : avc:  denied  { find } for service=netd pid=29413 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:netd_service:s0 tclass=service_manager
+11-01 05:46:00.401 29413 29413 W atrace  : type=1400 audit(0.0:20354): avc: denied { call } for scontext=u:r:shell:s0 tcontext=u:r:wificond:s0 tclass=binder permissive=0
+11-01 05:46:00.402   360   360 E SELinux : avc:  denied  { find } for service=installd pid=29413 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:installd_service:s0 tclass=service_manager
+11-01 05:46:00.413   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.displayservice::IDisplayService pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_display_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.414   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.schedulerservice::ISchedulingPolicyService pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_scheduler_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.414   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.sensorservice::ISensorManager pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_sensor_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.415   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.biometrics.fingerprint::IBiometricsFingerprint pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:hal_fingerprint_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.420   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.dumpstate::IDumpstateDevice pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:hal_dumpstate_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.421   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio.deprecated::IOemHook pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.421   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio::IRadio pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.422   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio::ISap pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.422   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.usb::IUsb pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:hal_usb_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.422   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.wifi.supplicant::ISupplicant pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:hal_wifi_supplicant_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.422   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.wifi::IWifi pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:hal_wifi_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.423   361   361 E SELinux : avc:  denied  { find } for interface=android.hidl.base::IBase pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:hidl_base_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.423   361   361 I chatty  : uid=1000(system) hwservicemanage identical 1 line
+11-01 05:46:00.424   361   361 E SELinux : avc:  denied  { find } for interface=android.hidl.base::IBase pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:hidl_base_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:00.425   361   361 E SELinux : avc:  denied  { find } for interface=android.system.wifi.keystore::IKeystore pid=29413 scontext=u:r:shell:s0 tcontext=u:object_r:system_wifi_keystore_hwservice:s0 tclass=hwservice_manager
+11-01 05:46:13.318 29486 29014 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 05:46:35.292   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 05:46:51.268 29203 29203 I cr_media: Create MediaDrmBridge with level L3 and origin ABE3E99FC459D0F18124394889772854
+11-01 05:46:51.304   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.drm@1.0::IDrmFactory in either framework or device manifest, using default transport.
+11-01 05:46:51.357   562   644 I DrmHal  : makeDrmFactories: using default drm instance
+11-01 05:46:51.389   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.drm@1.0::IDrmFactory in either framework or device manifest, using default transport.
+11-01 05:46:51.447   562  5487 I DrmHal  : makeDrmFactories: using default drm instance
+11-01 05:46:51.448   562 19051 D WVCdm   : Instantiating CDM.
+11-01 05:46:51.458   562  5487 I WVCdm   : CdmEngine::QueryStatus
+11-01 05:46:51.458   562  5487 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+11-01 05:46:51.469   562  5487 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+11-01 05:46:51.469   562  5487 D QSEECOMAPI: : App is not loaded in QSEE
+11-01 05:46:51.517   562  5487 D QSEECOMAPI: : Loaded image: APP id = 3626
+11-01 05:46:51.524   562  5487 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+11-01 05:46:51.524   562  5487 D QSAPPSVER: qsapps_get_capabilities: returns 0
+11-01 05:46:51.524   562  5487 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xee6e6000
+11-01 05:46:51.527   372   376 D DrmLibTime: got the req here! ret=0
+11-01 05:46:51.527   372   376 D DrmLibTime: command id, time_cmd_id = 770
+11-01 05:46:51.527   372   376 D DrmLibTime: time_getutcsec starts!
+11-01 05:46:51.527   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+11-01 05:46:51.527   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+11-01 05:46:51.527   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+11-01 05:46:51.527   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+11-01 05:46:51.527   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+11-01 05:46:51.527   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+11-01 05:46:51.527   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+11-01 05:46:51.528   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+11-01 05:46:51.528   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+11-01 05:46:51.529   625 29426 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+11-01 05:46:51.529   625 29426 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+11-01 05:46:51.529   625 29426 D QC-time-services: offset is: 0 for base: 13
+11-01 05:46:51.529   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+11-01 05:46:51.529   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+11-01 05:46:51.529   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667278011
+11-01 05:46:51.529   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667278011; nsec = 0
+11-01 05:46:51.529   372   376 D DrmLibTime: time_getutcsec finished! 
+11-01 05:46:51.529   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+11-01 05:46:51.529   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+11-01 05:46:51.529   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+11-01 05:46:51.559   562  5487 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+11-01 05:46:51.560   562  5487 D QSEECOMAPI: : QSEECom_dealloc_memory 
+11-01 05:46:51.560   562  5487 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 3626
+11-01 05:46:51.575   562 28303 I WVCdm   : CdmEngine::OpenSession
+11-01 05:46:51.576   562 28303 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+11-01 05:46:51.583   562 28303 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+11-01 05:46:51.583   562 28303 D QSEECOMAPI: : App is not loaded in QSEE
+11-01 05:46:51.636   562 28303 D QSEECOMAPI: : Loaded image: APP id = 3627
+11-01 05:46:51.640   562 28303 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+11-01 05:46:51.640   562 28303 D QSAPPSVER: qsapps_get_capabilities: returns 0
+11-01 05:46:51.640   562 28303 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xee6e6000
+11-01 05:46:51.643   372   376 D DrmLibTime: got the req here! ret=0
+11-01 05:46:51.643   372   376 D DrmLibTime: command id, time_cmd_id = 770
+11-01 05:46:51.643   372   376 D DrmLibTime: time_getutcsec starts!
+11-01 05:46:51.643   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+11-01 05:46:51.643   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+11-01 05:46:51.643   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+11-01 05:46:51.643   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+11-01 05:46:51.643   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+11-01 05:46:51.643   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+11-01 05:46:51.643   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+11-01 05:46:51.643   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+11-01 05:46:51.643   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+11-01 05:46:51.644   625 29427 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+11-01 05:46:51.644   625 29427 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+11-01 05:46:51.644   625 29427 D QC-time-services: offset is: 0 for base: 13
+11-01 05:46:51.644   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+11-01 05:46:51.644   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+11-01 05:46:51.644   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667278011
+11-01 05:46:51.644   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667278011; nsec = 0
+11-01 05:46:51.644   372   376 D DrmLibTime: time_getutcsec finished! 
+11-01 05:46:51.644   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+11-01 05:46:51.644   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+11-01 05:46:51.644   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+11-01 05:46:51.665   562 28303 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+11-01 05:46:51.666   562 28303 D WVCdm   : CryptoSession::Open: Lock: requested_security_level: L3
+11-01 05:46:51.686   562 28303 W WVCdm   : DeviceFiles::RetrieveHashedFile: /data/mediadrm/IDM1013/L3/cert.bin does not exist
+11-01 05:46:51.687   562 28303 D QSEECOMAPI: : QSEECom_dealloc_memory 
+11-01 05:46:51.687   562 28303 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 3627
+11-01 05:46:51.706   562 19050 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+11-01 05:46:51.713   562 19050 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+11-01 05:46:51.713   562 19050 D QSEECOMAPI: : App is not loaded in QSEE
+11-01 05:46:51.760   562 19050 D QSEECOMAPI: : Loaded image: APP id = 3628
+11-01 05:46:51.764   562 19050 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+11-01 05:46:51.764   562 19050 D QSAPPSVER: qsapps_get_capabilities: returns 0
+11-01 05:46:51.764   562 19050 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xee6e6000
+11-01 05:46:51.768   372   376 D DrmLibTime: got the req here! ret=0
+11-01 05:46:51.768   372   376 D DrmLibTime: command id, time_cmd_id = 770
+11-01 05:46:51.768   372   376 D DrmLibTime: time_getutcsec starts!
+11-01 05:46:51.768   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+11-01 05:46:51.768   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+11-01 05:46:51.768   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+11-01 05:46:51.768   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+11-01 05:46:51.768   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+11-01 05:46:51.768   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+11-01 05:46:51.768   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+11-01 05:46:51.768   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+11-01 05:46:51.768   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+11-01 05:46:51.768   625 29428 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+11-01 05:46:51.768   625 29428 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+11-01 05:46:51.768   625 29428 D QC-time-services: offset is: 0 for base: 13
+11-01 05:46:51.768   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+11-01 05:46:51.768   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+11-01 05:46:51.768   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667278011
+11-01 05:46:51.768   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667278011; nsec = 0
+11-01 05:46:51.768   372   376 D DrmLibTime: time_getutcsec finished! 
+11-01 05:46:51.769   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+11-01 05:46:51.769   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+11-01 05:46:51.769   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+11-01 05:46:51.804   562 19050 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+11-01 05:46:51.804   562 19050 D WVCdm   : CryptoSession::Open: Lock: requested_security_level: L3
+11-01 05:46:51.816 29203 29203 I cr_media: Provisioning origin ID ABE3E99FC459D0F18124394889772854
+11-01 05:46:51.831 29203 29203 I MediaDrm: Drm event (1,0)
+11-01 05:46:51.831 29203 29203 E cr_media: EventListener: No session for event 1.
+11-01 05:46:51.853   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 05:47:04.618   772 13071 I ActivityManager: Force stopping com.android.chrome appid=10060 user=0: from pid 29441
+11-01 05:47:04.618   772 13071 I ActivityManager: Killing 29275:com.android.chrome:privileged_process0/u0a60 (adj 0): stop com.android.chrome
+11-01 05:47:04.619   772 13071 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.PrivilegedProcessService0 in 1000ms
+11-01 05:47:04.626   772 13071 I ActivityManager: Killing 29203:com.android.chrome/u0a60 (adj 0): stop com.android.chrome
+11-01 05:47:04.633 29245 29245 I cr_ChildProcessService: Destroying ChildProcessService pid=29245
+11-01 05:47:04.635 29692 29692 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.key.retrieval.service.START dat=chimera-action:com.google.android.gms.auth.key.retrieval.service.START cmp=com.google.android.gms/.chimera.GmsApiService }
+11-01 05:47:04.637   772 13071 I ActivityManager: Killing 29245:com.android.chrome:sandboxed_process0/u0a60i197 (adj 0): isolated not needed
+11-01 05:47:04.637   772 13071 I ActivityManager:   Force finishing activity ActivityRecord{44c3466 u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity t980}
+11-01 05:47:04.642   772 13071 I ActivityManager:   Force finishing activity ActivityRecord{44c3466 u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity t980 f}
+11-01 05:47:04.643   772 13071 W ActivityManager: Duplicate finish request for ActivityRecord{44c3466 u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity t980 f}
+11-01 05:47:04.660  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+11-01 05:47:04.670   772  1327 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=2430, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ], android.os.BinderProxy@29cdeee)
+11-01 05:47:04.671   772 13021 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=2429, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ], android.os.BinderProxy@2cb9f8f)
+11-01 05:47:04.671   772   797 W ActivityManager: setHasOverlayUi called on unknown pid: 29203
+11-01 05:47:04.671   772   862 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=2430, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+11-01 05:47:04.672   772   862 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=2429, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+11-01 05:47:04.674   562   644 D QSEECOMAPI: : QSEECom_dealloc_memory 
+11-01 05:47:04.674   562   644 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 3628
+11-01 05:47:04.675  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+11-01 05:47:04.678   772   790 W zygote64: failed to open /acct/uid_99197/pid_29245/cgroup.procs: No such file or directory
+11-01 05:47:05.242 29444 29444 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-01 05:47:05.534 29444 29444 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+11-01 05:47:05.549   772   785 I ActivityManager: Force stopping com.android.chrome appid=10060 user=0: clear data
+11-01 05:47:05.553   772   788 I ActivityManager: Force stopping com.android.chrome appid=10060 user=-1: clearApplicationUserData
+11-01 05:47:05.606   560   560 I keystore: clear_uid 10060
+11-01 05:47:05.631   772   804 I ActivityManager: Start proc 29454:com.android.defcontainer/u0a13 for service com.android.defcontainer/.DefaultContainerService
+11-01 05:47:05.716  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+11-01 05:47:05.716   772   787 W ResourceType: No known package when getting value for resource number 0x7f0904db
+11-01 05:47:05.716   772   787 W ResourceType: No known package when getting value for resource number 0x7f140670
+11-01 05:47:05.717   772   787 W ResourceType: No known package when getting value for resource number 0x7f0904da
+11-01 05:47:05.717   772   787 W ResourceType: No known package when getting value for resource number 0x7f14018b
+11-01 05:47:05.717   772   787 W ResourceType: No known package when getting value for resource number 0x7f14066f
+11-01 05:47:05.717   772   787 W ResourceType: No known package when getting value for resource number 0x7f140434
+11-01 05:47:05.717   772   787 E ShortcutService: Ignoring excessive intent tag.
+11-01 05:47:05.717 29444 29444 I app_process: System.exit called, status: 0
+11-01 05:47:05.717 29444 29444 I AndroidRuntime: VM exiting with result code 0.
+11-01 05:47:05.743   772   788 I ActivityManager: Start proc 29473:com.android.documentsui/u0a14 for broadcast com.android.documentsui/.PackageReceiver
+11-01 05:47:05.757  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+11-01 05:47:05.829   772  1259 I ActivityManager: Killing 28540:com.opera.browser/u0a99 (adj 902): empty for 10486s
+11-01 05:47:05.854 29486 29509 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_DATA_CLEARED [CONTEXT service_id=17 ]
+11-01 05:47:05.893 29692 28999 I Icing   : doRemovePackageData com.android.chrome
+11-01 05:47:05.893 29692 28999 I Icing   : Removing corpus key com.android.chrome-omnibox for package com.android.chrome
+11-01 05:47:05.925 29692 28999 I native  : I0000 00:00:1667278025.923528   28999 flash-index.cc:1535] Flash index sort hb 2 prefix-hits 5 -> 5 at 12.338ms
+11-01 05:47:05.982 29692 28999 I Icing   : Removing corpus key com.android.chrome-.implicit: for package com.android.chrome
+11-01 05:47:06.037 29692 28999 D SharedPreferencesImpl: Time required to fsync /data/user/0/com.google.android.gms/shared_prefs/AppDataSearch-main-icing-settings.xml: [<1: 0, <2: 0, <4: 864, <8: 1034, <16: 133, <32: 13, <64: 4, <128: 0, <256: 0, <512: 0, <1024: 0, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+11-01 05:47:06.039   772 13022 I ActivityManager: Force stopping com.android.chrome appid=10060 user=0: from pid 29526
+11-01 05:47:06.043  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+11-01 05:47:06.053  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+11-01 05:47:06.060 29692 28999 I Icing   : Starting compaction min disk 99.985% min index 99.992%
+11-01 05:47:06.149 29692 28999 I native  : I0000 00:00:1667278026.149940   28999 document-store.cc:1684] Scored 1198 usage reports, missing_corpora 484 update_failed 0
+11-01 05:47:06.206 29692 28999 W native  : W0000 00:00:1667278026.205911   28999 words-map.cc:36] INVALID_ARGUMENT: Empty URI
+11-01 05:47:06.206 29692 28999 W native  : W0000 00:00:1667278026.206079   28999 words-map.cc:40] WordsMap was not properly initialized
+11-01 05:47:06.277 29692 28999 E native  : E0000 00:00:1667278026.277108   28999 compactor.cc:77] Could not index embedding for docid 1: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.277 29692 28999 E native  : E0000 00:00:1667278026.277952   28999 compactor.cc:77] Could not index embedding for docid 3: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.278 29692 28999 E native  : E0000 00:00:1667278026.278528   28999 compactor.cc:77] Could not index embedding for docid 5: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.279 29692 28999 E native  : E0000 00:00:1667278026.279038   28999 compactor.cc:77] Could not index embedding for docid 7: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.279 29692 28999 E native  : E0000 00:00:1667278026.279527   28999 compactor.cc:77] Could not index embedding for docid 9: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.279 29692 28999 E native  : E0000 00:00:1667278026.279979   28999 compactor.cc:77] Could not index embedding for docid 11: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.280 29692 28999 E native  : E0000 00:00:1667278026.280429   28999 compactor.cc:77] Could not index embedding for docid 13: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.280 29692 28999 E native  : E0000 00:00:1667278026.280907   28999 compactor.cc:77] Could not index embedding for docid 15: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.281 29692 28999 E native  : E0000 00:00:1667278026.281374   28999 compactor.cc:77] Could not index embedding for docid 17: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.282 29692 28999 E native  : E0000 00:00:1667278026.282138   28999 compactor.cc:77] Could not index embedding for docid 19: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.282 29692 28999 E native  : E0000 00:00:1667278026.282669   28999 compactor.cc:77] Could not index embedding for docid 21: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.283 29692 28999 E native  : E0000 00:00:1667278026.283162   28999 compactor.cc:77] Could not index embedding for docid 23: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.283 29692 28999 E native  : E0000 00:00:1667278026.283622   28999 compactor.cc:77] Could not index embedding for docid 25: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.287 29692 28999 E native  : E0000 00:00:1667278026.287499   28999 compactor.cc:77] Could not index embedding for docid 26: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.291 29692 28999 E native  : E0000 00:00:1667278026.291181   28999 compactor.cc:77] Could not index embedding for docid 27: INTERNAL: Unable to find Thing Proto section 
+11-01 05:47:06.324 29692 28999 I native  : I0000 00:00:1667278026.324655   28999 flash-index.cc:1535] Flash index sort hb 40 prefix-hits 68 -> 67 at 19.515ms
+11-01 05:47:06.352 29692 28999 W native  : W0000 00:00:1667278026.352013   28999 words-map.cc:36] INVALID_ARGUMENT: Empty URI
+11-01 05:47:06.352 29692 28999 W native  : W0000 00:00:1667278026.352162   28999 words-map.cc:40] WordsMap was not properly initialized
+11-01 05:47:06.403 29692 28999 I Icing   : updateResources: need to parse anue{com.android.chrome}
+11-01 05:47:06.426 29528 29528 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-01 05:47:06.479 29692 28999 I Icing   : Indexing com.android.chrome-omnibox from com.android.chrome
+11-01 05:47:06.494   772  4539 I ActivityManager: Start proc 29530:com.android.chrome/u0a60 for content provider com.android.chrome/com.google.android.apps.chrome.icing.IcingProvider
+11-01 05:47:06.553 29530 29530 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome isIsolated=false
+11-01 05:47:06.555 29528 29528 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+11-01 05:47:06.563   772 13071 I ActivityManager: Force stopping com.android.chrome appid=10060 user=0: clear data
+11-01 05:47:06.564   772 13071 I ActivityManager: Killing 29530:com.android.chrome/u0a60 (adj 200): stop com.android.chrome
+11-01 05:47:06.575   772 13071 I ActivityManager: Start proc 29554:com.android.chrome/u0a60 for restart com.android.chrome
+11-01 05:47:06.577   772  4539 W ActivityManager: Unable to launch app com.android.chrome/10060 for provider com.android.chrome.icing: launching app became null
+11-01 05:47:06.578 29692 28999 E ActivityThread: Failed to find provider info for com.android.chrome.icing
+11-01 05:47:06.578 29692 28999 W Icing   : Could not connect to content provider content://com.android.chrome.icing
+11-01 05:47:06.579   772   788 I ActivityManager: Force stopping com.android.chrome appid=10060 user=-1: clearApplicationUserData
+11-01 05:47:06.579   772   788 I ActivityManager: Killing 29554:com.android.chrome/u0a60 (adj 200): stop com.android.chrome
+11-01 05:47:06.582   560   560 I keystore: clear_uid 10060
+11-01 05:47:06.585   772  4540 E ActivityManager: Failure starting process com.android.chrome
+11-01 05:47:06.585   772  4540 E ActivityManager: java.lang.SecurityException: Package com.android.chrome is currently frozen!
+11-01 05:47:06.585   772  4540 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:3610)
+11-01 05:47:06.585   772  4540 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:3791)
+11-01 05:47:06.585   772  4540 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:3751)
+11-01 05:47:06.585   772  4540 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:3640)
+11-01 05:47:06.585   772  4540 E ActivityManager: 	at com.android.server.am.ActivityManagerService.getContentProviderImpl(ActivityManagerService.java:11563)
+11-01 05:47:06.585   772  4540 E ActivityManager: 	at com.android.server.am.ActivityManagerService.getContentProvider(ActivityManagerService.java:11694)
+11-01 05:47:06.585   772  4540 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:438)
+11-01 05:47:06.585   772  4540 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2935)
+11-01 05:47:06.585   772  4540 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:674)
+11-01 05:47:06.585   772  4540 I ActivityManager: Force stopping com.android.chrome appid=10060 user=0: start failure
+11-01 05:47:06.587   772  4540 W ActivityManager: Unable to launch app com.android.chrome/10060 for provider com.android.chrome.icing: process is bad
+11-01 05:47:06.587 29692 28999 E ActivityThread: Failed to find provider info for com.android.chrome.icing
+11-01 05:47:06.587 29692 28999 W Icing   : Could not connect to content provider content://com.android.chrome.icing
+11-01 05:47:06.588   772   788 I ActivityManager: Exiting empty application process 0:com.android.chrome/u0a60 (null)
+11-01 05:47:06.589 29692 28999 I Icing   : Indexing done com.android.chrome-omnibox
+11-01 05:47:06.612  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+11-01 05:47:06.616 29528 29528 I app_process: System.exit called, status: 0
+11-01 05:47:06.616 29528 29528 I AndroidRuntime: VM exiting with result code 0.
+11-01 05:47:06.626   772   787 W ResourceType: No known package when getting value for resource number 0x7f0904db
+11-01 05:47:06.626   772   787 W ResourceType: No known package when getting value for resource number 0x7f140670
+11-01 05:47:06.626   772   787 W ResourceType: No known package when getting value for resource number 0x7f0904da
+11-01 05:47:06.626   772   787 W ResourceType: No known package when getting value for resource number 0x7f14018b
+11-01 05:47:06.626   772   787 W ResourceType: No known package when getting value for resource number 0x7f14066f
+11-01 05:47:06.626   772   787 W ResourceType: No known package when getting value for resource number 0x7f140434
+11-01 05:47:06.626   772   787 E ShortcutService: Ignoring excessive intent tag.
+11-01 05:47:06.630  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+11-01 05:47:06.660 29486 29508 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_DATA_CLEARED [CONTEXT service_id=17 ]
+11-01 05:47:06.665 29692 28999 I Icing   : doRemovePackageData com.android.chrome
+11-01 05:47:06.665 29692 28999 I Icing   : Removing corpus key com.android.chrome-omnibox for package com.android.chrome
+11-01 05:47:06.731 29692 28999 I Icing   : updateResources: need to parse anue{com.android.chrome}
+11-01 05:47:06.788 29692 28999 I Icing   : Indexing com.android.chrome-omnibox from com.android.chrome
+11-01 05:47:06.805   772   996 I ActivityManager: Start proc 29566:com.android.chrome/u0a60 for content provider com.android.chrome/com.google.android.apps.chrome.icing.IcingProvider
+11-01 05:47:06.869 29566 29566 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome isIsolated=false
+11-01 05:47:07.011 29486 29498 I FontLog : Received query Google Sans, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-01 05:47:07.012 29486 29498 I FontLog : Query [Google Sans] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-01 05:47:07.013 29486 29498 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-01 05:47:07.013 29486 29498 I FontLog : Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-01 05:47:07.125 29486 29497 I FontLog : Pulling font file for id = 1080, cache size = 10 [CONTEXT service_id=132 ]
+11-01 05:47:07.200 29566 29585 I cr_LibraryLoader: Successfully loaded native library
+11-01 05:47:07.210 29566 29585 I cr_CachingUmaRecorder: Flushed 20 samples from 19 histograms.
+11-01 05:47:07.223 29692 28999 I Icing   : Indexing done com.android.chrome-omnibox
+11-01 05:47:07.272 29486 29651 I FontLog : Received query Google Sans:500, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-01 05:47:07.273 29486 29651 I FontLog : Query [Google Sans:500] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-01 05:47:07.274 29486 29651 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-01 05:47:07.275 29486 29651 I FontLog : Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-01 05:47:07.322 29486 29650 I FontLog : Pulling font file for id = 1081, cache size = 7 [CONTEXT service_id=132 ]
+11-01 05:47:07.362 29486 29497 I FontLog : Received query Google Sans:700, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-01 05:47:07.363 29486 29497 I FontLog : Query [Google Sans:700] resolved to {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-01 05:47:07.365 29486 29497 I FontLog : Fetch {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-01 05:47:07.377 29486 29498 I FontLog : Pulling font file for id = 1082, cache size = 6 [CONTEXT service_id=132 ]

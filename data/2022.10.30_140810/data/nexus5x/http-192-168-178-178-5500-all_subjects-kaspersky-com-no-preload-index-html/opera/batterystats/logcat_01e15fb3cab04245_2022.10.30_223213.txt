@@ -1,0 +1,583 @@
+--------- beginning of system
+10-30 22:31:20.159   772   996 E BatteryStatsService: no controller energy info supplied
+10-30 22:31:57.050   772   996 I ActivityManager: Force stopping com.opera.browser appid=10099 user=0: from pid 18623
+--------- beginning of main
+10-30 22:31:57.059  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+10-30 22:31:57.071  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-30 22:31:57.308   772   996 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x10008000 cmp=com.opera.browser/com.opera.Opera} from uid 2000
+10-30 22:31:57.360   772 32228 I ActivityManager: Start proc 18625:com.opera.browser/u0a99 for activity com.opera.browser/com.opera.Opera
+10-30 22:31:57.522 18625 18625 I LoadedApk: No resource references to update in package com.opera.browser.nord_vpn
+10-30 22:31:57.710 18625 18647 W zygote  : Skipping duplicate class check due to unrecognized classloader
+10-30 22:31:57.733 18625 18660 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config_official_build debugBuild: false
+10-30 22:31:57.814 18625 18625 I PlayCore: UID: [10099]  PID: [18625] SplitInstallHelper : Calling dispatchPackageBroadcast
+10-30 22:31:57.815 18625 18625 I PlayCore: UID: [10099]  PID: [18625] SplitInstallHelper : Called dispatchPackageBroadcast
+10-30 22:31:57.826 18625 18647 W zygote  : Skipping duplicate class check due to unrecognized classloader
+10-30 22:31:57.914   772   781 I zygote64: Background concurrent copying GC freed 116125(6MB) AllocSpace objects, 157(4MB) LOS objects, 42% free, 16MB/29MB, paused 353us total 117.924ms
+10-30 22:31:58.032 18625 18635 I zygote  : Background concurrent copying GC freed 8410(1026KB) AllocSpace objects, 8(160KB) LOS objects, 49% free, 1881KB/3MB, paused 2.614ms total 167.720ms
+10-30 22:31:58.121 18625 18706 I FA      : App measurement initialized, version: 73015
+10-30 22:31:58.121 18625 18706 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+10-30 22:31:58.121 18625 18706 I FA      : To enable faster debug mode event logging run:
+10-30 22:31:58.121 18625 18706 I FA      :   adb shell setprop debug.firebase.analytics.app com.opera.browser
+10-30 22:31:58.243 13542 13542 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-30 22:31:58.243 13542 13542 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-30 22:31:58.251   772 13021 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x10008000 cmp=com.opera.browser/com.opera.android.startup.WelcomeActivity} from uid 10099
+10-30 22:31:58.283   772  4540 W ActivityManager: Duplicate finish request for ActivityRecord{27173c3 u0 com.opera.browser/com.opera.Opera t617 f}
+10-30 22:31:58.299 18625 18706 I FA      : Tag Manager is not found and thus will not be used
+10-30 22:31:58.371 18625 18625 W zygote  : Found duplicate classes, falling back to extracting from APK : /data/app/com.opera.browser-qPSIim2B9fwVMm8IQBnxfg==/base.apk
+10-30 22:31:58.371 18625 18625 W zygote  : NOTE: This wastes RAM and hurts startup performance.
+10-30 22:31:58.371 18625 18625 W zygote  : Found duplicated class when checking oat files: 'LJ/N;' in /data/app/com.opera.browser-qPSIim2B9fwVMm8IQBnxfg==/base.apk and /data/app/com.opera.browser-qPSIim2B9fwVMm8IQBnxfg==/base.apk
+10-30 22:31:58.371 18625 18625 W zygote  : 
+10-30 22:31:58.755   772   788 W ActivityManager: Activity pause timeout for ActivityRecord{27173c3 u0 com.opera.browser/com.opera.Opera t617 f}
+10-30 22:32:00.527 18625 18739 D OpenGLRenderer: HWUI GL Pipeline
+10-30 22:32:00.564 18625 18630 I zygote  : Do partial code cache collection, code=30KB, data=25KB
+10-30 22:32:00.566 18625 18739 I Adreno  : QUALCOMM build                   : 7142022, Ib5823dd10c
+10-30 22:32:00.566 18625 18739 I Adreno  : Build Date                       : 06/23/17
+10-30 22:32:00.566 18625 18739 I Adreno  : OpenGL ES Shader Compiler Version: EV031.18.00.00
+10-30 22:32:00.566 18625 18739 I Adreno  : Local Branch                     : O11A
+10-30 22:32:00.566 18625 18739 I Adreno  : Remote Branch                    : 
+10-30 22:32:00.566 18625 18739 I Adreno  : Remote Branch                    : 
+10-30 22:32:00.566 18625 18739 I Adreno  : Reconstruct Branch               : 
+10-30 22:32:00.569 18625 18739 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8992.so from the current namespace instead.
+10-30 22:32:00.581 18625 18739 I Adreno  : PFP: 0x00000000, ME: 0x00000000
+10-30 22:32:00.584 18625 18630 I zygote  : After code cache collection, code=30KB, data=25KB
+10-30 22:32:00.584 18625 18630 I zygote  : Increasing code cache capacity to 128KB
+10-30 22:32:00.586 18625 18739 I OpenGLRenderer: Initialized EGL, version 1.4
+10-30 22:32:00.586 18625 18739 D OpenGLRenderer: Swap behavior 2
+10-30 22:32:00.595   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.graphics.mapper@2.0::IMapper in either framework or device manifest, using default transport.
+10-30 22:32:00.601 18625 18739 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8992.so from the current namespace instead.
+10-30 22:32:00.652   772   797 I ActivityManager: Displayed com.opera.browser/com.opera.android.startup.WelcomeActivity: +1s887ms (total +46s478ms)
+10-30 22:32:00.668 18625 18630 I zygote  : Do partial code cache collection, code=58KB, data=49KB
+10-30 22:32:00.669 18625 18630 I zygote  : After code cache collection, code=58KB, data=49KB
+10-30 22:32:00.669 18625 18630 I zygote  : Increasing code cache capacity to 256KB
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: Error inserting period=734000 preferred_charging_state=1 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService required_network_type=0 runtime=1667165520718 required_idleness_state=0 source=16 service_kind=0 target_package=com.google.android.gms persistence_level=1 source_version=223616000 last_runtime=0 user_id=0 job_id=-1 requires_charging=0 tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG flex_time=366000 task_type=0 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} [CONTEXT service_id=218 ]
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1474)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1369)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at biel.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):52)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at bide.n(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at bide.u(:com.google.android.gms@223616019@22.36.16 (040400-476895098):20)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at bide.h(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at bhyv.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):9)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+10-30 22:32:00.741  3960 17417 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:764)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: Error inserting period=734000 preferred_charging_state=1 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService required_network_type=0 runtime=1667165520758 required_idleness_state=0 source=16 service_kind=0 target_package=com.google.android.gms persistence_level=1 source_version=223616000 last_runtime=0 user_id=0 job_id=-1 requires_charging=0 tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG flex_time=366000 task_type=0 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} [CONTEXT service_id=218 ]
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1474)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1369)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at biel.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):52)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at bide.n(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at bide.u(:com.google.android.gms@223616019@22.36.16 (040400-476895098):20)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at bide.h(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at bhyv.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):9)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+10-30 22:32:00.762  3960 15898 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:764)
+10-30 22:32:00.774 18625 18759 W chromium: [WARNING:op_site_scripts.cc(424)] Failed to map /data/user/0/com.opera.browser/app_opera/sjs
+10-30 22:32:00.784   772   996 I ActivityManager: Start proc 18765:com.opera.browser:privileged_process0/u0a99 for service com.opera.browser/com.opera.android.browser.chromium.services.PrivilegedProcessService0
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: Error inserting period=733000 preferred_charging_state=1 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService required_network_type=0 runtime=1667165520810 required_idleness_state=0 source=16 service_kind=0 target_package=com.google.android.gms persistence_level=1 source_version=223616000 last_runtime=0 user_id=0 job_id=-1 requires_charging=0 tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG flex_time=366000 task_type=0 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} [CONTEXT service_id=218 ]
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1474)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1369)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at biel.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):52)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at bide.n(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at bide.u(:com.google.android.gms@223616019@22.36.16 (040400-476895098):20)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at bide.h(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at bhyv.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):9)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+10-30 22:32:00.816  3960 18750 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:764)
+10-30 22:32:00.871 18765 18765 I LoadedApk: No resource references to update in package com.opera.browser.nord_vpn
+10-30 22:32:00.913   560   560 I keystore: del USRPKEY_cssk_m 10099
+10-30 22:32:00.914   560   560 I keystore: del USRSKEY_cssk_m 10099
+10-30 22:32:00.914   560   560 I keystore: del USRCERT_cssk_m 10099
+10-30 22:32:00.914   560   560 I keystore: del CACERT_cssk_m 10099
+10-30 22:32:00.916   372   376 D DrmLibTime: got the req here! ret=0
+10-30 22:32:00.916   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 22:32:00.916   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 22:32:00.916   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 22:32:00.916   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 22:32:00.916   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 22:32:00.916   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 22:32:00.916   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 22:32:00.916   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 22:32:00.916   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 22:32:00.916   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 22:32:00.916   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 22:32:00.917   625 18796 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 22:32:00.917   625 18796 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 22:32:00.917   625 18796 D QC-time-services: offset is: 0 for base: 13
+10-30 22:32:00.917   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 22:32:00.917   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 22:32:00.917   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667165520
+10-30 22:32:00.917   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667165520; nsec = 0
+10-30 22:32:00.917   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 22:32:00.917   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 22:32:00.917   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 22:32:00.917   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 22:32:00.957 18765 18792 I Adreno  : QUALCOMM build                   : 7142022, Ib5823dd10c
+10-30 22:32:00.957 18765 18792 I Adreno  : Build Date                       : 06/23/17
+10-30 22:32:00.957 18765 18792 I Adreno  : OpenGL ES Shader Compiler Version: EV031.18.00.00
+10-30 22:32:00.957 18765 18792 I Adreno  : Local Branch                     : O11A
+10-30 22:32:00.957 18765 18792 I Adreno  : Remote Branch                    : 
+10-30 22:32:00.957 18765 18792 I Adreno  : Remote Branch                    : 
+10-30 22:32:00.957 18765 18792 I Adreno  : Reconstruct Branch               : 
+10-30 22:32:00.957 18765 18792 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8992.so from the current namespace instead.
+10-30 22:32:00.961 18765 18792 I Adreno  : PFP: 0x00000000, ME: 0x00000000
+10-30 22:32:00.987   372   376 D DrmLibTime: got the req here! ret=0
+10-30 22:32:00.987   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 22:32:00.987   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 22:32:00.987   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 22:32:00.987   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 22:32:00.987   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 22:32:00.987   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 22:32:00.987   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 22:32:00.987   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 22:32:00.987   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 22:32:00.988   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 22:32:00.988   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 22:32:00.988   625 18803 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 22:32:00.988   625 18803 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 22:32:00.988   625 18803 D QC-time-services: offset is: 0 for base: 13
+10-30 22:32:00.988   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 22:32:00.988   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 22:32:00.988   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667165520
+10-30 22:32:00.988   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667165520; nsec = 0
+10-30 22:32:00.988   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 22:32:00.988   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 22:32:00.988   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 22:32:00.989   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 22:32:00.996 18625 18625 I zygote  : Deoptimizing void aa0.j(float) due to JIT inline cache
+10-30 22:32:01.056  3960  4244 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 22:32:01.057  3960  4244 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 22:32:01.059  3960  4244 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 22:32:01.059 13325 13325 I MemoryTrimmer: Trimming objects from memory, since app is in the background.
+10-30 22:32:01.063 13325 18417 V rsC++   : RS Message thread exiting.
+10-30 22:32:01.064  3960  4245 I FontLog : Pulling font file for id = 975, cache size = 10 [CONTEXT service_id=132 ]
+10-30 22:32:01.075  3960  4244 I FontLog : Pulling font file for id = 975, cache size = 10 [CONTEXT service_id=132 ]
+10-30 22:32:01.084 17730 17730 I PBSessionCacheImpl: Deleted sessionId[5857827177304] from persistence.
+10-30 22:32:01.095 18625 18630 I zygote  : Do full code cache collection, code=127KB, data=91KB
+10-30 22:32:01.096 17730 17730 I MicroDetector: Keeping mic open: false
+10-30 22:32:01.096 17730 17900 I DeviceStateChecker: DeviceStateChecker cancelled
+10-30 22:32:01.096 18625 18630 I zygote  : After code cache collection, code=68KB, data=42KB
+10-30 22:32:01.100 17730 17783 I AudioController: internalShutdown
+10-30 22:32:01.100 17730 17783 I MicrophoneInputStream: mic_close com.google.android.apps.gsa.speech.audio.af@28de95
+10-30 22:32:01.101 17730 18423 I MicroRecognitionRunner: Stopping hotword detection.
+10-30 22:32:01.149   556 18428 D audio_hw_primary: disable_audio_route: usecase(9) reset and update mixer path: audio-record
+10-30 22:32:01.150   556 18428 D audio_hw_primary: disable_snd_device: snd_device(72: voice-rec-mic)
+10-30 22:32:01.152   556 18428 D sound_trigger_platform: platform_stdev_check_and_update_concurrency: concurrency active 0, tx 0, rx 0, concurrency session_allowed 1
+10-30 22:32:01.154   556   753 I SoundTriggerHwService::Module: onCallbackEvent no clients
+10-30 22:32:01.158 17730 17758 I MicroRecognitionRunner: Detection finished
+10-30 22:32:01.255  3960 18750 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+10-30 22:32:01.264  3960 18750 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+10-30 22:32:01.265  3960 18750 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+10-30 22:32:01.348  3960 18750 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+10-30 22:32:01.348  3960 18750 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+10-30 22:32:01.348  3960 18750 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+10-30 22:32:01.920 18625 18630 I zygote  : Do partial code cache collection, code=126KB, data=78KB
+10-30 22:32:01.921 18625 18630 I zygote  : After code cache collection, code=124KB, data=78KB
+10-30 22:32:01.921 18625 18630 I zygote  : Increasing code cache capacity to 512KB
+10-30 22:32:02.016 18625 18625 I zygote  : Deoptimizing void qb0.h(android.graphics.Canvas, android.graphics.Matrix, int) due to JIT inline cache
+10-30 22:32:02.789 18625 18625 I zygote  : Deoptimizing void g57.a() due to JIT inline cache
+10-30 22:32:05.513 18625 18630 I zygote  : Do full code cache collection, code=245KB, data=161KB
+10-30 22:32:05.514 18625 18630 I zygote  : After code cache collection, code=196KB, data=119KB
+10-30 22:32:05.607 18625 18625 I PlayCore: UID: [10099]  PID: [18625] AppUpdateListenerRegistry : registerListener
+10-30 22:32:05.608 18625 18625 I PlayCore: UID: [10099]  PID: [18625] AppUpdateService : requestUpdateInfo(com.opera.browser)
+10-30 22:32:05.612 18625 18864 I PlayCore: UID: [10099]  PID: [18625] AppUpdateService : Initiate binding to the service.
+10-30 22:32:05.614   772  1327 W ActivityManager: Unable to start service Intent { act=com.google.android.play.core.install.BIND_UPDATE_SERVICE pkg=com.android.vending } U=0: not found
+10-30 22:32:05.614 18625 18864 I PlayCore: UID: [10099]  PID: [18625] AppUpdateService : Failed to bind to the service.
+10-30 22:32:06.131 17730 17758 I EventLogSendingHelper: Sending log events.
+10-30 22:32:07.406 17730 17730 E WorkerRegistryImpl: getWorker() is called after WorkerRegistry disposal.
+10-30 22:32:07.407 17730 17730 E WorkerRegistryImpl: getWorker() is called after WorkerRegistry disposal.
+10-30 22:32:07.419 17730 17730 I MemoryTrimmer: Trimming objects from memory, since app is in the background.
+10-30 22:32:08.225 18875 18875 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 22:32:08.370 18875 18875 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-30 22:32:08.394 18875 18875 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=484026640, downTime=484026640, deviceId=8, source=0x1002 }
+10-30 22:32:08.405 18875 18875 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=484026640, downTime=484026640, deviceId=8, source=0x1002 }
+10-30 22:32:08.410 18875 18875 D AndroidRuntime: Shutting down VM
+10-30 22:32:08.448   556  6498 D audio_hw_primary: enable_snd_device: snd_device(88: vi-feedback)
+10-30 22:32:08.448   556  6498 D audio_hw_primary: enable_audio_route: usecase(23) apply and update mixer path: spkr-vi-record
+10-30 22:32:08.483   556  6498 D audio_hw_primary: enable_audio_route: usecase(1) apply and update mixer path: low-latency-playback
+10-30 22:32:09.015   556   731 D audio_hw_primary: disable_audio_route: usecase(1) reset and update mixer path: low-latency-playback
+10-30 22:32:09.031   556   731 D audio_hw_primary: disable_snd_device: snd_device(88: vi-feedback)
+10-30 22:32:09.031   556   731 D audio_hw_primary: disable_audio_route: usecase(23) reset and update mixer path: spkr-vi-record
+10-30 22:32:09.883 18894 18894 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 22:32:10.049 18894 18894 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-30 22:32:10.065 18894 18894 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=484028328, downTime=484028328, deviceId=8, source=0x1002 }
+10-30 22:32:10.073 18894 18894 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=484028328, downTime=484028328, deviceId=8, source=0x1002 }
+10-30 22:32:10.077 18894 18894 D AndroidRuntime: Shutting down VM
+10-30 22:32:10.090   556  6498 D audio_hw_primary: enable_snd_device: snd_device(88: vi-feedback)
+10-30 22:32:10.090   556  6498 D audio_hw_primary: enable_audio_route: usecase(23) apply and update mixer path: spkr-vi-record
+10-30 22:32:10.115   556  6498 D audio_hw_primary: enable_audio_route: usecase(1) apply and update mixer path: low-latency-playback
+10-30 22:32:10.640   556   731 D audio_hw_primary: disable_audio_route: usecase(1) reset and update mixer path: low-latency-playback
+10-30 22:32:10.654   556   731 D audio_hw_primary: disable_snd_device: snd_device(88: vi-feedback)
+10-30 22:32:10.655   556   731 D audio_hw_primary: disable_audio_route: usecase(23) reset and update mixer path: spkr-vi-record
+10-30 22:32:10.861 13542 13542 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-30 22:32:11.508 18913 18913 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 22:32:11.645 18913 18913 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-30 22:32:11.663 18913 18913 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=484029927, downTime=484029927, deviceId=8, source=0x1002 }
+10-30 22:32:11.669 18913 18913 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=484029927, downTime=484029927, deviceId=8, source=0x1002 }
+10-30 22:32:11.672 18913 18913 D AndroidRuntime: Shutting down VM
+10-30 22:32:11.684   556  6498 D audio_hw_primary: enable_snd_device: snd_device(88: vi-feedback)
+10-30 22:32:11.684   556  6498 D audio_hw_primary: enable_audio_route: usecase(23) apply and update mixer path: spkr-vi-record
+10-30 22:32:11.711   556  6498 D audio_hw_primary: enable_audio_route: usecase(1) apply and update mixer path: low-latency-playback
+10-30 22:32:11.727 18625 18625 I zygote  : Deoptimizing boolean ry5.e(android.graphics.RectF) due to JIT inline cache
+10-30 22:32:11.744 18625 18630 I zygote  : Do partial code cache collection, code=252KB, data=166KB
+10-30 22:32:11.745 18625 18630 I zygote  : After code cache collection, code=251KB, data=166KB
+10-30 22:32:11.745 18625 18630 I zygote  : Increasing code cache capacity to 1024KB
+10-30 22:32:12.235   556   731 D audio_hw_primary: disable_audio_route: usecase(1) reset and update mixer path: low-latency-playback
+10-30 22:32:12.250   556   731 D audio_hw_primary: disable_snd_device: snd_device(88: vi-feedback)
+10-30 22:32:12.250   556   731 D audio_hw_primary: disable_audio_route: usecase(23) reset and update mixer path: spkr-vi-record
+10-30 22:32:12.507 18625 18625 I zygote  : Deoptimizing void rk3.invalidateSelf() due to JIT inline cache
+10-30 22:32:14.213 18929 18929 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 22:32:14.366 18929 18929 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-30 22:32:14.392 18929 18929 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=800.0, y[0]=1730.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=484032650, downTime=484032650, deviceId=8, source=0x1002 }
+10-30 22:32:14.398 18929 18929 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=800.0, y[0]=1730.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=484032650, downTime=484032650, deviceId=8, source=0x1002 }
+10-30 22:32:14.400 18929 18929 D AndroidRuntime: Shutting down VM
+10-30 22:32:14.423   556  6498 D audio_hw_primary: enable_snd_device: snd_device(88: vi-feedback)
+10-30 22:32:14.423   556  6498 D audio_hw_primary: enable_audio_route: usecase(23) apply and update mixer path: spkr-vi-record
+10-30 22:32:14.427   772 10895 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x1000000 cmp=com.opera.browser/com.opera.android.IntentDispatcherActivity} from uid 10099
+10-30 22:32:14.447   556  6498 D audio_hw_primary: enable_audio_route: usecase(1) apply and update mixer path: low-latency-playback
+10-30 22:32:14.465   772 13021 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x15002000 cmp=com.opera.browser/com.opera.android.BrowserActivity} from uid 10099
+10-30 22:32:14.475 13325 13387 I Adreno  : QUALCOMM build                   : 7142022, Ib5823dd10c
+10-30 22:32:14.475 13325 13387 I Adreno  : Build Date                       : 06/23/17
+10-30 22:32:14.475 13325 13387 I Adreno  : OpenGL ES Shader Compiler Version: EV031.18.00.00
+10-30 22:32:14.475 13325 13387 I Adreno  : Local Branch                     : O11A
+10-30 22:32:14.475 13325 13387 I Adreno  : Remote Branch                    : 
+10-30 22:32:14.475 13325 13387 I Adreno  : Remote Branch                    : 
+10-30 22:32:14.475 13325 13387 I Adreno  : Reconstruct Branch               : 
+10-30 22:32:14.477 13325 13387 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib64/hw/gralloc.msm8992.so from the current namespace instead.
+10-30 22:32:14.478 13325 13387 I Adreno  : PFP: 0x00000000, ME: 0x00000000
+10-30 22:32:14.480 13325 13387 I OpenGLRenderer: Initialized EGL, version 1.4
+10-30 22:32:14.480 13325 13387 D OpenGLRenderer: Swap behavior 2
+10-30 22:32:14.488 13542 13542 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-30 22:32:14.488 13542 13542 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-30 22:32:14.493 13325 13325 W SearchServiceClient: Starting with NO_SESSION handoverId is deprecated. Just don't. You will break.
+10-30 22:32:14.579 13325 13325 I MemoryTrimmer: Trimming objects from memory, since app is in the background.
+10-30 22:32:14.585 13325 18955 V rsC++   : RS Message thread exiting.
+10-30 22:32:14.594 18625 18625 I zygote  : Deoptimizing int jz.f(vf7, int, int[]) due to JIT inline cache
+10-30 22:32:14.807   772   797 I ActivityManager: Displayed com.opera.browser/com.opera.android.BrowserActivity: +284ms (total +355ms)
+10-30 22:32:14.812   772 13021 E BatteryStatsService: no controller energy info supplied
+10-30 22:32:14.812   772 13021 E BatteryStatsService: no controller energy info supplied
+10-30 22:32:14.827 18625 18739 D OpenGLRenderer: endAllActiveAnimators on 0xbeb39280 (RippleDrawable) with handle 0xbdbf3380
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: Error inserting period=705000 preferred_charging_state=1 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService required_network_type=0 runtime=1667165534860 required_idleness_state=0 source=16 service_kind=0 target_package=com.google.android.gms persistence_level=1 source_version=223616000 last_runtime=0 user_id=0 job_id=-1 requires_charging=0 tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG flex_time=352000 task_type=0 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} [CONTEXT service_id=218 ]
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1474)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1369)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at biel.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):52)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at bide.n(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at bide.u(:com.google.android.gms@223616019@22.36.16 (040400-476895098):20)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at bide.h(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at bhyv.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):9)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+10-30 22:32:14.864  3960 17417 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:764)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: Error inserting period=705000 preferred_charging_state=1 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService required_network_type=0 runtime=1667165534887 required_idleness_state=0 source=16 service_kind=0 target_package=com.google.android.gms persistence_level=1 source_version=223616000 last_runtime=0 user_id=0 job_id=-1 requires_charging=0 tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG flex_time=352000 task_type=0 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} [CONTEXT service_id=218 ]
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1474)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1369)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at biel.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):52)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at bide.n(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at bide.u(:com.google.android.gms@223616019@22.36.16 (040400-476895098):20)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at bide.h(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at bhyv.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):9)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+10-30 22:32:14.893  3960 18750 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:764)
+10-30 22:32:14.976 18625 18630 I zygote  : Do full code cache collection, code=339KB, data=239KB
+10-30 22:32:14.977 18625 18630 I zygote  : After code cache collection, code=233KB, data=138KB
+10-30 22:32:14.977   556   731 D audio_hw_primary: disable_audio_route: usecase(1) reset and update mixer path: low-latency-playback
+10-30 22:32:14.990   556   731 D audio_hw_primary: disable_snd_device: snd_device(88: vi-feedback)
+10-30 22:32:14.990   556   731 D audio_hw_primary: disable_audio_route: usecase(23) reset and update mixer path: spkr-vi-record
+10-30 22:32:15.041 18625 18959 E [Leanplum][ERROR]: No variable values were received from the server. Please contact us to investigate.
+10-30 22:32:15.164 18625 18635 I zygote  : Background concurrent copying GC freed 56905(3MB) AllocSpace objects, 28(560KB) LOS objects, 49% free, 5MB/11MB, paused 1.187ms total 109.718ms
+10-30 22:32:15.223 18625 18625 I zygote  : Deoptimizing void com.opera.android.theme.d.<init>(com.opera.android.theme.a$c, android.view.View) due to JIT same target
+10-30 22:32:15.230 18625 18625 I zygote  : Deoptimizing android.graphics.drawable.Drawable androidx.appcompat.widget.ResourceManagerInternal.b(android.content.Context, int) due to JIT inline cache
+10-30 22:32:15.233 18625 18625 I zygote  : Deoptimizing android.util.TypedValue jz.d(android.content.Context) due to JIT inline cache
+10-30 22:32:15.298 18625 18630 I zygote  : Compiler allocated 5MB to compile void com.opera.android.BrowserActivity.P0(com.opera.android.BrowserActivity)
+10-30 22:32:15.376 18625 18625 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+10-30 22:32:15.428 18625 18644 I zygote  : Deoptimizing boolean q85.d(long) due to JIT inline cache
+10-30 22:32:15.510 18625 18625 W View    : requestLayout() improperly called by com.opera.android.custom_views.FadingRecyclerView{8b87b61 VFED.V... ......ID 0,753-1080,753 #7f0a0825 app:id/suggested_dials_grid} during layout: running second layout pass
+10-30 22:32:16.112   423   423 D SurfaceFlinger: duplicate layer name: changing com.opera.browser/com.opera.android.BrowserActivity to com.opera.browser/com.opera.android.BrowserActivity#1
+10-30 22:32:16.118   772 32228 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://192.168.178.178:5500/... flg=0x10000000 cmp=com.opera.browser/com.opera.Opera} from uid 2000
+10-30 22:32:16.390   372   376 D DrmLibTime: got the req here! ret=0
+10-30 22:32:16.390   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 22:32:16.390   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 22:32:16.390   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 22:32:16.390   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 22:32:16.390   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 22:32:16.390   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 22:32:16.390   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 22:32:16.390   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 22:32:16.390   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 22:32:16.391   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 22:32:16.391   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 22:32:16.391   625 19090 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 22:32:16.391   625 19090 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 22:32:16.391   625 19090 D QC-time-services: offset is: 0 for base: 13
+10-30 22:32:16.391   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 22:32:16.391   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 22:32:16.391   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667165536
+10-30 22:32:16.391   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667165536; nsec = 0
+10-30 22:32:16.391   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 22:32:16.391   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 22:32:16.391   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 22:32:16.392   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 22:32:16.410   372   376 D DrmLibTime: got the req here! ret=0
+10-30 22:32:16.410   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 22:32:16.410   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 22:32:16.410   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 22:32:16.410   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 22:32:16.410   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 22:32:16.410   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 22:32:16.410   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 22:32:16.410   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 22:32:16.410   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 22:32:16.411   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 22:32:16.411   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 22:32:16.411   625 19091 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 22:32:16.411   625 19091 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 22:32:16.411   625 19091 D QC-time-services: offset is: 0 for base: 13
+10-30 22:32:16.411   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 22:32:16.411   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 22:32:16.411   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667165536
+10-30 22:32:16.411   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667165536; nsec = 0
+10-30 22:32:16.411   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 22:32:16.411   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 22:32:16.411   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 22:32:16.411   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 22:32:16.427   372   376 D DrmLibTime: got the req here! ret=0
+10-30 22:32:16.427   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 22:32:16.427   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 22:32:16.427   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 22:32:16.427   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 22:32:16.427   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 22:32:16.427   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 22:32:16.427   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 22:32:16.427   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 22:32:16.427   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 22:32:16.427   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 22:32:16.427   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 22:32:16.428   625 19092 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 22:32:16.428   625 19092 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 22:32:16.428   625 19092 D QC-time-services: offset is: 0 for base: 13
+10-30 22:32:16.428   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 22:32:16.428   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 22:32:16.428   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667165536
+10-30 22:32:16.428   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667165536; nsec = 0
+10-30 22:32:16.428   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 22:32:16.428   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 22:32:16.428   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 22:32:16.428   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 22:32:16.556   772  4540 I ActivityManager: Start proc 19102:com.opera.browser:sandboxed_process0/u0a99 for service com.opera.browser/com.opera.android.browser.chromium.services.SandboxedProcessService0
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: Error inserting period=702000 preferred_charging_state=1 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService required_network_type=0 runtime=1667165536576 required_idleness_state=0 source=16 service_kind=0 target_package=com.google.android.gms persistence_level=1 source_version=223616000 last_runtime=0 user_id=0 job_id=-1 requires_charging=0 tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG flex_time=350000 task_type=0 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} [CONTEXT service_id=218 ]
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1474)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1369)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at biel.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):52)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at bide.n(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at bide.u(:com.google.android.gms@223616019@22.36.16 (040400-476895098):20)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at bide.h(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at bhyv.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):9)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+10-30 22:32:16.584  3960 19110 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:764)
+10-30 22:32:16.646 19102 19102 I LoadedApk: No resource references to update in package com.opera.browser.nord_vpn
+10-30 22:32:16.673 18625 19046 I zygote  : Deoptimizing void um4.d4(nm0, long) due to JIT inline cache
+10-30 22:32:16.751   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.graphics.mapper@2.0::IMapper in either framework or device manifest, using default transport.
+10-30 22:32:16.755 18765 18792 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8992.so from the current namespace instead.
+10-30 22:32:16.832  3960  6244 I FontLog : Received query name=Google Sans&weight=700&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 22:32:16.834  3960  6244 I FontLog : Query [name=Google Sans&weight=700&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 22:32:16.840  3960  6244 I FontLog : Fetch {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 22:32:16.844  3960  4151 I FontLog : Pulling font file for id = 976, cache size = 9 [CONTEXT service_id=132 ]
+10-30 22:32:16.849  3960  3971 I FontLog : Received query name=Noto Color Emoji Compat&weight=400&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 22:32:16.850  3960  3971 I FontLog : Query [name=Noto Color Emoji Compat&weight=400&besteffort=false] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 22:32:16.852  3960  3971 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 22:32:16.858  3960  6244 I FontLog : Pulling font file for id = 977, cache size = 10 [CONTEXT service_id=132 ]
+10-30 22:32:16.864 18625 18635 I zygote  : Background concurrent copying GC freed 74182(4MB) AllocSpace objects, 36(1496KB) LOS objects, 49% free, 7MB/14MB, paused 975us total 119.488ms
+10-30 22:32:16.871  3960  3972 I FontLog : Received query name=Google Sans&weight=400&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 22:32:16.872  3960  3972 I FontLog : Query [name=Google Sans&weight=400&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 22:32:16.874  3960  3972 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 22:32:16.874  3960  3972 I FontLog : Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 22:32:16.886  3960  4245 I FontLog : Pulling font file for id = 978, cache size = 9 [CONTEXT service_id=132 ]
+10-30 22:32:16.910  3960  6244 I FontLog : Received query name=Google Sans&weight=500&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 22:32:16.910  3960  6244 I FontLog : Query [name=Google Sans&weight=500&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 22:32:16.912  3960  6244 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 22:32:16.912  3960  6244 I FontLog : Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 22:32:16.924  3960  4151 I FontLog : Pulling font file for id = 979, cache size = 10 [CONTEXT service_id=132 ]
+10-30 22:32:17.072   423   423 D SurfaceFlinger: duplicate layer name: changing com.opera.browser/com.opera.android.BrowserActivity to com.opera.browser/com.opera.android.BrowserActivity#1
+10-30 22:32:17.115 18625 18625 I zygote  : Deoptimizing boolean p73.a(java.util.Collection, java.util.Iterator) due to JIT same target
+10-30 22:32:17.135 18625 18630 I zygote  : Do partial code cache collection, code=507KB, data=350KB
+10-30 22:32:17.142 18625 18630 I zygote  : After code cache collection, code=498KB, data=345KB
+10-30 22:32:17.142 18625 18630 I zygote  : Increasing code cache capacity to 2MB
+10-30 22:32:17.303 18625 18625 I zygote  : Deoptimizing void yn3.<init>(yn3$b) due to JIT inline cache
+10-30 22:32:17.356 18625 18635 I zygote  : Background concurrent copying GC freed 120943(5MB) AllocSpace objects, 31(1588KB) LOS objects, 49% free, 10MB/20MB, paused 2.742ms total 141.675ms
+10-30 22:32:17.835 18625 18637 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+10-30 22:32:17.835 18765 18779 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+10-30 22:32:17.835 19102 19117 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+10-30 22:32:17.848   556   687 E Parcel  : Reading a NULL string not supported here.
+10-30 22:32:17.848   556   687 W Parcel  : **** enforceInterface() expected 'IAAudioService' but read ''
+10-30 22:32:17.849   360   360 E SELinux : avc:  denied  { find } for service=android.service.gatekeeper.IGateKeeperService pid=19156 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:gatekeeper_service:s0 tclass=service_manager
+10-30 22:32:17.850   360   360 E SELinux : avc:  denied  { find } for service=netd pid=19156 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:netd_service:s0 tclass=service_manager
+10-30 22:32:17.853 19156 19156 W atrace  : type=1400 audit(0.0:10956): avc: denied { call } for scontext=u:r:shell:s0 tcontext=u:r:wificond:s0 tclass=binder permissive=0
+10-30 22:32:17.857   360   360 E SELinux : avc:  denied  { find } for service=installd pid=19156 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:installd_service:s0 tclass=service_manager
+10-30 22:32:17.862   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.displayservice::IDisplayService pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_display_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.862   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.schedulerservice::ISchedulingPolicyService pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_scheduler_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.863   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.sensorservice::ISensorManager pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_sensor_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.864   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.biometrics.fingerprint::IBiometricsFingerprint pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:hal_fingerprint_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.866   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.dumpstate::IDumpstateDevice pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:hal_dumpstate_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.868   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio.deprecated::IOemHook pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.868   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio::IRadio pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.870   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio::ISap pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.871   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.usb::IUsb pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:hal_usb_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.871   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.wifi.supplicant::ISupplicant pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:hal_wifi_supplicant_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.872   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.wifi::IWifi pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:hal_wifi_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.873   361   361 E SELinux : avc:  denied  { find } for interface=android.hidl.base::IBase pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:hidl_base_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.873   361   361 I chatty  : uid=1000(system) hwservicemanage identical 1 line
+10-30 22:32:17.874   361   361 E SELinux : avc:  denied  { find } for interface=android.hidl.base::IBase pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:hidl_base_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:17.876   361   361 E SELinux : avc:  denied  { find } for interface=android.system.wifi.keystore::IKeystore pid=19156 scontext=u:r:shell:s0 tcontext=u:object_r:system_wifi_keystore_hwservice:s0 tclass=hwservice_manager
+10-30 22:32:19.923 18625 18625 I zygote  : Deoptimizing int zd3.b(android.view.View) due to JIT inline cache
+10-30 22:32:26.586 13542 13542 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-30 22:33:04.455   772  3854 D WificondControl: Scan result ready event
+10-30 22:33:04.516  3960  4244 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-30 22:33:21.967   772   785 I ActivityManager: Force stopping com.opera.browser appid=10099 user=0: from pid 19222
+10-30 22:33:21.968   772   785 I ActivityManager: Killing 18765:com.opera.browser:privileged_process0/u0a99 (adj 0): stop com.opera.browser
+10-30 22:33:21.968   772   785 W ActivityManager: Scheduling restart of crashed service com.opera.browser/com.opera.android.browser.chromium.services.PrivilegedProcessService0 in 1000ms
+10-30 22:33:21.988   772   785 I ActivityManager: Killing 18625:com.opera.browser/u0a99 (adj 0): stop com.opera.browser
+10-30 22:33:21.993   772   785 W ActivityManager: Force removing ActivityRecord{9e7b73c u0 com.opera.browser/com.opera.android.BrowserActivity t617}: app died, no saved state
+10-30 22:33:22.005 19102 19102 I zygote  : System.exit called, status: 0
+10-30 22:33:22.005 19102 19102 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+10-30 22:33:22.050   772  3086 I OpenGLRenderer: Initialized EGL, version 1.4
+10-30 22:33:22.050   772  3086 D OpenGLRenderer: Swap behavior 2
+10-30 22:33:22.064   772   785 I ActivityManager: Killing 19102:com.opera.browser:sandboxed_process0/u0a99 (adj 0): stop com.opera.browser
+10-30 22:33:22.087  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+10-30 22:33:22.098  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-30 22:33:22.102   772  2969 D WindowManager: relayoutVisibleWindow: Window{87fb20c u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL EXITING} mAnimatingExit=true, mRemoveOnExit=false, mDestroying=true
+10-30 22:33:22.115   772   845 W InputDispatcher: channel '84c6c17 com.opera.browser/com.opera.android.BrowserActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+10-30 22:33:22.115   772  1259 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=1471, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ], android.os.BinderProxy@c09984)
+10-30 22:33:22.115   772   845 E InputDispatcher: channel '84c6c17 com.opera.browser/com.opera.android.BrowserActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+10-30 22:33:22.115   772 10893 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=1470, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ], android.os.BinderProxy@dfc56d)
+10-30 22:33:22.116   772   845 W InputDispatcher: channel '6d33663 com.opera.browser/com.opera.android.BrowserActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+10-30 22:33:22.116   772   845 E InputDispatcher: channel '6d33663 com.opera.browser/com.opera.android.BrowserActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+10-30 22:33:22.116   772   862 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=1471, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+10-30 22:33:22.117   772   862 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=1470, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+10-30 22:33:22.124   772 13071 I WindowManager: WIN DEATH: Window{6d33663 u0 com.opera.browser/com.opera.android.BrowserActivity}
+10-30 22:33:22.124   772 13071 W InputDispatcher: Attempted to unregister already unregistered input channel '6d33663 com.opera.browser/com.opera.android.BrowserActivity (server)'
+10-30 22:33:22.125 13325 13387 I Adreno  : QUALCOMM build                   : 7142022, Ib5823dd10c
+10-30 22:33:22.125 13325 13387 I Adreno  : Build Date                       : 06/23/17
+10-30 22:33:22.125 13325 13387 I Adreno  : OpenGL ES Shader Compiler Version: EV031.18.00.00
+10-30 22:33:22.125 13325 13387 I Adreno  : Local Branch                     : O11A
+10-30 22:33:22.125 13325 13387 I Adreno  : Remote Branch                    : 
+10-30 22:33:22.125 13325 13387 I Adreno  : Remote Branch                    : 
+10-30 22:33:22.125 13325 13387 I Adreno  : Reconstruct Branch               : 
+10-30 22:33:22.127 13325 13387 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib64/hw/gralloc.msm8992.so from the current namespace instead.
+10-30 22:33:22.132   772 13071 W InputDispatcher: Attempted to unregister already unregistered input channel '84c6c17 com.opera.browser/com.opera.android.BrowserActivity (server)'
+10-30 22:33:22.134 13325 13387 I Adreno  : PFP: 0x00000000, ME: 0x00000000
+10-30 22:33:22.136   423   899 E SurfaceFlinger: Failed to find layer (com.opera.browser/com.opera.android.BrowserActivity#0) in layer parent (no-parent).
+10-30 22:33:22.137 13325 13387 I OpenGLRenderer: Initialized EGL, version 1.4
+10-30 22:33:22.138 13325 13387 D OpenGLRenderer: Swap behavior 2
+10-30 22:33:22.145   772  3854 W WindowManager: Failed looking up window callers=com.android.server.wm.WindowManagerService.windowForClientLocked:5700 com.android.server.wm.WindowState$DeathRecipient.binderDied:2279 android.os.BinderProxy.sendDeathNotice:828 
+10-30 22:33:22.145   772  3854 I WindowManager: WIN DEATH: null
+10-30 22:33:22.164   772   797 W ActivityManager: setHasOverlayUi called on unknown pid: 18625
+10-30 22:33:22.180   772  1259 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.speech.service.START pkg=com.google.android.gms } U=0: not found
+10-30 22:33:22.181   772 13021 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@6c18f20
+10-30 22:33:22.181 17730 17895 E GmsClient: unable to connect to service: com.google.android.gms.speech.service.START on com.google.android.gms
+10-30 22:33:22.207 17730 17778 W SessionLifecycleManager: Handover failed. Creating new session controller.
+10-30 22:33:22.210 17730 17730 I OptInState: There is a new client and it does not support opt-in. Dropping request.
+10-30 22:33:22.228 17730 17730 I MicroDetectionWorker: #updateMicroDetector [detectionMode: [mDetectionMode: [1]]]
+10-30 22:33:22.228 17730 17730 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+10-30 22:33:22.233 17730 17730 I MicroDetectionWorker: onReady
+10-30 22:33:22.240 17730 17754 I MicroRecognitionRunner: Starting detection.
+10-30 22:33:22.243 17730 17783 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.speech.audio.af@7c30445
+10-30 22:33:22.244   556   687 W DeviceHAL: Device 0xefa2d000 open_input_stream: Invalid argument
+10-30 22:33:22.245   556 19236 I AudioFlinger: AudioFlinger's thread 0xec907080 tid=19236 ready to run
+10-30 22:33:22.252   556   753 I SoundTriggerHwService::Module: onCallbackEvent no clients
+10-30 22:33:22.253 17730 17783 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.speech.audio.af@7c30445
+10-30 22:33:22.257   556 19237 D sound_trigger_platform: platform_stdev_check_and_update_concurrency: concurrency active 0, tx 1, rx 0, concurrency session_allowed 0
+10-30 22:33:22.257   556 19237 D audio_hw_primary: enable_snd_device: snd_device(72: voice-rec-mic)
+10-30 22:33:22.267   556 19237 D audio_hw_primary: enable_audio_route: usecase(9) apply and update mixer path: audio-record
+10-30 22:33:22.334 17730 17730 I MicroDetectionWorker: onReady
+10-30 22:33:22.491 19226 19226 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 22:33:22.618 19226 19226 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+10-30 22:33:22.630   772 20193 I ActivityManager: Force stopping com.opera.browser appid=10099 user=0: clear data
+10-30 22:33:22.632   772   788 I ActivityManager: Force stopping com.opera.browser appid=10099 user=-1: clearApplicationUserData
+10-30 22:33:22.674 13325 13387 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+10-30 22:33:22.725   560   560 I keystore: clear_uid 10099
+10-30 22:33:22.768  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+10-30 22:33:22.772   772   787 W ResourceType: No known package when getting value for resource number 0x7f100007
+10-30 22:33:22.772   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090c
+10-30 22:33:22.772   772   787 W ResourceType: No known package when getting value for resource number 0x7f100005
+10-30 22:33:22.772   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090a
+10-30 22:33:22.772   772   787 W ResourceType: No known package when getting value for resource number 0x7f100004
+10-30 22:33:22.772   772   787 W ResourceType: No known package when getting value for resource number 0x7f130909
+10-30 22:33:22.772   772   787 W ResourceType: No known package when getting value for resource number 0x7f100006
+10-30 22:33:22.772   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090b
+10-30 22:33:22.774 19226 19226 I app_process: System.exit called, status: 0
+10-30 22:33:22.774 19226 19226 I AndroidRuntime: VM exiting with result code 0.
+10-30 22:33:22.783  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-30 22:33:22.822  3960 19256 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_DATA_CLEARED [CONTEXT service_id=17 ]
+10-30 22:33:22.866 13542 13646 I Icing   : doRemovePackageData com.opera.browser
+10-30 22:33:23.120   772 10860 I ActivityManager: Force stopping com.opera.browser appid=10099 user=0: from pid 19279
+10-30 22:33:23.126  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+10-30 22:33:23.142  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-30 22:33:23.583 19281 19281 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 22:33:23.745 19281 19281 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+10-30 22:33:23.774   772  1324 I ActivityManager: Force stopping com.opera.browser appid=10099 user=0: clear data
+10-30 22:33:23.778   772   788 I ActivityManager: Force stopping com.opera.browser appid=10099 user=-1: clearApplicationUserData
+10-30 22:33:23.781   560   560 I keystore: clear_uid 10099
+10-30 22:33:23.833  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+10-30 22:33:23.836 19281 19281 I app_process: System.exit called, status: 0
+10-30 22:33:23.836 19281 19281 I AndroidRuntime: VM exiting with result code 0.
+10-30 22:33:23.837   772   787 W ResourceType: No known package when getting value for resource number 0x7f100007
+10-30 22:33:23.837   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090c
+10-30 22:33:23.837   772   787 W ResourceType: No known package when getting value for resource number 0x7f100005
+10-30 22:33:23.837   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090a
+10-30 22:33:23.837   772   787 W ResourceType: No known package when getting value for resource number 0x7f100004
+10-30 22:33:23.837   772   787 W ResourceType: No known package when getting value for resource number 0x7f130909
+10-30 22:33:23.838   772   787 W ResourceType: No known package when getting value for resource number 0x7f100006
+10-30 22:33:23.838   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090b
+10-30 22:33:23.863  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-30 22:33:23.884  3960 19255 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_DATA_CLEARED [CONTEXT service_id=17 ]
+10-30 22:33:23.908 13542 13646 I Icing   : doRemovePackageData com.opera.browser

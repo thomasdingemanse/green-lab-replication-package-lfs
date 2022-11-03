@@ -1,0 +1,54 @@
+Battery History (0% used, 448 used of 256KB, 13 strings using 948):
+                    0 (10) RESET:TIME: 2022-10-31-18-37-17
+                    0 (1) 100 status=charging health=good plug=none temp=342 volt=4351 charge=2679 +running +wake_lock +wifi_radio +phone_scanning +screen phone_state=out +wifi_running +wifi wifi_signal_strength=3 wifi_suppl=completed
+                    0 (2) 100 top=u0a60:"com.android.chrome"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +18ms (2) 100 stats=0:"dump"
+               +785ms (2) 100 stats=0:"remove-uid"
+               +806ms (2) 100 stats=0:"remove-uid"
+               +827ms (2) 100 stats=0:"remove-uid"
+               +857ms (2) 100 stats=0:"remove-uid"
+               +866ms (2) 100 stats=0:"remove-uid"
+               +960ms (2) 100 stats=0:"remove-uid"
+               +976ms (2) 100 stats=0:"remove-uid"
+               +982ms (2) 100 stats=0:"remove-uid"
+             +1s482ms (2) 100 stats=0:"remove-uid"
+             +1s975ms (2) 100 stats=0:"remove-uid"
+             +2s014ms (2) 100 stats=0:"remove-uid"
+             +2s207ms (2) 100 stats=0:"remove-uid"
+             +2s220ms (2) 100 stats=0:"remove-uid"
+             +2s229ms (2) 100 stats=0:"remove-uid"
+             +2s237ms (2) 100 stats=0:"remove-uid"
+             +2s243ms (2) 100 stats=0:"remove-uid"
+             +2s268ms (2) 100 stats=0:"remove-uid"
+             +5s854ms (2) 100 +job=u0a60:"com.android.chrome/org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService"
+             +5s876ms (2) 100 -job=u0a60:"com.android.chrome/org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService"
+            +21s133ms (2) 100 +job=u0a99:"com.opera.browser.ping.provider/com.opera.browser.ping/com.opera.browser:android"
+            +21s141ms (2) 100 -job=u0a99:"com.opera.browser.ping.provider/com.opera.browser.ping/com.opera.browser:android"
+            +24s093ms (2) 100 +wifi_scan -wifi_radio wifi_suppl=disconn stats=0:"wifi-state"
+            +24s252ms (2) 100 conn=1:"DISCONNECTED"
+            +24s266ms (2) 100 stats=0:"wifi-data: inactive"
+            +28s172ms (1) 100 -wifi_scan wifi_suppl=associating
+            +28s397ms (1) 100 wifi_suppl=associated
+            +28s399ms (1) 100 wifi_suppl=4-way-handshake
+            +28s419ms (1) 100 wifi_suppl=group-handshake
+            +28s462ms (1) 100 wifi_suppl=completed
+            +33s706ms (2) 100 +tmpwhitelist=u0a20:"broadcast:u0a20:com.google.android.intent.action.GCM_RECONNECT"
+            +33s754ms (2) 100 +wifi_radio stats=0:"wifi-state"
+            +33s928ms (2) 100 stats=0:"wifi-data: active"
+            +33s935ms (2) 100 conn=1:"CONNECTED"
+            +43s712ms (2) 100 -tmpwhitelist=u0a20:"broadcast:u0a20:com.google.android.intent.action.GCM_RECONNECT"
+            +44s781ms (1) 100 +wifi_scan
+            +45s120ms (1) 100 -wifi_scan
+            +55s149ms (2) 100 stats=0:"remove-uid"
+            +57s245ms (2) 100 stats=0:"remove-uid"
+            +59s589ms (2) 100 stats=0:"remove-uid"
+          +1m02s241ms (2) 100 stats=0:"remove-uid"
+          +1m04s889ms (1) 100 +wifi_scan
+          +1m05s250ms (2) 100 -wifi_scan stats=0:"remove-uid"
+          +1m06s976ms (2) 100 -top=u0a60:"com.android.chrome"
+          +1m06s976ms (2) 100 +top=u0a45:"com.google.android.googlequicksearchbox"
+          +1m07s067ms (2) 100 stats=0:"remove-uid"
+          +1m07s079ms (3) 100 +audio stats=0:"remove-uid"
+          +1m12s448ms (2) 100 stats=0:"dump"

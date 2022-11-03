@@ -1,0 +1,717 @@
+--------- beginning of system
+11-01 07:48:38.810   772  1324 I ActivityManager: Force stopping com.opera.browser appid=10099 user=0: from pid 31469
+11-01 07:48:38.811   772  1324 I ActivityManager: Killing 29730:com.opera.browser/u0a99 (adj 900): stop com.opera.browser
+--------- beginning of main
+11-01 07:48:38.824  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+11-01 07:48:38.835   772  2889 V KeyValueBackupJob: Scheduling k/v pass in 241 minutes
+11-01 07:48:38.841  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+11-01 07:48:39.069   772  1324 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x10008000 cmp=com.opera.browser/com.opera.Opera} from uid 2000
+11-01 07:48:39.102   772  1324 I ActivityManager: Start proc 31472:com.opera.browser/u0a99 for activity com.opera.browser/com.opera.Opera
+11-01 07:48:39.189 31472 31472 I LoadedApk: No resource references to update in package com.opera.browser.nord_vpn
+11-01 07:48:39.273 31472 31482 I zygote  : Background concurrent copying GC freed 4297(1127KB) AllocSpace objects, 4(80KB) LOS objects, 68% free, 712KB/2MB, paused 5.448ms total 30.816ms
+11-01 07:48:39.279 31472 31494 W zygote  : Skipping duplicate class check due to unrecognized classloader
+11-01 07:48:39.347 31472 31494 W zygote  : Skipping duplicate class check due to unrecognized classloader
+11-01 07:48:39.398 31472 31472 I PlayCore: UID: [10099]  PID: [31472] SplitInstallHelper : Calling dispatchPackageBroadcast
+11-01 07:48:39.399 31472 31472 I PlayCore: UID: [10099]  PID: [31472] SplitInstallHelper : Called dispatchPackageBroadcast
+11-01 07:48:39.458   772   781 I zygote64: Background concurrent copying GC freed 59402(3MB) AllocSpace objects, 74(2MB) LOS objects, 42% free, 17MB/29MB, paused 330us total 101.899ms
+11-01 07:48:39.463 31472 31558 I FA      : App measurement initialized, version: 73015
+11-01 07:48:39.463 31472 31558 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-01 07:48:39.463 31472 31558 I FA      : To enable faster debug mode event logging run:
+11-01 07:48:39.463 31472 31558 I FA      :   adb shell setprop debug.firebase.analytics.app com.opera.browser
+11-01 07:48:39.558 29692 29692 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-01 07:48:39.558 29692 29692 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-01 07:48:39.639   772   788 W ActivityManager: Activity pause timeout for ActivityRecord{52b12e7 u0 com.opera.browser/com.opera.Opera t982}
+11-01 07:48:39.920   772  1324 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x10008000 cmp=com.opera.browser/com.opera.android.startup.WelcomeActivity} from uid 10099
+11-01 07:48:39.940   423   423 D SurfaceFlinger: duplicate layer name: changing Splash Screen com.opera.browser to Splash Screen com.opera.browser#1
+11-01 07:48:39.967   772  2969 W ActivityManager: Duplicate finish request for ActivityRecord{52b12e7 u0 com.opera.browser/com.opera.Opera t982 f}
+11-01 07:48:39.999 31472 31472 W zygote  : Found duplicate classes, falling back to extracting from APK : /data/app/com.opera.browser-qPSIim2B9fwVMm8IQBnxfg==/base.apk
+11-01 07:48:39.999 31472 31472 W zygote  : NOTE: This wastes RAM and hurts startup performance.
+11-01 07:48:39.999 31472 31472 W zygote  : Found duplicated class when checking oat files: 'LJ/N;' in /data/app/com.opera.browser-qPSIim2B9fwVMm8IQBnxfg==/base.apk and /data/app/com.opera.browser-qPSIim2B9fwVMm8IQBnxfg==/base.apk
+11-01 07:48:39.999 31472 31472 W zygote  : 
+11-01 07:48:40.045 31472 31482 I zygote  : Background concurrent copying GC freed 15999(1874KB) AllocSpace objects, 10(200KB) LOS objects, 52% free, 1375KB/2MB, paused 10.498ms total 45.285ms
+11-01 07:48:40.438   772   788 W ActivityManager: Activity pause timeout for ActivityRecord{6f98e60 u0 com.opera.browser/com.opera.android.startup.WelcomeActivity t982}
+11-01 07:48:42.087   772 10860 D WificondControl: Scan result ready event
+11-01 07:48:42.143 29486 29498 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+11-01 07:48:42.341 31472 31573 D OpenGLRenderer: HWUI GL Pipeline
+11-01 07:48:42.400 31472 31477 I zygote  : Do partial code cache collection, code=30KB, data=25KB
+11-01 07:48:42.400 31472 31477 I zygote  : After code cache collection, code=30KB, data=25KB
+11-01 07:48:42.400 31472 31477 I zygote  : Increasing code cache capacity to 128KB
+11-01 07:48:42.413 31472 31558 I FA      : Tag Manager is not found and thus will not be used
+11-01 07:48:42.478 31472 31477 I zygote  : Do partial code cache collection, code=58KB, data=49KB
+11-01 07:48:42.478 31472 31477 I zygote  : After code cache collection, code=58KB, data=49KB
+11-01 07:48:42.478 31472 31477 I zygote  : Increasing code cache capacity to 256KB
+11-01 07:48:42.630   772   866 D NotificationSQLiteLog: Pruned event entries: 53
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: Error inserting period=30000 preferred_charging_state=1 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService required_network_type=0 runtime=1667285322730 required_idleness_state=0 source=16 service_kind=0 target_package=com.google.android.gms persistence_level=1 source_version=223616000 last_runtime=0 user_id=0 job_id=-1 requires_charging=0 tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG flex_time=14000 task_type=0 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} [CONTEXT service_id=218 ]
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1474)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1369)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at biel.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):52)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at bide.n(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at bide.u(:com.google.android.gms@223616019@22.36.16 (040400-476895098):20)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at bide.h(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at bhyv.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):9)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 07:48:42.740 29486 31354 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:764)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: Error inserting period=30000 preferred_charging_state=1 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService required_network_type=0 runtime=1667285322754 required_idleness_state=0 source=16 service_kind=0 target_package=com.google.android.gms persistence_level=1 source_version=223616000 last_runtime=0 user_id=0 job_id=-1 requires_charging=0 tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG flex_time=14000 task_type=0 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} [CONTEXT service_id=218 ]
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1474)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1369)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at biel.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):52)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at bide.n(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at bide.u(:com.google.android.gms@223616019@22.36.16 (040400-476895098):20)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at bide.h(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at bhyv.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):9)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 07:48:42.767 29486 29084 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:764)
+11-01 07:48:42.893   772 10860 I ActivityManager: Start proc 31605:com.opera.browser:privileged_process0/u0a99 for service com.opera.browser/com.opera.android.browser.chromium.services.PrivilegedProcessService0
+11-01 07:48:42.935 31472 31599 W chromium: [WARNING:op_site_scripts.cc(424)] Failed to map /data/user/0/com.opera.browser/app_opera/sjs
+11-01 07:48:42.957 31605 31605 I LoadedApk: No resource references to update in package com.opera.browser.nord_vpn
+11-01 07:48:43.059 31605 31621 I Adreno  : QUALCOMM build                   : 7142022, Ib5823dd10c
+11-01 07:48:43.059 31605 31621 I Adreno  : Build Date                       : 06/23/17
+11-01 07:48:43.059 31605 31621 I Adreno  : OpenGL ES Shader Compiler Version: EV031.18.00.00
+11-01 07:48:43.059 31605 31621 I Adreno  : Local Branch                     : O11A
+11-01 07:48:43.059 31605 31621 I Adreno  : Remote Branch                    : 
+11-01 07:48:43.059 31605 31621 I Adreno  : Remote Branch                    : 
+11-01 07:48:43.059 31605 31621 I Adreno  : Reconstruct Branch               : 
+11-01 07:48:43.061 31605 31621 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8992.so from the current namespace instead.
+11-01 07:48:43.069 31605 31621 I Adreno  : PFP: 0x00000000, ME: 0x00000000
+11-01 07:48:43.077   560   560 I keystore: del USRPKEY_cssk_m 10099
+11-01 07:48:43.078   560   560 I keystore: del USRSKEY_cssk_m 10099
+11-01 07:48:43.079   560   560 I keystore: del USRCERT_cssk_m 10099
+11-01 07:48:43.079   560   560 I keystore: del CACERT_cssk_m 10099
+11-01 07:48:43.083   372   376 D DrmLibTime: got the req here! ret=0
+11-01 07:48:43.083   372   376 D DrmLibTime: command id, time_cmd_id = 770
+11-01 07:48:43.083   372   376 D DrmLibTime: time_getutcsec starts!
+11-01 07:48:43.083   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+11-01 07:48:43.083   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+11-01 07:48:43.083   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+11-01 07:48:43.083   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+11-01 07:48:43.083   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+11-01 07:48:43.083   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+11-01 07:48:43.083   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+11-01 07:48:43.083   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+11-01 07:48:43.084   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+11-01 07:48:43.084   625 31637 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+11-01 07:48:43.084   625 31637 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+11-01 07:48:43.084   625 31637 D QC-time-services: offset is: 0 for base: 13
+11-01 07:48:43.084   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+11-01 07:48:43.084   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+11-01 07:48:43.084   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667285323
+11-01 07:48:43.084   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667285323; nsec = 0
+11-01 07:48:43.084   372   376 D DrmLibTime: time_getutcsec finished! 
+11-01 07:48:43.084   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+11-01 07:48:43.084   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+11-01 07:48:43.085   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+11-01 07:48:43.132 31472 31472 I Choreographer: Skipped 39 frames!  The application may be doing too much work on its main thread.
+11-01 07:48:43.164   372   376 D DrmLibTime: got the req here! ret=0
+11-01 07:48:43.164   372   376 D DrmLibTime: command id, time_cmd_id = 770
+11-01 07:48:43.164   372   376 D DrmLibTime: time_getutcsec starts!
+11-01 07:48:43.164   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+11-01 07:48:43.164   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+11-01 07:48:43.164   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+11-01 07:48:43.164   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+11-01 07:48:43.164   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+11-01 07:48:43.164   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+11-01 07:48:43.164   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+11-01 07:48:43.165   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+11-01 07:48:43.165   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+11-01 07:48:43.165   625 31650 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+11-01 07:48:43.166   625 31650 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+11-01 07:48:43.166   625 31650 D QC-time-services: offset is: 0 for base: 13
+11-01 07:48:43.166   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+11-01 07:48:43.167   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+11-01 07:48:43.167   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667285323
+11-01 07:48:43.167   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667285323; nsec = 0
+11-01 07:48:43.167   372   376 D DrmLibTime: time_getutcsec finished! 
+11-01 07:48:43.167   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+11-01 07:48:43.167   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+11-01 07:48:43.172   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+11-01 07:48:43.183 29486 29497 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+11-01 07:48:43.183 29486 29497 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+11-01 07:48:43.203 29486 29497 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+11-01 07:48:43.223 29486 29651 I FontLog : Pulling font file for id = 1092, cache size = 8 [CONTEXT service_id=132 ]
+11-01 07:48:43.240 29486 17541 I FontLog : Pulling font file for id = 1092, cache size = 8 [CONTEXT service_id=132 ]
+11-01 07:48:43.362 31472 31594 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config_official_build debugBuild: false
+11-01 07:48:44.561 31472 31477 I zygote  : Do full code cache collection, code=126KB, data=104KB
+11-01 07:48:44.562 31472 31477 I zygote  : After code cache collection, code=68KB, data=50KB
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: Error inserting period=26000 preferred_charging_state=1 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService required_network_type=0 runtime=1667285324629 required_idleness_state=0 source=16 service_kind=0 target_package=com.google.android.gms persistence_level=1 source_version=223616000 last_runtime=0 user_id=0 job_id=-1 requires_charging=0 tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG flex_time=12000 task_type=0 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} [CONTEXT service_id=218 ]
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1474)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1369)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at biel.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):52)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at bide.n(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at bide.u(:com.google.android.gms@223616019@22.36.16 (040400-476895098):20)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at bide.h(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at bhyv.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):9)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 07:48:44.632 29486 30922 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:764)
+11-01 07:48:47.069   772   799 I PowerManagerService: Going to sleep due to screen timeout (uid 1000)...
+11-01 07:48:47.587   772   799 I DisplayPowerController: Blocking screen off
+11-01 07:48:47.598   772   799 I DisplayPowerController: Unblocked screen off after 11 ms
+11-01 07:48:47.628   772   797 I DisplayManagerService: Display device changed state: "Built-in Screen", OFF
+11-01 07:48:47.628   423   423 D SurfaceFlinger: Set power mode=0, type=0 flinger=0x70b325e000
+11-01 07:48:47.628   772   799 I DreamManagerService: Entering dreamland.
+11-01 07:48:47.629   772   799 I PowerManagerService: Dozing...
+11-01 07:48:47.634   772   830 W LocalDisplayAdapter: Unable to find color mode 0, ignoring request.
+11-01 07:48:47.636 29486 29486 I NearbyDiscovery: FastPairDisplayObserver: STATE_ON -> STATE_OFF [CONTEXT service_id=265 ]
+11-01 07:48:47.637   772   795 I DreamController: Starting dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isTest=false, canDoze=true, userId=0
+11-01 07:48:47.639   423   423 D qdhwcomposer: hwc_setPowerMode: Setting mode 0 on display: 0
+11-01 07:48:47.642   772   846 I InputReader: Reconfiguring input devices.  changes=0x00000004
+11-01 07:48:47.646 29486 30891 I NearbyDiscovery: FastPairScanner: isScreenOn=false, scanWithScreenOff=false, isLocationEnabled=false, disableLocationRequirement=false, isDiscoveryScanningEnabled=true, during24GhzWifiWarmingUpPeriod=false [CONTEXT service_id=265 ]
+11-01 07:48:47.647 29486 30891 D BluetoothAdapter: isLeEnabled(): OFF
+11-01 07:48:47.648 29486 30891 I NearbyDiscovery: FastPairScanner: eventType=SCREEN_OFF_FROM_DISPLAY_OBSERVER, intReq=false, scanning=false, scanAllowed=false, bleEnabled=false, bleScanAvailable=true, lockScanRate=false [CONTEXT service_id=265 ]
+11-01 07:48:47.751   423   483 I qdhwcomposer: handle_blank_event: dpy:0 panel power state: 0
+11-01 07:48:47.753   423   423 D qdhwcomposer: hwc_setPowerMode: Done setting mode 0 on display 0
+11-01 07:48:47.754   772   892 D SurfaceControl: Excessive delay in setPowerMode(): 125ms
+11-01 07:48:47.771   926   926 D StatusBar: disable<e i a s b H R c s q >
+11-01 07:48:47.828  2964  3128 E NxpTml  : _i2c_write() errno : 5
+11-01 07:48:47.828  2964  3128 E NxpTml  : PN54X - Error in I2C Write.....
+11-01 07:48:47.828  2964  3130 E NxpHal  : write error status = 0x1ff
+11-01 07:48:47.828  2964  3108 E NxpHal  : write_unlocked failed - PN54X Maybe in Standby Mode - Retry
+11-01 07:48:47.829  2964  3128 E NxpTml  : _i2c_write() errno : 5
+11-01 07:48:47.829  2964  3128 E NxpTml  : PN54X - Error in I2C Write.....
+11-01 07:48:47.830  2964  3130 E NxpHal  : write error status = 0x1ff
+11-01 07:48:47.830  2964  3108 E NxpHal  : write_unlocked failed - PN54X Maybe in Standby Mode - Retry
+11-01 07:48:47.855 29486 29723 I NearbySharing: Screen is locked [CONTEXT service_id=194 ]
+11-01 07:48:47.855 29486 29723 I NearbySharing: Failed to stop scanning because weren't scanning. [CONTEXT service_id=194 ]
+11-01 07:48:47.855 29486 29723 I NearbySharing: Stopping discovery because the screen is locked. [CONTEXT service_id=194 ]
+11-01 07:48:47.856 29486 29723 I NearbySharing: Can't stop advertising FastInitiation. Not advertising. [CONTEXT service_id=194 ]
+11-01 07:48:47.856 29486 29723 I NearbySharing: Stopping Fast Init advertisement because Bluetooth is off. [CONTEXT service_id=194 ]
+11-01 07:48:47.856 29486 29723 I NearbySharing: Stopping advertising because the screen is locked. [CONTEXT service_id=194 ]
+11-01 07:48:47.856 29486 29723 I NearbySharing: Stopping FastInitiation scanning because the screen is locked. [CONTEXT service_id=194 ]
+11-01 07:48:47.857 29486 29723 I NearbySharing: Can't stop scanning for FastInitiation. Not scanning. [CONTEXT service_id=194 ]
+11-01 07:48:47.857 29486 29723 I NearbySharing: Cancelling in use notification [CONTEXT service_id=194 ]
+11-01 07:48:47.859 29486 29723 I NearbySharing: Fast Initiation Scanning has stopped [CONTEXT service_id=194 ]
+11-01 07:48:47.860 29486 29723 I NearbySharing: Dismissing HUN as there's no device nearby. [CONTEXT service_id=194 ]
+11-01 07:48:47.861 29486 29723 I NearbySharing: Cancelling in use notification [CONTEXT service_id=194 ]
+11-01 07:48:47.892 29486 30891 I NearbyDiscovery: FastPairHandler: Received action android.intent.action.SCREEN_OFF [CONTEXT service_id=265 ]
+11-01 07:48:47.895 29486 30891 I NearbyDiscovery: FastPairScanner: isScreenOn=false, scanWithScreenOff=false, isLocationEnabled=false, disableLocationRequirement=false, isDiscoveryScanningEnabled=true, during24GhzWifiWarmingUpPeriod=false [CONTEXT service_id=265 ]
+11-01 07:48:47.896 29486 30891 D BluetoothAdapter: isLeEnabled(): OFF
+11-01 07:48:47.897 29486 30891 I NearbyDiscovery: FastPairScanner: eventType=SCREEN_OFF, intReq=false, scanning=false, scanAllowed=false, bleEnabled=false, bleScanAvailable=true, lockScanRate=false [CONTEXT service_id=265 ]
+11-01 07:48:50.012 31703 31703 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-01 07:48:50.147 31703 31703 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-01 07:48:50.154 31703 31703 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=603828416, downTime=603828416, deviceId=8, source=0x1002 }
+11-01 07:48:50.155 31703 31703 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=603828416, downTime=603828416, deviceId=8, source=0x1002 }
+11-01 07:48:50.157 31703 31703 D AndroidRuntime: Shutting down VM
+11-01 07:48:51.695 31713 31713 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-01 07:48:51.849 31713 31713 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-01 07:48:51.868 31713 31713 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=603830118, downTime=603830118, deviceId=8, source=0x1002 }
+11-01 07:48:51.869 31713 31713 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=603830118, downTime=603830118, deviceId=8, source=0x1002 }
+11-01 07:48:51.871 31713 31713 D AndroidRuntime: Shutting down VM
+11-01 07:48:53.388 31723 31723 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-01 07:48:53.538 31723 31723 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-01 07:48:53.555 31723 31723 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=603831807, downTime=603831807, deviceId=8, source=0x1002 }
+11-01 07:48:53.557 31723 31723 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=980.0, y[0]=150.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=603831807, downTime=603831807, deviceId=8, source=0x1002 }
+11-01 07:48:53.559 31723 31723 D AndroidRuntime: Shutting down VM
+11-01 07:48:54.613 29692 29692 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-01 07:48:56.075 31733 31733 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-01 07:48:56.232 31733 31733 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-01 07:48:56.243 31733 31733 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=800.0, y[0]=1730.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=603834501, downTime=603834501, deviceId=8, source=0x1002 }
+11-01 07:48:56.245 31733 31733 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=800.0, y[0]=1730.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=603834501, downTime=603834501, deviceId=8, source=0x1002 }
+11-01 07:48:56.247 31733 31733 D AndroidRuntime: Shutting down VM
+11-01 07:48:56.644   772 10860 E BatteryStatsService: no controller energy info supplied
+11-01 07:48:56.644   772 10860 E BatteryStatsService: no controller energy info supplied
+11-01 07:48:57.971   772  4540 I ActivityManager: Killing 30772:android.process.acore/u0a0 (adj 904): empty for 5776s
+11-01 07:48:57.975   772   996 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://192.168.178.178:5500/... flg=0x10000000 cmp=com.opera.browser/com.opera.Opera} from uid 2000
+11-01 07:48:57.987   772   996 W LocalDisplayAdapter: Unable to find color mode 0, ignoring request.
+11-01 07:48:57.993   772   846 I InputReader: Reconfiguring input devices.  changes=0x00000004
+11-01 07:48:58.020   772 20193 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://192.168.178.178:5500/... flg=0x10000000 cmp=com.opera.browser/com.opera.android.startup.WelcomeActivity} from uid 10099
+11-01 07:48:58.032   772  2970 W ActivityManager: Duplicate finish request for ActivityRecord{91c6847 u0 com.opera.browser/com.opera.Opera t982 f}
+11-01 07:48:58.086 29692 29692 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-01 07:48:58.086 29692 29692 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: Error inserting period=7200000 preferred_charging_state=1 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService required_network_type=0 runtime=1667285338191 required_idleness_state=0 source=16 service_kind=0 target_package=com.google.android.gms persistence_level=1 source_version=223616000 last_runtime=0 user_id=0 job_id=-1 requires_charging=0 tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG flex_time=3599000 task_type=0 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} [CONTEXT service_id=218 ]
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1474)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1369)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at biel.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):52)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at bide.n(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at bide.u(:com.google.android.gms@223616019@22.36.16 (040400-476895098):20)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at bide.h(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at bhyv.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):9)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 07:48:58.196 29486 30922 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:764)
+11-01 07:48:58.419 31381 31393 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 07:48:58.419 31605 31617 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 07:48:58.420 31472 31622 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 07:48:58.421 31242 31342 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 07:48:58.423 31262 31293 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 07:48:58.424 31288 31303 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+11-01 07:48:58.427   556  7524 E Parcel  : Reading a NULL string not supported here.
+11-01 07:48:58.427   556  7524 W Parcel  : **** enforceInterface() expected 'IAAudioService' but read ''
+11-01 07:48:58.428 31805 31805 W atrace  : type=1400 audit(0.0:20646): avc: denied { call } for scontext=u:r:shell:s0 tcontext=u:r:wificond:s0 tclass=binder permissive=0
+11-01 07:48:58.428   360   360 E SELinux : avc:  denied  { find } for service=android.service.gatekeeper.IGateKeeperService pid=31805 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:gatekeeper_service:s0 tclass=service_manager
+11-01 07:48:58.428   360   360 E SELinux : avc:  denied  { find } for service=netd pid=31805 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:netd_service:s0 tclass=service_manager
+11-01 07:48:58.433   360   360 E SELinux : avc:  denied  { find } for service=installd pid=31805 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:installd_service:s0 tclass=service_manager
+11-01 07:48:58.437   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.displayservice::IDisplayService pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_display_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.437   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.schedulerservice::ISchedulingPolicyService pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_scheduler_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.438   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.sensorservice::ISensorManager pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_sensor_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.438   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.biometrics.fingerprint::IBiometricsFingerprint pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:hal_fingerprint_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.439   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.dumpstate::IDumpstateDevice pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:hal_dumpstate_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.440   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio.deprecated::IOemHook pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.440   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio::IRadio pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.441   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio::ISap pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.441   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.usb::IUsb pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:hal_usb_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.441   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.wifi.supplicant::ISupplicant pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:hal_wifi_supplicant_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.442   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.wifi::IWifi pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:hal_wifi_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.443   361   361 E SELinux : avc:  denied  { find } for interface=android.hidl.base::IBase pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:hidl_base_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.443   361   361 I chatty  : uid=1000(system) hwservicemanage identical 1 line
+11-01 07:48:58.443   361   361 E SELinux : avc:  denied  { find } for interface=android.hidl.base::IBase pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:hidl_base_hwservice:s0 tclass=hwservice_manager
+11-01 07:48:58.444   361   361 E SELinux : avc:  denied  { find } for interface=android.system.wifi.keystore::IKeystore pid=31805 scontext=u:r:shell:s0 tcontext=u:object_r:system_wifi_keystore_hwservice:s0 tclass=hwservice_manager
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: Error inserting period=7196000 preferred_charging_state=1 preferred_network_type=1 target_class=com.google.android.gms.measurement.PackageMeasurementTaskService required_network_type=0 runtime=1667285340245 required_idleness_state=0 source=16 service_kind=0 target_package=com.google.android.gms persistence_level=1 source_version=223616000 last_runtime=0 user_id=0 job_id=-1 requires_charging=0 tag=Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG flex_time=3597000 task_type=0 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} [CONTEXT service_id=218 ]
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1474)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at android.database.sqlite.SQLiteDatabase.insertOrThrow(SQLiteDatabase.java:1369)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at biel.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):52)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at bide.n(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at bide.u(:com.google.android.gms@223616019@22.36.16 (040400-476895098):20)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at bide.h(:com.google.android.gms@223616019@22.36.16 (040400-476895098):3)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at bhyv.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):9)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 07:49:00.253 29486 31354 W NetworkScheduler: 	at java.lang.Thread.run(Thread.java:764)
+11-01 07:49:10.213 29692 29692 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-01 07:49:13.271   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 07:49:48.670   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 07:50:03.730   772   784 I ActivityManager: Force stopping com.opera.browser appid=10099 user=0: from pid 31822
+11-01 07:50:03.731   772   784 I ActivityManager: Killing 31605:com.opera.browser:privileged_process0/u0a99 (adj 0): stop com.opera.browser
+11-01 07:50:03.732   772   784 W ActivityManager: Scheduling restart of crashed service com.opera.browser/com.opera.android.browser.chromium.services.PrivilegedProcessService0 in 1000ms
+11-01 07:50:03.737   772   784 I ActivityManager: Killing 31472:com.opera.browser/u0a99 (adj 0): stop com.opera.browser
+11-01 07:50:03.744   772   784 I ActivityManager:   Force finishing activity ActivityRecord{6f98e60 u0 com.opera.browser/com.opera.android.startup.WelcomeActivity t982}
+11-01 07:50:03.749   772   784 I ActivityManager:   Force finishing activity ActivityRecord{6f98e60 u0 com.opera.browser/com.opera.android.startup.WelcomeActivity t982 f}
+11-01 07:50:03.749   772   784 W ActivityManager: Duplicate finish request for ActivityRecord{6f98e60 u0 com.opera.browser/com.opera.android.startup.WelcomeActivity t982 f}
+11-01 07:50:03.762  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+11-01 07:50:03.775  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+11-01 07:50:03.822   772  3041 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=2439, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ], android.os.BinderProxy@e60f6be)
+11-01 07:50:03.823   772   797 W ActivityManager: setHasOverlayUi called on unknown pid: 31472
+11-01 07:50:03.823   772   862 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=2439, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+11-01 07:50:04.373 31824 31824 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-01 07:50:04.801 31824 31824 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+11-01 07:50:04.832   772  2970 I ActivityManager: Force stopping com.opera.browser appid=10099 user=0: clear data
+11-01 07:50:04.834   772   788 I ActivityManager: Force stopping com.opera.browser appid=10099 user=-1: clearApplicationUserData
+11-01 07:50:04.900   560   560 I keystore: clear_uid 10099
+11-01 07:50:04.965  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+11-01 07:50:04.972 31824 31824 I app_process: System.exit called, status: 0
+11-01 07:50:04.972 31824 31824 I AndroidRuntime: VM exiting with result code 0.
+11-01 07:50:04.978   772   787 W ResourceType: No known package when getting value for resource number 0x7f100007
+11-01 07:50:04.978   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090c
+11-01 07:50:04.978   772   787 W ResourceType: No known package when getting value for resource number 0x7f100005
+11-01 07:50:04.978   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090a
+11-01 07:50:04.978   772   787 W ResourceType: No known package when getting value for resource number 0x7f100004
+11-01 07:50:04.978   772   787 W ResourceType: No known package when getting value for resource number 0x7f130909
+11-01 07:50:04.979   772   787 W ResourceType: No known package when getting value for resource number 0x7f100006
+11-01 07:50:04.979   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090b
+11-01 07:50:04.990  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+11-01 07:50:05.050 29486 31847 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_DATA_CLEARED [CONTEXT service_id=17 ]
+11-01 07:50:05.089 29692 30898 I Icing   : doRemovePackageData com.opera.browser
+11-01 07:50:05.336   772 29404 I ActivityManager: Force stopping com.opera.browser appid=10099 user=0: from pid 31867
+11-01 07:50:05.343  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+11-01 07:50:05.357  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+11-01 07:50:05.807 31869 31869 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-01 07:50:05.957 31869 31869 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+11-01 07:50:05.972   772 10895 I ActivityManager: Force stopping com.opera.browser appid=10099 user=0: clear data
+11-01 07:50:05.976   772   788 I ActivityManager: Force stopping com.opera.browser appid=10099 user=-1: clearApplicationUserData
+11-01 07:50:05.979   560   560 I keystore: clear_uid 10099
+11-01 07:50:06.022  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+11-01 07:50:06.031 31869 31869 I app_process: System.exit called, status: 0
+11-01 07:50:06.031 31869 31869 I AndroidRuntime: VM exiting with result code 0.
+11-01 07:50:06.035   772   787 W ResourceType: No known package when getting value for resource number 0x7f100007
+11-01 07:50:06.035   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090c
+11-01 07:50:06.035   772   787 W ResourceType: No known package when getting value for resource number 0x7f100005
+11-01 07:50:06.035   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090a
+11-01 07:50:06.036   772   787 W ResourceType: No known package when getting value for resource number 0x7f100004
+11-01 07:50:06.036   772   787 W ResourceType: No known package when getting value for resource number 0x7f130909
+11-01 07:50:06.036   772   787 W ResourceType: No known package when getting value for resource number 0x7f100006
+11-01 07:50:06.036   772   787 W ResourceType: No known package when getting value for resource number 0x7f13090b
+11-01 07:50:06.049  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+11-01 07:50:06.088 29486 31846 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_DATA_CLEARED [CONTEXT service_id=17 ]
+11-01 07:50:06.090 29692 30898 I Icing   : doRemovePackageData com.opera.browser
+11-01 07:50:18.869   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 07:51:47.789 29486 31354 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.accountstate.GcmTaskService started execution. cause:4 exec_start_elapsed_seconds: 1161561 [CONTEXT service_id=218 ]
+11-01 07:51:47.793 29486 31887 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.accountstate.GcmTaskService finished executing. cause:4 result: 1 elapsed_millis: 91 uptime_millis: 90 exec_start_elapsed_seconds: 1161561 [CONTEXT service_id=218 ]
+11-01 07:51:47.809   772   781 I zygote64: Background concurrent copying GC freed 101478(4MB) AllocSpace objects, 64(1360KB) LOS objects, 42% free, 17MB/30MB, paused 405us total 111.512ms
+11-01 07:51:47.944 29486 31354 I LockboxService: Completed task: true [CONTEXT service_id=26 ]
+11-01 07:51:47.992 29486 30891 I NearbyDiscovery: FastPair: isDestroyable: Scanner is alive. [CONTEXT service_id=265 ]
+11-01 07:51:47.992 29486 30891 I NearbyDiscovery: DiscoveryService: Skip stopSelf(), fast pair controller is not destroyable. [CONTEXT service_id=265 ]
+11-01 07:52:04.339   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 07:54:25.774 29486 31887 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 07:54:25.787   772   791 I chatty  : uid=1000(system) batterystats-sy identical 8 lines
+11-01 07:54:43.773   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 07:56:48.173   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 07:57:03.242   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 07:59:40.437   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:00:16.065 29486 31894 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 08:00:16.084   772   791 I chatty  : uid=1000(system) batterystats-sy identical 2 lines
+11-01 08:00:31.296   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:02:39.425   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:02:54.443   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:05:03.204   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:05:10.569   606   606 E LocSvc_launcher: E/sig_handler_alrm:95]: Received SIGALRM
+11-01 08:05:10.569   606   606 E LocSvc_launcher: E/Parent woken up! Interrupted system call
+11-01 08:05:03.205   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:05:16.994   772   772 I EntropyMixer: Added HW RNG output to entropy pool
+11-01 08:05:16.995   772   772 I EntropyMixer: Writing entropy...
+11-01 08:06:06.321 29486 31893 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 08:06:06.332   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:06:56.158   772   791 I chatty  : uid=1000(system) batterystats-sy identical 2 lines
+11-01 08:07:11.195   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:08:28.541   772   787 I UsageStatsService: User[0] Flushing usage stats to disk
+11-01 08:09:23.708   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:09:38.760   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:11:18.510   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:11:56.529 29486 31910 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 08:13:50.054   772   791 I chatty  : uid=1000(system) batterystats-sy identical 6 lines
+11-01 08:14:05.109   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:15:20.684   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:15:35.721   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:17:17.209   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:17:46.725 29486 31910 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 08:17:46.737   772   791 I chatty  : uid=1000(system) batterystats-sy identical 2 lines
+11-01 08:18:02.283   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:19:28.385   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:19:43.404   772   791 I chatty  : uid=1000(system) batterystats-sy identical 1 line
+11-01 08:20:32.903   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:20:45.423   772  3041 I ActivityManager: Killing 31262:android.process.media/u0a15 (adj 902): empty for 1929s
+11-01 08:20:47.940   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:21:58.776 29486 31929 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.EventLogService started execution. cause:11 exec_start_elapsed_seconds: 1163372 [CONTEXT service_id=218 ]
+11-01 08:21:58.783 29692 30897 I Checkin : [EventLogChimeraService] Opted in for usage reporting: false
+11-01 08:21:58.784 29692 30897 I Checkin : [EventLogChimeraService] Aggregate from 1667285315870 (log), 1667285315870 (data)
+11-01 08:21:58.876   772   788 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-01 08:21:58.877   772   788 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-01 08:21:58.915 29692 30897 I Checkin : [ServiceDumpSys] dumping service [account]
+11-01 08:21:58.923   772   788 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-01 08:21:58.925   772   788 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-01 08:21:58.927 29486 31910 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.EventLogService finished executing. cause:11 result: 1 elapsed_millis: 173 uptime_millis: 173 exec_start_elapsed_seconds: 1163372 [CONTEXT service_id=218 ]
+11-01 08:21:59.004 29486 31929 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.common.stats.net.NetworkReportService started execution. cause:5 exec_start_elapsed_seconds: 1163373 [CONTEXT service_id=218 ]
+11-01 08:21:59.012 29692 29692 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+11-01 08:21:59.012 29692 29692 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+11-01 08:21:59.030 29692 29692 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+11-01 08:21:59.035 29486 31910 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService started execution. cause:5 exec_start_elapsed_seconds: 1163373 [CONTEXT service_id=218 ]
+11-01 08:21:59.040 29692 29692 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+11-01 08:21:59.040 29692 29692 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+11-01 08:21:59.047 29692 29692 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+11-01 08:21:59.139 29486 31929 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService finished executing. cause:5 result: 1 elapsed_millis: 124 uptime_millis: 125 exec_start_elapsed_seconds: 1163373 [CONTEXT service_id=218 ]
+11-01 08:21:59.202 29486 31893 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService started execution. cause:5 exec_start_elapsed_seconds: 1163373 [CONTEXT service_id=218 ]
+11-01 08:21:59.345   772   781 I zygote64: Background concurrent copying GC freed 130493(5MB) AllocSpace objects, 106(2MB) LOS objects, 42% free, 17MB/30MB, paused 322us total 112.426ms
+11-01 08:21:59.421   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:21:59.911 29486 31910 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService finished executing. cause:5 result: 1 elapsed_millis: 729 uptime_millis: 729 exec_start_elapsed_seconds: 1163373 [CONTEXT service_id=218 ]
+11-01 08:21:59.984 29486 31928 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.mdi.download.service.MddGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 1163374 [CONTEXT service_id=218 ]
+11-01 08:22:00.060 29486 31910 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.mdi.download.service.MddGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 98 uptime_millis: 99 exec_start_elapsed_seconds: 1163374 [CONTEXT service_id=218 ]
+11-01 08:22:00.141 29486 31928 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.mdi.download.service.MddGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 1163374 [CONTEXT service_id=218 ]
+11-01 08:22:00.185 29486 31910 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.mdi.download.service.MddGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 71 uptime_millis: 71 exec_start_elapsed_seconds: 1163374 [CONTEXT service_id=218 ]
+11-01 08:22:00.264 29486 31928 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.mdi.download.service.MddGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 1163374 [CONTEXT service_id=218 ]
+11-01 08:22:00.287 29486 31910 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.mdi.download.service.MddGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 50 uptime_millis: 50 exec_start_elapsed_seconds: 1163374 [CONTEXT service_id=218 ]
+11-01 08:22:00.360 29486 31928 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.security.snet.SnetNormalTaskService started execution. cause:5 exec_start_elapsed_seconds: 1163374 [CONTEXT service_id=218 ]
+11-01 08:22:00.376 29486 31910 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.security.snet.SnetNormalTaskService finished executing. cause:5 result: 1 elapsed_millis: 42 uptime_millis: 43 exec_start_elapsed_seconds: 1163374 [CONTEXT service_id=218 ]
+11-01 08:22:00.715 29486 31928 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.common.stats.net.NetworkReportService finished executing. cause:5 result: 1 elapsed_millis: 1732 uptime_millis: 1731 exec_start_elapsed_seconds: 1163373 [CONTEXT service_id=218 ]
+11-01 08:23:37.045 29486 31910 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 08:23:37.060   772   791 I chatty  : uid=1000(system) batterystats-sy identical 4 lines
+11-01 08:23:52.576   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:27:51.575   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:29:27.401 29486 31894 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 08:28:06.816   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:29:27.420   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:30:30.610   772   791 I chatty  : uid=1000(system) batterystats-sy identical 2 lines
+11-01 08:30:45.640   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:33:47.326   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:34:03.193   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:35:03.209   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:35:17.675 29486 31910 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 08:36:44.690   772   791 I chatty  : uid=1000(system) batterystats-sy identical 6 lines
+11-01 08:36:59.724   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:38:03.944   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:39:13.781   772   791 I chatty  : uid=1000(system) batterystats-sy identical 2 lines
+11-01 08:39:28.788   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:40:38.975   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:41:07.939 29486 31894 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 08:41:07.956   772   791 I chatty  : uid=1000(system) batterystats-sy identical 2 lines
+11-01 08:41:23.617   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:42:41.056   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:43:42.377   772   791 I chatty  : uid=1000(system) batterystats-sy identical 2 lines
+11-01 08:43:57.751   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:45:35.434   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:46:58.188 29486 31984 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 08:49:52.857   772 30604 D DhcpClient: Received packet: fc:03:9f:6c:20:ea OFFER, ip /192.168.178.199, mask /255.255.255.0, DNS servers: /84.116.46.23 /84.116.46.22 , gateways [/192.168.178.1] lease time 60, domain home
+11-01 08:47:22.851   772   791 I chatty  : uid=1000(system) batterystats-sy identical 4 lines
+11-01 08:47:38.024   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:49:52.871   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:49:53.055   772 30604 D DhcpClient: Received packet: fc:03:9f:6c:20:ea ACK: your new IP /192.168.178.199, netmask /255.255.255.0, gateways [/192.168.178.1] DNS servers: /84.116.46.23 /84.116.46.22 , lease time 86400
+11-01 08:50:09.647   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:51:47.550   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:52:02.605   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:52:06.255   772   772 D AnyMotionDetector: angleBetween: this = timeMillisSinceBoot=1165174017 | x=0.0010708484, y=0.015114255, z=0.99988526, other = timeMillisSinceBoot=1165180415 | x=0.0012504327, y=0.0152231585, z=0.99988335, degrees = 0.012034047
+11-01 08:52:36.264   772   787 W AlarmManager: Unrecognized alarm listener com.android.server.DeviceIdleController$4@e3ff512
+11-01 08:52:36.300   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:52:56.577   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:54:45.325   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:58:26.342 29486 31997 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 08:55:00.362   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:58:26.359   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 08:58:57.029   772   791 I chatty  : uid=1000(system) batterystats-sy identical 2 lines
+11-01 08:59:12.047   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:02:03.198   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:02:19.570   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:04:06.991   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:07:26.345 29486 31996 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 09:05:03.211   772   791 I chatty  : uid=1000(system) batterystats-sy identical 2 lines
+11-01 09:05:03.211   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:07:26.361   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:07:26.551 29486 30923 V NativeCrypto: Read error: ssl=0x7a14db9bc8: I/O error during system call, Connection reset by peer
+11-01 09:07:26.568 29486 31996 V NativeCrypto: SSL shutdown failed: ssl=0x7a14db9bc8: I/O error during system call, Broken pipe
+11-01 09:07:26.570 29486 31996 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 09:07:26.570 29486 31996 W WakeLock: GCM_HB_ALARM counter does not exist
+11-01 09:07:26.572   772 29404 D ConnectivityService: reportNetworkConnectivity(138, false) by 10020
+11-01 09:07:26.572   772 30599 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: Forcing reevaluation for UID 10020
+11-01 09:07:26.617   772 32017 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_DNS www.google.com 41ms OK 2a00:1450:400e:80f::2004,142.251.36.36
+11-01 09:07:26.630   772 32018 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_DNS connectivitycheck.gstatic.com 53ms OK 2a00:1450:400e:800::2003,172.217.168.195
+11-01 09:07:26.632 29486 30923 I qtaguid : Tagging socket -1 with tag 40700000000(1031) for uid -1 failed errno=-9
+11-01 09:07:26.633 29486 30923 I NetworkManagementSocketTagger: tagSocketFd(-1, 1031, -1) failed with errno-9
+11-01 09:07:26.678   772 32018 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=46ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Tue, 01 Nov 2022 08:07:25 GMT], X-Android-Received-Millis=[1667290046677], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1667290046658]}
+11-01 09:07:26.747   772 32017 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_HTTPS https://www.google.com/generate_204 time=128ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Tue, 01 Nov 2022 08:07:25 GMT], X-Android-Received-Millis=[1667290046747], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1667290046716]}
+11-01 09:07:26.749   772   862 D ConnectivityService: NetworkAgentInfo [WIFI () - 138] validation passed
+11-01 09:07:26.750   772   788 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.conn.NETWORK_CONDITIONS_MEASURED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-01 09:07:26.759 29486 31996 E WakeLock: GCM_CONN_ALARM release without a matched acquire!
+11-01 09:07:36.754   772   857 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConfigStore$1@36537b
+11-01 09:07:36.913   772   857 D WifiConfigStore: Writing to stores completed in 159 ms.
+11-01 09:07:41.843   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:07:46.029   772   791 I chatty  : uid=1000(system) batterystats-sy identical 1 line
+11-01 09:08:01.060   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:10:17.477   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:13:42.485   772   791 I chatty  : uid=1000(system) batterystats-sy identical 8 lines
+11-01 09:13:57.544   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:15:27.444   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:17:37.323 29486 31996 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 09:17:37.341   772   791 I chatty  : uid=1000(system) batterystats-sy identical 4 lines
+11-01 09:17:37.418   772   781 I zygote64: Background concurrent copying GC freed 178438(7MB) AllocSpace objects, 156(4MB) LOS objects, 42% free, 17MB/30MB, paused 1.949ms total 120.397ms
+11-01 09:18:04.411   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:19:50.406   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:20:05.426   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:21:38.036   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:21:53.052   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:23:53.601   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:24:08.628   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:25:21.768   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:26:37.315 29486 30923 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 09:25:36.788   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:26:37.322   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:26:37.550 29486 31997 V NativeCrypto: Read error: ssl=0x7a14c35108: I/O error during system call, Connection reset by peer
+11-01 09:26:37.562 29486 30923 V NativeCrypto: SSL shutdown failed: ssl=0x7a14c35108: I/O error during system call, Broken pipe
+11-01 09:26:37.565 29486 30923 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 09:26:37.566 29486 30923 W WakeLock: GCM_HB_ALARM counter does not exist
+11-01 09:26:37.568   772  2969 D ConnectivityService: reportNetworkConnectivity(138, false) by 10020
+11-01 09:26:37.568   772 30599 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: Forcing reevaluation for UID 10020
+11-01 09:26:37.611   772 32047 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_DNS www.google.com 40ms OK 2a00:1450:400e:810::2004,142.250.179.132
+11-01 09:26:37.615   772 32048 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_DNS connectivitycheck.gstatic.com 45ms OK 2a00:1450:400e:80f::2003,142.251.36.3
+11-01 09:26:37.622 29486 31997 I qtaguid : Tagging socket -1 with tag 40700000000(1031) for uid -1 failed errno=-9
+11-01 09:26:37.622 29486 31997 I NetworkManagementSocketTagger: tagSocketFd(-1, 1031, -1) failed with errno-9
+11-01 09:26:37.662   772 32048 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=45ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Tue, 01 Nov 2022 08:26:36 GMT], X-Android-Received-Millis=[1667291197661], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1667291197639]}
+11-01 09:26:37.760   772 32047 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_HTTPS https://www.google.com/generate_204 time=147ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Tue, 01 Nov 2022 08:26:36 GMT], X-Android-Received-Millis=[1667291197759], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1667291197693]}
+11-01 09:26:37.767   772   788 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.conn.NETWORK_CONDITIONS_MEASURED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-01 09:26:37.769   772   862 D ConnectivityService: NetworkAgentInfo [WIFI () - 138] validation passed
+11-01 09:26:37.786 29486 30923 E WakeLock: GCM_CONN_ALARM release without a matched acquire!
+11-01 09:26:47.778   772   857 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConfigStore$1@36537b
+11-01 09:26:47.804   772   857 D WifiConfigStore: Writing to stores completed in 26 ms.
+11-01 09:26:52.830   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:27:24.035   772   791 I chatty  : uid=1000(system) batterystats-sy identical 1 line
+11-01 09:27:39.085   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:30:37.932   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:31:58.378   568   713 D MDnsDS  : MDnsSdListener::Monitor poll timed out
+11-01 09:31:58.379   568   713 D MDnsDS  : Going to poll with pollCount 1
+11-01 09:31:37.692   772   791 I chatty  : uid=1000(system) batterystats-sy identical 2 lines
+11-01 09:31:57.858   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:33:33.093   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:33:49.274   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:35:03.214   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:36:48.083 29486 30923 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 09:35:03.214   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:36:48.091   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:37:49.198   772   791 I chatty  : uid=1000(system) batterystats-sy identical 2 lines
+11-01 09:38:04.364   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:39:13.173   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:39:28.418   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:42:12.465   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:42:27.514   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:43:28.966   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:45:48.089 29486 31997 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 09:43:45.222   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:45:48.105   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:45:48.181 29486 31996 V NativeCrypto: Read error: ssl=0x7a14ce3448: I/O error during system call, Connection reset by peer
+11-01 09:45:48.201 29486 31997 V NativeCrypto: SSL shutdown failed: ssl=0x7a14ce3448: I/O error during system call, Broken pipe
+11-01 09:45:48.204 29486 31997 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+11-01 09:45:48.204 29486 31997 W WakeLock: GCM_HB_ALARM counter does not exist
+11-01 09:45:48.206   772  1324 D ConnectivityService: reportNetworkConnectivity(138, false) by 10020
+11-01 09:45:48.207   772 30599 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: Forcing reevaluation for UID 10020
+11-01 09:45:51.347   772 32079 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_DNS www.google.com 3135ms OK 2a00:1450:400e:80f::2004,142.250.179.132
+11-01 09:45:51.355   772 32080 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_DNS connectivitycheck.gstatic.com 3141ms OK 2a00:1450:400e:80f::2003,216.58.214.3
+11-01 09:45:51.359 29486 31996 I qtaguid : Tagging socket -1 with tag 40700000000(1031) for uid -1 failed errno=-9
+11-01 09:45:51.360 29486 31996 I NetworkManagementSocketTagger: tagSocketFd(-1, 1031, -1) failed with errno-9
+11-01 09:45:51.417   772 32080 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=59ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Tue, 01 Nov 2022 08:45:50 GMT], X-Android-Received-Millis=[1667292351417], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1667292351390]}
+11-01 09:45:51.418   772 30599 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_FALLBACK http://play.googleapis.com/generate_204 time=200ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Tue, 01 Nov 2022 08:45:50 GMT], X-Android-Received-Millis=[1667292351417], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1667292351392]}
+11-01 09:45:51.579   772 32079 D NetworkMonitor/NetworkAgentInfo [WIFI () - 138]: PROBE_HTTPS https://www.google.com/generate_204 time=229ms ret=204 request={User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Tue, 01 Nov 2022 08:45:50 GMT], X-Android-Received-Millis=[1667292351578], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1667292351454]}
+11-01 09:45:51.586   772   788 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.net.conn.NETWORK_CONDITIONS_MEASURED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-01 09:45:51.587   772   862 D ConnectivityService: NetworkAgentInfo [WIFI () - 138] validation passed
+11-01 09:45:51.605 29486 31997 E WakeLock: GCM_CONN_ALARM release without a matched acquire!
+11-01 09:46:01.598   772   857 W AlarmManager: Unrecognized alarm listener com.android.server.wifi.WifiConfigStore$1@36537b
+11-01 09:46:01.753   772   857 D WifiConfigStore: Writing to stores completed in 154 ms.
+11-01 09:46:06.763   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:47:14.146   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:47:36.263   772   791 I chatty  : uid=1000(system) batterystats-sy identical 1 line
+11-01 09:48:14.728   772   791 E BatteryStatsService: no controller energy info supplied
+11-01 09:48:14.793   772   787 I ActivityManager: Start proc 32100:com.opera.browser/u0a99 for service com.opera.browser/com.opera.android.ping.SyncService
+11-01 09:48:14.829 29486 31997 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.accountstate.GcmTaskService started execution. cause:10 exec_start_elapsed_seconds: 1168548 [CONTEXT service_id=218 ]
+11-01 09:48:14.837 29486 32094 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.EventLogService started execution. cause:10 exec_start_elapsed_seconds: 1168548 [CONTEXT service_id=218 ]
+11-01 09:48:14.842 29486 31997 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.accountstate.GcmTaskService finished executing. cause:10 result: 1 elapsed_millis: 83 uptime_millis: 83 exec_start_elapsed_seconds: 1168548 [CONTEXT service_id=218 ]
+11-01 09:48:14.866 29692 30897 I Checkin : [EventLogChimeraService] Opted in for usage reporting: false
+11-01 09:48:14.866 29692 30897 I Checkin : [EventLogChimeraService] Aggregate from 1667287318784 (log), 1667287318784 (data)
+11-01 09:48:14.888   772   787 W JobInfo : Specified flex for 100570 is +2m24s0ms. Clamped to +5m0s0ms
+11-01 09:48:14.894 32100 32100 I LoadedApk: No resource references to update in package com.opera.browser.nord_vpn
+11-01 09:48:14.921 29486 32094 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:14.932 29486 31997 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 37 uptime_millis: 37 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.018 29486 32094 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.019 32100 32129 W zygote  : Skipping duplicate class check due to unrecognized classloader
+11-01 09:48:15.047 29486 31997 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 59 uptime_millis: 59 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.055 32100 32129 W zygote  : Skipping duplicate class check due to unrecognized classloader
+11-01 09:48:15.069 29692 29769 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=IpaAppsCorpus serviceId=32
+11-01 09:48:15.098 32100 32100 I PlayCore: UID: [10099]  PID: [32100] SplitInstallHelper : Calling dispatchPackageBroadcast
+11-01 09:48:15.099 32100 32100 I PlayCore: UID: [10099]  PID: [32100] SplitInstallHelper : Called dispatchPackageBroadcast
+11-01 09:48:15.161 29692 29763 I Icing   : Query from package: com.google.android.gms, component: IpaAppsCorpus, restrict package: com.google.android.gms, start: 0, num: 100
+11-01 09:48:15.174 29486 32094 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.stats.PlatformStatsCollectorService started execution. cause:5 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.205 29486 31995 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.stats.PlatformStatsCollectorService finished executing. cause:5 result: 1 elapsed_millis: 57 uptime_millis: 58 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.284 32100 32172 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config_official_build debugBuild: false
+11-01 09:48:15.306 29486 32094 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gass.chimera.SchedulePeriodicTasksService started execution. cause:5 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.317 29692 30764 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=12803 trafficStatsUid=-1
+11-01 09:48:15.341 29486 31995 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gass.chimera.SchedulePeriodicTasksService finished executing. cause:5 result: 1 elapsed_millis: 67 uptime_millis: 67 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.396 32100 32100 W zygote  : Found duplicate classes, falling back to extracting from APK : /data/app/com.opera.browser-qPSIim2B9fwVMm8IQBnxfg==/base.apk
+11-01 09:48:15.396 32100 32100 W zygote  : NOTE: This wastes RAM and hurts startup performance.
+11-01 09:48:15.396 32100 32100 W zygote  : Found duplicated class when checking oat files: 'LJ/N;' in /data/app/com.opera.browser-qPSIim2B9fwVMm8IQBnxfg==/base.apk and /data/app/com.opera.browser-qPSIim2B9fwVMm8IQBnxfg==/base.apk
+11-01 09:48:15.396 32100 32100 W zygote  : 
+11-01 09:48:15.406 29486 31995 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.instantapps.routing.DomainFilterUpdateService started execution. cause:5 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.411   772 20193 W ActivityManager: Unable to start service Intent { act=com.android.vending.contentfilters.IContentFiltersService.BIND pkg=com.android.vending } U=0: not found
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: Error while reading domain filter from WHAPI [CONTEXT service_id=121 ]
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: java.util.concurrent.ExecutionException: apcq: Unable to read Finsky Content Filter settings
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at java.util.concurrent.FutureTask.report(FutureTask.java:123)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at java.util.concurrent.FutureTask.get(FutureTask.java:193)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at aakm.get(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at aphs.t(:com.google.android.gms@223616019@22.36.16 (040400-476895098):8)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at aphs.d(:com.google.android.gms@223616019@22.36.16 (040400-476895098):8)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at aphl.d(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at com.google.android.gms.instantapps.routing.DomainFilterUpdateChimeraService.a(:com.google.android.gms@223616019@22.36.16 (040400-476895098):22)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at arox.call(:com.google.android.gms@223616019@22.36.16 (040400-476895098):4)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at java.lang.Thread.run(Thread.java:764)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: Caused by: apcq: Unable to read Finsky Content Filter settings
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at apcs.b(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at apcd.a(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	at aakk.call(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+11-01 09:48:15.413 29486 31997 E DomainFilterImpl: 	... 7 more
+11-01 09:48:15.413 29486 31997 W DomainFilterUpdateChime: Retry later [CONTEXT service_id=121 ]
+11-01 09:48:15.416 29486 31995 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.instantapps.routing.DomainFilterUpdateService finished executing. cause:5 result: 3 elapsed_millis: 30 uptime_millis: 30 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.468 29486 29486 D BoundBrokerSvc: onBind: Intent { act=com.google.android.contextmanager.service.ContextManagerLogsUploadBoundService.ACTION_TASK_READY dat=chimera-action:com.google.android.contextmanager.service.ContextManagerLogsUploadBoundService.ACTION_TASK_READY cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+11-01 09:48:15.468 29486 29486 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.contextmanager.service.ContextManagerLogsUploadBoundService.ACTION_TASK_READY dat=chimera-action:com.google.android.contextmanager.service.ContextManagerLogsUploadBoundService.ACTION_TASK_READY cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+11-01 09:48:15.472 29486 31997 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.contextmanager.service.ContextManagerLogsUploadBoundService started execution. cause:5 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.475 29486 29486 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.contextmanager.service.ContextManagerLogsUploadBoundService.ACTION_TASK_READY dat=chimera-action:com.google.android.contextmanager.service.ContextManagerLogsUploadBoundService.ACTION_TASK_READY cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+11-01 09:48:15.478 29486 32094 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.contextmanager.service.ContextManagerLogsUploadBoundService finished executing. cause:5 result: 1 elapsed_millis: 10 uptime_millis: 10 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.570 29486 31995 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.measurement.PackageMeasurementTaskService started execution. cause:5 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.593 29692 29763 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+11-01 09:48:15.610 29692 29702 I zygote64: Background concurrent copying GC freed 33062(1947KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 9MB/19MB, paused 5.523ms total 594.541ms
+11-01 09:48:15.613 29692 30764 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+11-01 09:48:15.617 29692 30764 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=12803 trafficStatsUid=-1
+11-01 09:48:15.633 29692 30897 I Checkin : [ServiceDumpSys] dumping service [account]
+11-01 09:48:15.636   772   787 W JobInfo : Specified flex for 109054 is +4m48s0ms. Clamped to +6m0s0ms
+11-01 09:48:15.639 29692 30764 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+11-01 09:48:15.661 29486 32094 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.checkin.EventLogService finished executing. cause:10 result: 1 elapsed_millis: 868 uptime_millis: 869 exec_start_elapsed_seconds: 1168548 [CONTEXT service_id=218 ]
+11-01 09:48:15.738 29486 31997 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService started execution. cause:5 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.861 29486 31997 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService finished executing. cause:5 result: 1 elapsed_millis: 142 uptime_millis: 142 exec_start_elapsed_seconds: 1168549 [CONTEXT service_id=218 ]
+11-01 09:48:15.924 29486 32094 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService started execution. cause:5 exec_start_elapsed_seconds: 1168550 [CONTEXT service_id=218 ]
+11-01 09:48:16.024 29692 31947 W FA-SVC  : Interrupted in onRunTask while uploading
+11-01 09:48:16.028 29486 31996 E NetworkScheduler.ATC: Called cancelTask for already completed task com.google.android.gms/.measurement.PackageMeasurementTaskService{u=0 tag="Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG" trigger=window{start=3597s,end=7196s,earliest=-3558s,latest=40s} requirements=[NET_CONNECTED] attributes=[PERSISTED] scheduled=-7155s last_run=0s exec_window_multiplier=1.0000 jid=N/A status=ACTIVE retries=0 client_lib=GMS_TASK_SCHEDULER-223616000} :1 [CONTEXT service_id=218 ]
+11-01 09:48:16.280 29486 31996 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService finished executing. cause:5 result: 1 elapsed_millis: 377 uptime_millis: 377 exec_start_elapsed_seconds: 1168550 [CONTEXT service_id=218 ]
+11-01 09:48:16.370 29486 31997 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.security.snet.SnetIdleTaskService started execution. cause:5 exec_start_elapsed_seconds: 1168550 [CONTEXT service_id=218 ]
+11-01 09:48:16.376 29486 31996 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.security.snet.SnetIdleTaskService finished executing. cause:5 result: 1 elapsed_millis: 25 uptime_millis: 26 exec_start_elapsed_seconds: 1168550 [CONTEXT service_id=218 ]
+11-01 09:48:16.437 29486 31996 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 1168550 [CONTEXT service_id=218 ]
+11-01 09:48:16.445 29486 31997 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 27 uptime_millis: 27 exec_start_elapsed_seconds: 1168550 [CONTEXT service_id=218 ]
+11-01 09:48:16.447 29692 32227 I GmscoreIpa: Starting mediastore batch index [CONTEXT service_id=255 ]
+11-01 09:48:16.463   772  3854 I ActivityManager: Start proc 32236:android.process.media/u0a15 for content provider com.android.providers.media/.MediaProvider
+11-01 09:48:16.531 29486 31995 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.phenotype.service.sync.PhenotypeConfigurator started execution. cause:5 exec_start_elapsed_seconds: 1168550 [CONTEXT service_id=218 ]
+11-01 09:48:16.673 29692 30898 I GmscoreIpa: Bulk mediastore status = true [CONTEXT service_id=255 ]
+11-01 09:48:16.708 29692 30897 I GmscoreIpa: Batch indexing status=true [CONTEXT service_id=255 ]
+11-01 09:48:16.861 29486 32094 W GoogleCertificatesImpl: Source stamp verification failed, package: com.google.android.webview status: CANNOT_VERIFY
+11-01 09:48:17.474 29486 32094 I bful    : Removed 0 invalid users [CONTEXT service_id=51 ]
+11-01 09:48:19.259 29486 29496 I zygote64: Background concurrent copying GC freed 199078(10MB) AllocSpace objects, 6(140KB) LOS objects, 49% free, 11MB/23MB, paused 814us total 123.470ms
+11-01 09:48:19.547 29486 32094 I bfua    : Scheduling adaptive one off task with window [14400, 604800] in seconds [CONTEXT service_id=51 ]
+11-01 09:48:19.648 29486 31996 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.phenotype.service.sync.PhenotypeConfigurator finished executing. cause:5 result: 1 elapsed_millis: 3145 uptime_millis: 3145 exec_start_elapsed_seconds: 1168550 [CONTEXT service_id=218 ]
+11-01 09:48:19.873 32100 32115 I zygote  : Waiting for a blocking GC ProfileSaver
+11-01 09:48:19.987 32100 32115 I zygote  : WaitForGcToComplete blocked for 114.066ms for cause ProfileSaver
+11-01 09:48:20.130 32100 32107 I zygote  : WaitForGcToComplete blocked for 89.143ms for cause HeapTrim
+11-01 09:48:20.930   772  1327 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-01 09:48:20.930   772   788 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-01 09:48:20.931   772   788 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+11-01 09:48:20.931   772   788 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+11-01 09:48:20.944 32100 32159 I FA      : App measurement initialized, version: 73015
+11-01 09:48:20.945 32100 32159 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-01 09:48:20.946 32100 32159 I FA      : To enable faster debug mode event logging run:
+11-01 09:48:20.946 32100 32159 I FA      :   adb shell setprop debug.firebase.analytics.app com.opera.browser
+11-01 09:48:21.081   772   787 D SyncManager: failed sync operation JobId: 109780, com.opera.browser u0 (com.opera.browser.ping), com.opera.browser.ping.provider, SERVER, reason: 10099, SyncResult: delayUntil: 1667299701 stats [ numIoExceptions: 1]
+11-01 09:48:21.120 29486 31996 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-01 09:48:21.125 29486 31996 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+11-01 09:48:21.125 29486 31996 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 09:48:21.159 29486 31996 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-01 09:48:21.160 29486 31996 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+11-01 09:48:21.160 29486 31996 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 09:48:21.296 29692 29692 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-01 09:48:21.296 29692 29692 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-01 09:48:21.408 29486 32094 E NetworkScheduler.ATC: Called cancelTask for already completed task com.google.android.gms/.measurement.PackageMeasurementTaskService{u=0 tag="Measurement.PackageMeasurementTaskService.UPLOAD_TASK_TAG" trigger=window{start=3597s,end=7196s,earliest=-3564s,latest=34s} requirements=[NET_CONNECTED] attributes=[PERSISTED] scheduled=-7161s last_run=-5s exec_window_multiplier=1.0000 jid=N/A status=ACTIVE retries=0 client_lib=GMS_TASK_SCHEDULER-223616000} :1 [CONTEXT service_id=218 ]
+11-01 09:48:21.563 29486 32094 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-01 09:48:21.564 29486 32094 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+11-01 09:48:21.564 29486 32094 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 09:48:21.613 29486 32094 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-01 09:48:21.614 29486 32094 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+11-01 09:48:21.614 29486 32094 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+11-01 09:48:31.431 29692 29692 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-01 09:48:32.555   772   781 I zygote64: Background concurrent copying GC freed 87185(4MB) AllocSpace objects, 61(2MB) LOS objects, 42% free, 17MB/30MB, paused 401us total 103.517ms
+11-01 09:48:36.437   772   785 I ActivityManager: Killing 31381:com.android.chrome:webview_service/u0a60 (adj 902): empty for 7199s
+11-01 09:48:44.856   568  1020 I Netd    : Destroyed 1 sockets for UidRanges{ 10000-2147483647 } skip={1000 1001 1027 2000 10005 10008 10012 10015 10017 10020 10041 10045} in 1.4 ms
+11-01 09:49:00.092   772   791 E BatteryStatsService: no controller energy info supplied

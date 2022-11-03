@@ -1,0 +1,1618 @@
+--------- beginning of system
+10-30 19:38:05.007   772   791 E BatteryStatsService: no controller energy info supplied
+10-30 19:43:53.109   772  3041 E BatteryStatsService: no controller energy info supplied
+10-30 19:44:29.060   772 13022 I ActivityManager: Force stopping com.android.chrome appid=10060 user=0: from pid 22225
+10-30 19:44:29.061   772 13022 I ActivityManager: Killing 19696:com.android.chrome:webview_service/u0a60 (adj 906): stop com.android.chrome
+10-30 19:44:29.064   772 13022 I ActivityManager: Killing 6761:com.google.android.googlequicksearchbox:search/u0a45 (adj 100): stop com.android.chrome
+10-30 19:44:29.066   772 13022 W ActivityManager: Scheduling restart of crashed service com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService in 1000ms
+10-30 19:44:29.069   772 13022 I ActivityManager: Killing 19780:com.android.chrome/u0a60 (adj 904): stop com.android.chrome
+--------- beginning of main
+10-30 19:44:29.081  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+10-30 19:44:29.092  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-30 19:44:29.110   772 13021 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=1307, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ], android.os.BinderProxy@5c43d84)
+10-30 19:44:29.111   772   862 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=1307, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+10-30 19:44:29.155   556 22078 D audio_hw_primary: disable_audio_route: usecase(9) reset and update mixer path: audio-record
+10-30 19:44:29.156   556 22078 D audio_hw_primary: disable_snd_device: snd_device(72: voice-rec-mic)
+10-30 19:44:29.159   556 22078 D sound_trigger_platform: platform_stdev_check_and_update_concurrency: concurrency active 0, tx 0, rx 0, concurrency session_allowed 1
+10-30 19:44:29.161   556   753 I SoundTriggerHwService::Module: onCallbackEvent no clients
+10-30 19:44:29.334   772 13022 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x10008000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+10-30 19:44:29.346   772   830 E ResourceType: Style contains key with bad entry: 0x0101062c
+10-30 19:44:29.362   772   830 E ResourceType: Style contains key with bad entry: 0x0101062c
+10-30 19:44:29.384   772   785 I ActivityManager: Start proc 22227:com.android.chrome/u0a60 for activity com.android.chrome/com.google.android.apps.chrome.Main
+10-30 19:44:29.482 22227 22227 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome isIsolated=false
+10-30 19:44:29.649  3960  3971 I FontLog : Received query Google Sans, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 19:44:29.650  3960  3971 I FontLog : Query [Google Sans] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:44:29.653  3960  3971 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:44:29.653  3960  3971 I FontLog : Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 19:44:29.665  3960  4245 I FontLog : Pulling font file for id = 430, cache size = 6 [CONTEXT service_id=132 ]
+10-30 19:44:29.686  3960  3971 I FontLog : Received query Google Sans:500, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 19:44:29.686  3960  3971 I FontLog : Query [Google Sans:500] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:44:29.688  3960  3971 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:44:29.688  3960  3971 I FontLog : Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 19:44:29.694  3960  3972 I FontLog : Pulling font file for id = 431, cache size = 7 [CONTEXT service_id=132 ]
+10-30 19:44:29.706  3960  4244 I FontLog : Received query Google Sans:700, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 19:44:29.706  3960  4244 I FontLog : Query [Google Sans:700] resolved to {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:44:29.708  3960  4244 I FontLog : Fetch {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 19:44:29.717  3960  3971 I FontLog : Pulling font file for id = 432, cache size = 7 [CONTEXT service_id=132 ]
+10-30 19:44:29.792 22227 22246 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:29.794 22227 22246 I cr_CachingUmaRecorder: Flushed 19 samples from 19 histograms.
+10-30 19:44:29.931 22227 22227 E ResourceType: Style contains key with bad entry: 0x0101062c
+10-30 19:44:29.986 22227 22249 W DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
+10-30 19:44:30.007 22227 22249 W zygote  : Skipping duplicate class check due to unrecognized classloader
+10-30 19:44:30.014 22227 22249 I DynamiteModule: Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:7
+10-30 19:44:30.014 22227 22249 I DynamiteModule: Selected remote version of com.google.android.gms.googlecertificates, version >= 7
+10-30 19:44:30.018   772   785 I ActivityManager: START u0 {cmp=com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity (has extras)} from uid 10060
+10-30 19:44:30.049 22227 22227 E ResourceType: Style contains key with bad entry: 0x0101062c
+10-30 19:44:30.062 22227 22249 W zygote  : Skipping duplicate class check due to unrecognized classloader
+10-30 19:44:30.083   772   788 I ActivityManager: Start proc 22252:com.google.android.googlequicksearchbox:search/u0a45 for service com.google.android.googlequicksearchbox/com.google.android.apps.gsa.search.core.service.SearchService
+10-30 19:44:30.118   772 32228 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+10-30 19:44:30.118   772 32228 W AppOps  : java.lang.RuntimeException: here
+10-30 19:44:30.118   772 32228 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+10-30 19:44:30.118   772 32228 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+10-30 19:44:30.118   772 32228 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+10-30 19:44:30.118   772 32228 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+10-30 19:44:30.119   772  3854 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+10-30 19:44:30.119   772  3854 W AppOps  : java.lang.RuntimeException: here
+10-30 19:44:30.119   772  3854 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+10-30 19:44:30.119   772  3854 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+10-30 19:44:30.119   772  3854 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+10-30 19:44:30.119   772  3854 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+10-30 19:44:30.125   772  4539 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+10-30 19:44:30.125   772  4539 W AppOps  : java.lang.RuntimeException: here
+10-30 19:44:30.125   772  4539 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+10-30 19:44:30.125   772  4539 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+10-30 19:44:30.125   772  4539 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+10-30 19:44:30.125   772  4539 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+10-30 19:44:30.127   772  3041 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+10-30 19:44:30.127   772  3041 W AppOps  : java.lang.RuntimeException: here
+10-30 19:44:30.127   772  3041 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+10-30 19:44:30.127   772  3041 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+10-30 19:44:30.127   772  3041 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+10-30 19:44:30.127   772  3041 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+10-30 19:44:30.316 22227 22227 W ResourceType: Failure getting entry for 0x7f010055 (t=0 e=85) (error -75)
+10-30 19:44:30.347 22227 22271 D OpenGLRenderer: HWUI GL Pipeline
+10-30 19:44:30.381 22227 22271 I Adreno  : QUALCOMM build                   : 7142022, Ib5823dd10c
+10-30 19:44:30.381 22227 22271 I Adreno  : Build Date                       : 06/23/17
+10-30 19:44:30.381 22227 22271 I Adreno  : OpenGL ES Shader Compiler Version: EV031.18.00.00
+10-30 19:44:30.381 22227 22271 I Adreno  : Local Branch                     : O11A
+10-30 19:44:30.381 22227 22271 I Adreno  : Remote Branch                    : 
+10-30 19:44:30.381 22227 22271 I Adreno  : Remote Branch                    : 
+10-30 19:44:30.381 22227 22271 I Adreno  : Reconstruct Branch               : 
+10-30 19:44:30.381 22227 22271 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8992.so from the current namespace instead.
+10-30 19:44:30.383 22227 22227 W RecyclerView: No adapter attached; skipping layout
+10-30 19:44:30.386 22227 22227 I cr_StartSurfaceConfig: Recorded Startup.Android.FirstDrawCompletedTime.NoInstant = 167 ms
+10-30 19:44:30.392 22227 22271 I Adreno  : PFP: 0x00000000, ME: 0x00000000
+10-30 19:44:30.397 22227 22271 I OpenGLRenderer: Initialized EGL, version 1.4
+10-30 19:44:30.397 22227 22271 D OpenGLRenderer: Swap behavior 2
+10-30 19:44:30.398 22227 22250 D NetworkSecurityConfig: Using Network Security Config from resource 0_resource_name_obfuscated debugBuild: false
+10-30 19:44:30.433  3960  4181 E bfry    : Phenotype API error. Event # ddoj@e7d6454f, EventCode: 7 [CONTEXT service_id=51 ]
+10-30 19:44:30.433  3960  4181 E bfry    : bfra: 29505: No config packages for log source, or config package not registered
+10-30 19:44:30.433  3960  4181 E bfry    : 	at bfst.b(:com.google.android.gms@223616019@22.36.16 (040400-476895098):4)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at bfsq.g(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at bfry.e(:com.google.android.gms@223616019@22.36.16 (040400-476895098):4)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at bfry.f(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at arjg.ep(:com.google.android.gms@223616019@22.36.16 (040400-476895098):1)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at arjm.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):12)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at cjoq.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+10-30 19:44:30.433  3960  4181 E bfry    : 	at java.lang.Thread.run(Thread.java:764)
+10-30 19:44:30.437  3960  4181 W AsyncOperation: operation=GetExperimentTokensOperationCall, opStatusCode=29505 [CONTEXT service_id=51 ]
+10-30 19:44:30.437  3960  4181 W AsyncOperation: OperationException[Status{statusCode=No config packages for log source, or config package not registered, resolution=null}]
+10-30 19:44:30.437  3960  4181 W AsyncOperation: 	at bfry.e(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+10-30 19:44:30.437  3960  4181 W AsyncOperation: 	at bfry.f(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+10-30 19:44:30.437  3960  4181 W AsyncOperation: 	at arjg.ep(:com.google.android.gms@223616019@22.36.16 (040400-476895098):1)
+10-30 19:44:30.437  3960  4181 W AsyncOperation: 	at arjm.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):12)
+10-30 19:44:30.437  3960  4181 W AsyncOperation: 	at cjoq.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):2)
+10-30 19:44:30.437  3960  4181 W AsyncOperation: 	at aarl.c(:com.google.android.gms@223616019@22.36.16 (040400-476895098):6)
+10-30 19:44:30.437  3960  4181 W AsyncOperation: 	at aarl.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):7)
+10-30 19:44:30.437  3960  4181 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+10-30 19:44:30.437  3960  4181 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+10-30 19:44:30.437  3960  4181 W AsyncOperation: 	at aaws.run(:com.google.android.gms@223616019@22.36.16 (040400-476895098):0)
+10-30 19:44:30.437  3960  4181 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:764)
+10-30 19:44:30.837   772   996 I ActivityManager: Start proc 22288:com.google.android.partnersetup/u0a26 for content provider com.google.android.partnersetup/.RlzAppProvider
+10-30 19:44:30.849   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.graphics.mapper@2.0::IMapper in either framework or device manifest, using default transport.
+10-30 19:44:30.852 22227 22271 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8992.so from the current namespace instead.
+10-30 19:44:30.867 22252 22264 W SessionLifecycleManager: Handover failed. Creating new session controller.
+10-30 19:44:30.870 22252 22276 W com.google.protobuf.fi: copyMemory is missing from platform - proto runtime falling back to safer methods.
+10-30 19:44:30.888   772  2969 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.speech.service.START pkg=com.google.android.gms } U=0: not found
+10-30 19:44:30.888   772 20193 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@74c5d6a
+10-30 19:44:30.889 22252 22304 E GmsClient: unable to connect to service: com.google.android.gms.speech.service.START on com.google.android.gms
+10-30 19:44:30.896 22252 22252 I MicroDetectionWorker: #initializeDataManager [recognitionLocale: en-US, isForced: false, initGHRecognizer: false]
+10-30 19:44:30.897   772   797 I ActivityManager: Displayed com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity: +781ms (total +1s535ms)
+10-30 19:44:30.911 22252 22303 W SearchService: Abort, client detached.
+10-30 19:44:30.915  1311  1326 I zygote64: Background concurrent copying GC freed 29894(1375KB) AllocSpace objects, 0(0B) LOS objects, 58% free, 1067KB/2MB, paused 5.424ms total 25.911ms
+10-30 19:44:30.917 29214 29214 I MemoryTrimmer: Trimming objects from memory, since app is in the background.
+10-30 19:44:30.921 29214 22075 V rsC++   : RS Message thread exiting.
+10-30 19:44:30.922 22252 22252 E SearchService: Trying to activate client, AttachedClient[128486197924820331, ClientConfig[mFlags=[default, launch_result_activity_for_results, use_music_detector, clear_current_action_on_start, support_transparent_background, requires_full_srp_on_hotword, requires_opaque_actions_from_text, supports_toasts, consider_application_launch, client_handles_doodles, legacy_leave_behind_dirty_session_fixme] mSuggestFlags=[now_promo_suggestion_eligible, wants_lightweight_suggestions, enable_suggestions, enable_qsb_discoverability] mClientId=gel mSessionType=search]] and it is not started
+10-30 19:44:30.986   772   784 I ActivityManager: Start proc 22309:com.google.process.gapps/u0a20 for content provider com.google.android.gsf/.gservices.GservicesProvider
+10-30 19:44:30.997 22227 22250 I cr_VariationsSeedFetch: Fetched first run seed in 603 ms
+10-30 19:44:31.044   772 10893 I ActivityManager: Start proc 22323:com.android.chrome:sandboxed_process0/u0i473 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService0
+10-30 19:44:31.048 22323 22323 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99473: Permission denied
+10-30 19:44:31.048 22323 22323 E Zygote  : createProcessGroup(99473, 0) failed: Permission denied
+10-30 19:44:31.086 22323 22323 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:31.112 22309 22309 I GservicesProvider: Gservices pushing to system: true; secure/global: true
+10-30 19:44:31.145 22338 22338 E asset   : setgid: Operation not permitted
+10-30 19:44:31.330 22323 22323 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process0 isIsolated=true
+10-30 19:44:31.334 22309 22309 I GoogleHttpClient: GMS http client unavailable, use old client
+10-30 19:44:31.356 22323 22323 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:31.376 22323 22323 I cr_ChildProcessService: Creating new ChildProcessService pid=22323
+10-30 19:44:31.391 22323 22323 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:31.560   772   784 I ActivityManager: Start proc 22358:com.android.chrome:privileged_process0/u0a60 for service com.android.chrome/org.chromium.content.app.PrivilegedProcessService0
+10-30 19:44:31.611 22227 22227 I cr_SmsProviderGms: construction successfull y93@458cef3, v93@bd057b0
+10-30 19:44:31.632 22358 22358 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:privileged_process0 isIsolated=false
+10-30 19:44:31.644 22358 22358 I cr_ChildProcessService: Creating new ChildProcessService pid=22358
+10-30 19:44:31.656  3535  3535 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.auth.key.retrieval.service.START dat=chimera-action:com.google.android.gms.auth.key.retrieval.service.START cmp=com.google.android.gms/.chimera.GmsApiService }
+10-30 19:44:31.656  3535  3535 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.auth.key.retrieval.service.START dat=chimera-action:com.google.android.gms.auth.key.retrieval.service.START cmp=com.google.android.gms/.chimera.GmsApiService }
+10-30 19:44:31.697 22358 22376 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:31.698 22358 22376 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:31.720 22358 22376 I Adreno  : QUALCOMM build                   : 7142022, Ib5823dd10c
+10-30 19:44:31.720 22358 22376 I Adreno  : Build Date                       : 06/23/17
+10-30 19:44:31.720 22358 22376 I Adreno  : OpenGL ES Shader Compiler Version: EV031.18.00.00
+10-30 19:44:31.720 22358 22376 I Adreno  : Local Branch                     : O11A
+10-30 19:44:31.720 22358 22376 I Adreno  : Remote Branch                    : 
+10-30 19:44:31.720 22358 22376 I Adreno  : Remote Branch                    : 
+10-30 19:44:31.720 22358 22376 I Adreno  : Reconstruct Branch               : 
+10-30 19:44:31.720 22358 22376 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8992.so from the current namespace instead.
+10-30 19:44:31.724 22358 22376 I Adreno  : PFP: 0x00000000, ME: 0x00000000
+10-30 19:44:31.728 22227 22227 W cr_KnoxSettingsProvider: Permission to read device policy denied.
+10-30 19:44:31.795 22227 22227 I Choreographer: Skipped 44 frames!  The application may be doing too much work on its main thread.
+10-30 19:44:32.646 22384 22384 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99474: Permission denied
+10-30 19:44:32.646 22384 22384 E Zygote  : createProcessGroup(99474, 0) failed: Permission denied
+10-30 19:44:32.649   772  4539 I ActivityManager: Start proc 22384:com.android.chrome:sandboxed_process1/u0i474 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService1
+10-30 19:44:32.670 22384 22384 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:32.694 22397 22397 E asset   : setgid: Operation not permitted
+10-30 19:44:32.728 22384 22384 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process1 isIsolated=true
+10-30 19:44:32.735 22384 22384 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:32.746 22384 22384 I cr_ChildProcessService: Creating new ChildProcessService pid=22384
+10-30 19:44:32.753 22384 22384 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:32.766 22384 22399 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:32.767 22384 22399 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:32.804 22384 22399 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:32.807   422   422 E lowmemorykiller: Error writing /proc/22384/oom_score_adj; errno=22
+10-30 19:44:32.807   772  4539 I ActivityManager: Killing 22384:com.android.chrome:sandboxed_process1/u0a60i474 (adj 0): isolated not needed
+10-30 19:44:32.808   772   790 W zygote64: failed to open /acct/uid_99474/pid_22384/cgroup.procs: No such file or directory
+10-30 19:44:33.875 22227 22227 E cr_BTSPrefs: No data found for task id: 53
+10-30 19:44:33.877 22227 22227 E cr_BkgrdTaskScheduler: Task cannot be canceled because no data was found instorage or data was invalid
+10-30 19:44:35.925 22288 22305 I zygote64: Waiting for a blocking GC ProfileSaver
+10-30 19:44:35.960 22288 22305 I zygote64: WaitForGcToComplete blocked for 36.544ms for cause ProfileSaver
+10-30 19:44:36.157 22425 22425 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 19:44:36.316 22425 22425 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-30 19:44:36.328 22425 22425 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1660.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=473974585, downTime=473974585, deviceId=8, source=0x1002 }
+10-30 19:44:36.335 22425 22425 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1660.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=473974585, downTime=473974585, deviceId=8, source=0x1002 }
+10-30 19:44:36.337 22425 22425 D AndroidRuntime: Shutting down VM
+10-30 19:44:36.356   556  6498 D audio_hw_primary: enable_snd_device: snd_device(88: vi-feedback)
+10-30 19:44:36.356   556  6498 D audio_hw_primary: enable_audio_route: usecase(23) apply and update mixer path: spkr-vi-record
+10-30 19:44:36.382   556  6498 D audio_hw_primary: enable_audio_route: usecase(1) apply and update mixer path: low-latency-playback
+10-30 19:44:36.907   556   731 D audio_hw_primary: disable_audio_route: usecase(1) reset and update mixer path: low-latency-playback
+10-30 19:44:36.924   556   731 D audio_hw_primary: disable_snd_device: snd_device(88: vi-feedback)
+10-30 19:44:36.924   556   731 D audio_hw_primary: disable_audio_route: usecase(23) reset and update mixer path: spkr-vi-record
+10-30 19:44:37.776 22440 22440 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 19:44:37.905 22440 22440 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+10-30 19:44:37.920 22440 22440 I Input   : injectMotionEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=180.0, y[0]=1690.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=473976176, downTime=473976176, deviceId=8, source=0x1002 }
+10-30 19:44:37.924 22440 22440 I Input   : injectMotionEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=180.0, y[0]=1690.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=473976176, downTime=473976176, deviceId=8, source=0x1002 }
+10-30 19:44:37.927 22440 22440 D AndroidRuntime: Shutting down VM
+10-30 19:44:37.954   556  6498 D audio_hw_primary: enable_snd_device: snd_device(88: vi-feedback)
+10-30 19:44:37.954   556  6498 D audio_hw_primary: enable_audio_route: usecase(23) apply and update mixer path: spkr-vi-record
+10-30 19:44:37.956   772  1259 I ActivityManager: START u0 {act=android.intent.action.VIEW flg=0x10008000 cmp=com.android.chrome/com.google.android.apps.chrome.Main (has extras)} from uid 10060
+10-30 19:44:37.962   772   830 E ResourceType: Style contains key with bad entry: 0x0101062c
+10-30 19:44:37.963   772   830 E ResourceType: Style contains key with bad entry: 0x0101062c
+10-30 19:44:37.980   556  6498 D audio_hw_primary: enable_audio_route: usecase(1) apply and update mixer path: low-latency-playback
+10-30 19:44:37.981 22227 22227 E ResourceType: Style contains key with bad entry: 0x0101062c
+10-30 19:44:37.985 22227 22227 E ResourceType: Style contains key with bad entry: 0x0101062c
+10-30 19:44:38.032 22227 22227 W ResourceType: Failure getting entry for 0x7f010055 (t=0 e=85) (error -75)
+10-30 19:44:38.044 22227 22227 I cr_CompositorSurfaceMgr: Transitioning to surface with format: -1
+10-30 19:44:38.051 22227 22227 W ResourceType: Failure getting entry for 0x7f010530 (t=0 e=1328) (error -75)
+10-30 19:44:38.134 22227 22354 W cr_tabmodel: Starting to perform legacy migration.
+10-30 19:44:38.135 22227 22354 W cr_tabmodel: Finished performing legacy migration.
+10-30 19:44:38.135 22227 22354 W cr_tabmodel: Starting to perform multi-instance migration.
+10-30 19:44:38.136 22227 22354 W cr_tabmodel: Finished performing multi-instance migration.
+10-30 19:44:38.136 22227 22354 I cr_tabmodel: Starting to fetch tab list for tab_state0
+10-30 19:44:38.136 22227 22354 I cr_tabmodel: State file does not exist.
+10-30 19:44:38.136 22227 22354 I cr_tabmodel: Starting to fetch tab list for tab_state1
+10-30 19:44:38.136 22227 22354 I cr_tabmodel: State file does not exist.
+10-30 19:44:38.201   772  1259 W ActivityManager: Duplicate finish request for ActivityRecord{6af029b u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity t558 f}
+10-30 19:44:38.204 22227 22354 W cr_PartnerCustomize: Partner homepage must be HTTP(S) or NewTabPage. Got invalid URL "org.chromium.url.GURL@0"
+10-30 19:44:38.258 22227 22227 I cr_StartSurfaceConfig: Recorded Startup.Android.FirstDrawCompletedTime.NoInstant = 264 ms
+10-30 19:44:38.261 22227 22271 D OpenGLRenderer: endAllActiveAnimators on 0xca6bfb00 (RippleDrawable) with handle 0xe984dd90
+10-30 19:44:38.271 22227 22227 I cr_CompositorSurfaceMgr: Transitioning to surface with format: -1
+10-30 19:44:38.274 22227 22227 I cr_CompositorSurfaceMgr: surfaceCreated format: 0
+10-30 19:44:38.283 22227 22227 I cr_ChromeTabbedActivity: #initializeState
+10-30 19:44:38.283 22227 22227 I cr_CipherFactory: #restoreFromBundle, no savedInstanceState.
+10-30 19:44:38.283 22227 22227 I cr_tabmodel: #loadState, ignoreIncognitoFiles? true
+10-30 19:44:38.290 22227 22227 I cr_tabmodel: Loaded tab lists; counts: 0,0
+10-30 19:44:38.290 22227 22227 I cr_ChromeTabbedActivity: #createInitialTab executed.
+10-30 19:44:38.316   772  3041 E BatteryStatsService: no controller energy info supplied
+10-30 19:44:38.316   772  3041 E BatteryStatsService: no controller energy info supplied
+10-30 19:44:38.325 22227 22227 E ResourceType: Style contains key with bad entry: 0x0101062c
+10-30 19:44:38.336   772   788 W ProcessCpuTracker: Skipping unknown process pid 22474
+10-30 19:44:38.382 22227 22227 W ResourceType: Failure getting entry for 0x7f010565 (t=0 e=1381) (error -75)
+10-30 19:44:38.392 22227 22227 W ResourceType: Failure getting entry for 0x7f010551 (t=0 e=1361) (error -75)
+10-30 19:44:38.510   556   731 D audio_hw_primary: disable_audio_route: usecase(1) reset and update mixer path: low-latency-playback
+10-30 19:44:38.524   556   731 D audio_hw_primary: disable_snd_device: snd_device(88: vi-feedback)
+10-30 19:44:38.524   556   731 D audio_hw_primary: disable_audio_route: usecase(23) reset and update mixer path: spkr-vi-record
+10-30 19:44:38.575 22227 22227 W ResourceType: Failure getting entry for 0x7f01059a (t=0 e=1434) (error -75)
+10-30 19:44:38.606   772   784 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+10-30 19:44:38.606   772   784 W AppOps  : java.lang.RuntimeException: here
+10-30 19:44:38.606   772   784 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+10-30 19:44:38.606   772   784 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+10-30 19:44:38.606   772   784 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+10-30 19:44:38.606   772   784 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+10-30 19:44:38.608   772 10895 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+10-30 19:44:38.608   772 10895 W AppOps  : java.lang.RuntimeException: here
+10-30 19:44:38.608   772 10895 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+10-30 19:44:38.608   772 10895 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+10-30 19:44:38.608   772 10895 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+10-30 19:44:38.608   772 10895 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+10-30 19:44:38.611   772 13071 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+10-30 19:44:38.611   772 13071 W AppOps  : java.lang.RuntimeException: here
+10-30 19:44:38.611   772 13071 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+10-30 19:44:38.611   772 13071 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+10-30 19:44:38.611   772 13071 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+10-30 19:44:38.611   772 13071 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+10-30 19:44:38.611   772  4540 W AppOps  : Bad call: specified package com.google.android.gms under uid 10060 but it is really 10020
+10-30 19:44:38.611   772  4540 W AppOps  : java.lang.RuntimeException: here
+10-30 19:44:38.611   772  4540 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+10-30 19:44:38.611   772  4540 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+10-30 19:44:38.611   772  4540 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+10-30 19:44:38.611   772  4540 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+10-30 19:44:38.636 22227 22227 E cr_IntentUtils: getBooleanExtra failed on intent null
+10-30 19:44:38.636 22227 22227 E cr_IntentUtils: getBooleanExtra failed on intent null
+10-30 19:44:38.639 22323 22345 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:38.640 22323 22345 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:38.670 22227 22227 W ResourceType: Failure getting entry for 0x7f010888 (t=0 e=2184) (error -75)
+10-30 19:44:38.684 22227 22227 I chatty  : uid=10060(u0_a60) identical 6 lines
+10-30 19:44:38.686 22227 22227 W ResourceType: Failure getting entry for 0x7f010888 (t=0 e=2184) (error -75)
+10-30 19:44:38.687 22227 22227 I cr_TopSites: Start a new task.
+10-30 19:44:38.688 22227 22355 I cr_TopSites: Serializing top sites lists finished; count: 8
+10-30 19:44:38.692  3960  4151 I FontLog : Received query name=Google Sans&weight=700&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 19:44:38.692  3960  4151 I FontLog : Query [name=Google Sans&weight=700&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:44:38.696  3960  4151 I FontLog : Fetch {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 19:44:38.699   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.graphics.mapper@2.0::IMapper in either framework or device manifest, using default transport.
+10-30 19:44:38.704 22358 22376 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib/hw/gralloc.msm8992.so from the current namespace instead.
+10-30 19:44:38.704 22227 22355 I cr_TopSites: Finished saving top sites list to file:/data/user/0/com.android.chrome/app_top_sites/top_sites
+10-30 19:44:38.721   772 10894 I ActivityManager: Start proc 22496:com.android.chrome:sandboxed_process2/u0i475 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService2
+10-30 19:44:38.728 22496 22496 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99475: Permission denied
+10-30 19:44:38.728 22496 22496 E Zygote  : createProcessGroup(99475, 0) failed: Permission denied
+10-30 19:44:38.741 22509 22509 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99476: Permission denied
+10-30 19:44:38.741 22509 22509 E Zygote  : createProcessGroup(99476, 0) failed: Permission denied
+10-30 19:44:38.742   772  1259 I ActivityManager: Start proc 22509:com.android.chrome:sandboxed_process3/u0i476 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService3
+10-30 19:44:38.745  3960  4245 I FontLog : Pulling font file for id = 433, cache size = 8 [CONTEXT service_id=132 ]
+10-30 19:44:38.758 22509 22509 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:38.759 22496 22496 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:38.764 22524 22524 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99477: Permission denied
+10-30 19:44:38.764 22524 22524 E Zygote  : createProcessGroup(99477, 0) failed: Permission denied
+10-30 19:44:38.764   772 10895 I ActivityManager: Start proc 22524:com.android.chrome:sandboxed_process4/u0i477 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService4
+10-30 19:44:38.789 22535 22535 E asset   : setgid: Operation not permitted
+10-30 19:44:38.792 22537 22537 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99478: Permission denied
+10-30 19:44:38.792 22537 22537 E Zygote  : createProcessGroup(99478, 0) failed: Permission denied
+10-30 19:44:38.792   772   996 I ActivityManager: Start proc 22537:com.android.chrome:sandboxed_process5/u0i478 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService5
+10-30 19:44:38.793 22524 22524 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:38.795 22542 22542 E asset   : setgid: Operation not permitted
+10-30 19:44:38.795  3960  4217 I FontLog : Received query name=Noto Color Emoji Compat&weight=400&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 19:44:38.795  3960  4217 I FontLog : Query [name=Noto Color Emoji Compat&weight=400&besteffort=false] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:44:38.796 22227 22227 W ResourceType: Failure getting entry for 0x7f010216 (t=0 e=534) (error -75)
+10-30 19:44:38.799 22227 22227 W ResourceType: Failure getting entry for 0x7f0107c9 (t=0 e=1993) (error -75)
+10-30 19:44:38.800  3960  4217 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 19:44:38.811 22550 22550 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99479: Permission denied
+10-30 19:44:38.812 22550 22550 E Zygote  : createProcessGroup(99479, 0) failed: Permission denied
+10-30 19:44:38.816 22227 22227 W ResourceType: Failure getting entry for 0x7f010827 (t=0 e=2087) (error -75)
+10-30 19:44:38.817   772  3041 I ActivityManager: Start proc 22550:com.android.chrome:sandboxed_process6/u0i479 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService6
+10-30 19:44:38.822 22537 22537 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:38.826 22509 22509 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process3 isIsolated=true
+10-30 19:44:38.830 22227 22227 I cr_OfflineIndicator: onConnectionTypeChanged 2
+10-30 19:44:38.831 22227 22227 I cr_OfflineIndicator: Reported by system: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&FOREGROUND LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps SignalStrength: -56]
+10-30 19:44:38.831 22227 22227 I cr_OfflineIndicator: setConnectionState connectionState=4
+10-30 19:44:38.831 22227 22227 I cr_OfflineDetector: Running updateState mConnectivityDetectorInitialized: true, mTimeWhenLastForegrounded: 1031532996, getElapsedTime: 1031532998, mTimeWhenLastOfflineNotificationReceived: 0, mTimeWhenLastOnline: 1031532998, mApplicationState: 1, mIsOfflineLastReportedByConnectivityDetector: false, mIsEffectivelyOffline: false
+10-30 19:44:38.832 22227 22227 I cr_OfflineDetector: updateState(): timeSinceLastForeground: 2, timeSinceOfflineNotificationReceived: 1031532998, timeSinceLastOnline: 0, timeNeededForForeground: 1998, timeNeededForOffline: -1031530998
+10-30 19:44:38.832 22227 22227 I cr_OfflineIndicator: processConnectivityCheckResult mConnectionState=4 mConnectivityCheckingStage=1
+10-30 19:44:38.834 22509 22509 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:38.835 22496 22496 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process2 isIsolated=true
+10-30 19:44:38.840 22563 22563 E asset   : setgid: Operation not permitted
+10-30 19:44:38.842 22509 22509 I cr_ChildProcessService: Creating new ChildProcessService pid=22509
+10-30 19:44:38.842 22496 22496 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:38.846 22550 22550 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:38.853   772  1259 I ActivityManager: Start proc 22567:com.android.chrome:sandboxed_process7/u0i480 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService7
+10-30 19:44:38.855  3960  4217 I FontLog : Pulling font file for id = 434, cache size = 7 [CONTEXT service_id=132 ]
+10-30 19:44:38.855 22567 22567 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99480: Permission denied
+10-30 19:44:38.855 22567 22567 E Zygote  : createProcessGroup(99480, 0) failed: Permission denied
+10-30 19:44:38.859 22496 22496 I cr_ChildProcessService: Creating new ChildProcessService pid=22496
+10-30 19:44:38.860 22509 22509 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:38.863 22576 22576 E asset   : setgid: Operation not permitted
+10-30 19:44:38.872 22580 22580 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99481: Permission denied
+10-30 19:44:38.872 22580 22580 E Zygote  : createProcessGroup(99481, 0) failed: Permission denied
+10-30 19:44:38.873   772  2970 I ActivityManager: Start proc 22580:com.android.chrome:sandboxed_process8/u0i481 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService8
+10-30 19:44:38.878  3960  3971 I FontLog : Received query name=Google Sans&weight=400&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 19:44:38.879  3960  3971 I FontLog : Query [name=Google Sans&weight=400&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:44:38.879 22567 22567 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:38.881  3960  3971 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:44:38.882  3960  3971 I FontLog : Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 19:44:38.883 22524 22524 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process4 isIsolated=true
+10-30 19:44:38.888 22227 22227 W ResourceType: Failure getting entry for 0x7f010415 (t=0 e=1045) (error -75)
+10-30 19:44:38.892 22496 22496 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:38.895 22524 22524 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:38.895 22537 22537 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process5 isIsolated=true
+10-30 19:44:38.899 22594 22594 E asset   : setgid: Operation not permitted
+10-30 19:44:38.899 22537 22537 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:38.903 22580 22580 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:38.905 22524 22524 I cr_ChildProcessService: Creating new ChildProcessService pid=22524
+10-30 19:44:38.906 22599 22599 E asset   : setgid: Operation not permitted
+10-30 19:44:38.907 22595 22595 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99482: Permission denied
+10-30 19:44:38.907 22595 22595 E Zygote  : createProcessGroup(99482, 0) failed: Permission denied
+10-30 19:44:38.911 22537 22537 I cr_ChildProcessService: Creating new ChildProcessService pid=22537
+10-30 19:44:38.913   772   784 I ActivityManager: Start proc 22595:com.android.chrome:sandboxed_process9/u0i482 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService9
+10-30 19:44:38.915  3960  4217 I FontLog : Pulling font file for id = 435, cache size = 8 [CONTEXT service_id=132 ]
+10-30 19:44:38.929  3960  3971 I FontLog : Received query name=Google Sans&weight=500&besteffort=false, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 19:44:38.929  3960  3971 I FontLog : Query [name=Google Sans&weight=500&besteffort=false] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:44:38.931  3960  3971 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:44:38.931  3960  3971 I FontLog : Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 19:44:38.932 22524 22524 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:38.933 22537 22537 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:38.935 22509 22565 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:38.936 22509 22565 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:38.940  3960  4151 I FontLog : Pulling font file for id = 436, cache size = 7 [CONTEXT service_id=132 ]
+10-30 19:44:38.943 22550 22550 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process6 isIsolated=true
+10-30 19:44:38.944 22496 22573 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:38.954 22524 22598 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:38.954 22496 22573 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:38.955 22524 22598 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:38.956 22612 22612 E asset   : setgid: Operation not permitted
+10-30 19:44:38.956 22227 22227 I cr_tabmodel: Appending tabs being restored to metadata lists, 0, startingNormalCount: 1, startingIncognitoCount: 0
+10-30 19:44:38.956 22227 22227 I cr_tabmodel: Serializing tab lists; counts: 1, 0
+10-30 19:44:38.960 22537 22605 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:38.961 22537 22605 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:38.962 22550 22550 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:38.962 22595 22595 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:38.972 22550 22550 I cr_ChildProcessService: Creating new ChildProcessService pid=22550
+10-30 19:44:38.974 22509 22565 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:38.985 22623 22623 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99483: Permission denied
+10-30 19:44:38.985 22623 22623 E Zygote  : createProcessGroup(99483, 0) failed: Permission denied
+10-30 19:44:38.988   772 32228 I ActivityManager: Start proc 22623:com.android.chrome:sandboxed_process10/u0i483 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService10
+10-30 19:44:38.995   422   422 E lowmemorykiller: Error writing /proc/22509/oom_score_adj; errno=22
+10-30 19:44:38.996   772   784 I ActivityManager: Killing 22509:com.android.chrome:sandboxed_process3/u0a60i476 (adj 0): isolated not needed
+10-30 19:44:38.997   772   790 W zygote64: failed to open /acct/uid_99476/pid_22509/cgroup.procs: No such file or directory
+10-30 19:44:39.002 22550 22550 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.012 22580 22580 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process8 isIsolated=true
+10-30 19:44:39.014 22550 22621 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:39.015 22550 22621 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:39.017 22650 22650 E asset   : setgid: Operation not permitted
+10-30 19:44:39.020 22580 22580 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:39.021 22567 22567 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process7 isIsolated=true
+10-30 19:44:39.031 22567 22567 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:39.034 22537 22605 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.035   422   422 E lowmemorykiller: Error writing /proc/22537/oom_score_adj; errno=22
+10-30 19:44:39.035   772 13021 I ActivityManager: Killing 22537:com.android.chrome:sandboxed_process5/u0a60i478 (adj 0): isolated not needed
+10-30 19:44:39.035   772   790 W zygote64: failed to open /acct/uid_99478/pid_22537/cgroup.procs: No such file or directory
+10-30 19:44:39.047 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22509)
+10-30 19:44:39.049 22580 22580 I cr_ChildProcessService: Creating new ChildProcessService pid=22580
+10-30 19:44:39.051 22496 22573 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.054 22623 22623 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:39.060 22567 22567 I cr_ChildProcessService: Creating new ChildProcessService pid=22567
+10-30 19:44:39.071   422   422 E lowmemorykiller: Error writing /proc/22496/oom_score_adj; errno=22
+10-30 19:44:39.071 22595 22595 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process9 isIsolated=true
+10-30 19:44:39.072   772 13071 I ActivityManager: Killing 22496:com.android.chrome:sandboxed_process2/u0a60i475 (adj 0): isolated not needed
+10-30 19:44:39.073   772   790 W zygote64: failed to open /acct/uid_99475/pid_22496/cgroup.procs: No such file or directory
+10-30 19:44:39.076 22580 22580 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.077 22567 22567 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.078 22595 22595 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:39.097 22567 22665 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:39.099 22667 22667 E asset   : setgid: Operation not permitted
+10-30 19:44:39.099 22595 22595 I cr_ChildProcessService: Creating new ChildProcessService pid=22595
+10-30 19:44:39.104 22580 22658 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:39.105 22580 22658 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:39.107 22567 22665 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:39.133 22227 22237 I zygote  : Background concurrent copying GC freed 37050(1933KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 5MB/10MB, paused 6.505ms total 73.583ms
+10-30 19:44:39.147 22595 22595 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.154 22623 22623 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process10 isIsolated=true
+10-30 19:44:39.161 22595 22668 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:39.161 22595 22668 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:39.166 22623 22623 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:39.174 22227 22344 I cr_VrCoreVersionChecker: Unable to find VrCore.
+10-30 19:44:39.177 22623 22623 I cr_ChildProcessService: Creating new ChildProcessService pid=22623
+10-30 19:44:39.183 22227 22227 W ResourceType: Failure getting entry for 0x7f0100f9 (t=0 e=249) (error -75)
+10-30 19:44:39.186 22227 22227 W ResourceType: Failure getting entry for 0x7f010828 (t=0 e=2088) (error -75)
+10-30 19:44:39.189 22623 22623 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.195 22227 22227 W ResourceType: Failure getting entry for 0x7f010827 (t=0 e=2087) (error -75)
+10-30 19:44:39.203 22623 22688 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:39.204 22623 22688 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:39.215 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22496)
+10-30 19:44:39.217 22524 22598 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.217 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22537)
+10-30 19:44:39.218 22550 22621 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.219   422   422 E lowmemorykiller: Error writing /proc/22524/oom_score_adj; errno=22
+10-30 19:44:39.220   772 10860 I ActivityManager: Killing 22524:com.android.chrome:sandboxed_process4/u0a60i477 (adj 0): isolated not needed
+10-30 19:44:39.221   772   790 W zygote64: failed to open /acct/uid_99477/pid_22524/cgroup.procs: No such file or directory
+10-30 19:44:39.223   422   422 E lowmemorykiller: Error writing /proc/22550/oom_score_adj; errno=22
+10-30 19:44:39.223   772 32228 I ActivityManager: Killing 22550:com.android.chrome:sandboxed_process6/u0a60i479 (adj 0): isolated not needed
+10-30 19:44:39.225   772   790 W zygote64: failed to open /acct/uid_99479/pid_22550/cgroup.procs: No such file or directory
+10-30 19:44:39.227 22567 22665 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.227 22580 22658 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.231 22595 22668 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.233   422   422 E lowmemorykiller: Error writing /proc/22567/oom_score_adj; errno=22
+10-30 19:44:39.233   772   784 I ActivityManager: Killing 22567:com.android.chrome:sandboxed_process7/u0a60i480 (adj 0): isolated not needed
+10-30 19:44:39.237   772   790 W zygote64: failed to open /acct/uid_99480/pid_22567/cgroup.procs: No such file or directory
+10-30 19:44:39.254 22703 22703 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99484: Permission denied
+10-30 19:44:39.255 22703 22703 E Zygote  : createProcessGroup(99484, 0) failed: Permission denied
+10-30 19:44:39.259   772  2970 I ActivityManager: Start proc 22703:com.android.chrome:sandboxed_process11/u0i484 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService11
+10-30 19:44:39.268 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22595)
+10-30 19:44:39.268 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22524)
+10-30 19:44:39.269 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22567)
+10-30 19:44:39.269 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22580)
+10-30 19:44:39.269 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22550)
+10-30 19:44:39.271 22623 22688 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.274 22227 22227 I Choreographer: Skipped 60 frames!  The application may be doing too much work on its main thread.
+10-30 19:44:39.277   772   784 I ActivityManager: Process com.android.chrome:sandboxed_process8 (pid 22580) has died: vis  TOP 
+10-30 19:44:39.277   772   790 W zygote64: failed to open /acct/uid_99481/pid_22580/cgroup.procs: No such file or directory
+10-30 19:44:39.278   772   784 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService8 in 1000ms
+10-30 19:44:39.279 22703 22703 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:39.305   772  3041 I ActivityManager: Process com.android.chrome:sandboxed_process9 (pid 22595) has died: vis  TOP 
+10-30 19:44:39.305   772   790 W zygote64: failed to open /acct/uid_99482/pid_22595/cgroup.procs: No such file or directory
+10-30 19:44:39.305   772  3041 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService9 in 10972ms
+10-30 19:44:39.311   772 13021 I ActivityManager: Process com.android.chrome:sandboxed_process10 (pid 22623) has died: vis  TOP 
+10-30 19:44:39.311   772   790 W zygote64: failed to open /acct/uid_99483/pid_22623/cgroup.procs: No such file or directory
+10-30 19:44:39.312   772 13021 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService10 in 20966ms
+10-30 19:44:39.323 22227 22227 W ResourceType: Failure getting entry for 0x7f010646 (t=0 e=1606) (error -75)
+10-30 19:44:39.326 22227 22227 W ResourceType: Failure getting entry for 0x7f010644 (t=0 e=1604) (error -75)
+10-30 19:44:39.327 22227 22227 W ResourceType: Failure getting entry for 0x7f010644 (t=0 e=1604) (error -75)
+10-30 19:44:39.336 22717 22717 E asset   : setgid: Operation not permitted
+10-30 19:44:39.372 22703 22703 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process11 isIsolated=true
+10-30 19:44:39.379 22703 22703 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:39.390 22703 22703 I cr_ChildProcessService: Creating new ChildProcessService pid=22703
+10-30 19:44:39.399 22227 22227 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+10-30 19:44:39.401 22703 22703 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.414 22703 22724 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:39.415 22703 22724 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:39.486 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22623)
+10-30 19:44:39.500 22703 22724 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.515   772  4540 I ActivityManager: Start proc 22737:com.android.chrome:sandboxed_process12/u0i485 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService12
+10-30 19:44:39.522 22737 22737 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99485: Permission denied
+10-30 19:44:39.522 22737 22737 E Zygote  : createProcessGroup(99485, 0) failed: Permission denied
+10-30 19:44:39.546 22752 22752 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99486: Permission denied
+10-30 19:44:39.546 22752 22752 E Zygote  : createProcessGroup(99486, 0) failed: Permission denied
+10-30 19:44:39.548   772  1327 I ActivityManager: Start proc 22752:com.android.chrome:sandboxed_process13/u0i486 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService13
+10-30 19:44:39.549 22737 22737 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:39.550   772 10894 I ActivityManager: Process com.android.chrome:sandboxed_process11 (pid 22703) has died: vis  TOP 
+10-30 19:44:39.550   772 10894 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService11 in 1000ms
+10-30 19:44:39.550   772   790 W zygote64: failed to open /acct/uid_99484/pid_22703/cgroup.procs: No such file or directory
+10-30 19:44:39.551 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22703)
+10-30 19:44:39.557   772  3854 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=http://192.168.178.178:5500/... flg=0x10000000 cmp=com.android.chrome/com.google.android.apps.chrome.Main} from uid 2000
+10-30 19:44:39.558 22227 22227 W ResourceType: Failure getting entry for 0x7f010646 (t=0 e=1606) (error -75)
+10-30 19:44:39.559 22227 22227 W ResourceType: Failure getting entry for 0x7f010644 (t=0 e=1604) (error -75)
+10-30 19:44:39.559 22227 22227 W ResourceType: Failure getting entry for 0x7f010644 (t=0 e=1604) (error -75)
+10-30 19:44:39.572 22752 22752 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:39.588 22766 22766 E asset   : setgid: Operation not permitted
+10-30 19:44:39.590 22767 22767 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99487: Permission denied
+10-30 19:44:39.590 22767 22767 E Zygote  : createProcessGroup(99487, 0) failed: Permission denied
+10-30 19:44:39.593   772   784 I ActivityManager: Start proc 22767:com.android.chrome:sandboxed_process14/u0i487 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService14
+10-30 19:44:39.596 22773 22773 E asset   : setgid: Operation not permitted
+10-30 19:44:39.608   423   423 D SurfaceFlinger: duplicate layer name: changing com.android.chrome/com.google.android.apps.chrome.Main to com.android.chrome/com.google.android.apps.chrome.Main#1
+10-30 19:44:39.624 22752 22752 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process13 isIsolated=true
+10-30 19:44:39.629 22752 22752 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:39.638 22752 22752 I cr_ChildProcessService: Creating new ChildProcessService pid=22752
+10-30 19:44:39.638   772  1259 I ActivityManager: Start proc 22780:com.android.chrome:sandboxed_process15/u0i488 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService15
+10-30 19:44:39.638 22780 22780 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99488: Permission denied
+10-30 19:44:39.638 22780 22780 E Zygote  : createProcessGroup(99488, 0) failed: Permission denied
+10-30 19:44:39.642 22737 22737 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process12 isIsolated=true
+10-30 19:44:39.647 22752 22752 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.648 22737 22737 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:39.650 22767 22767 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:39.659 22737 22737 I cr_ChildProcessService: Creating new ChildProcessService pid=22737
+10-30 19:44:39.669   772  2970 I ActivityManager: Start proc 22795:com.android.chrome:sandboxed_process16/u0i489 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService16
+10-30 19:44:39.675 22780 22780 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:39.675 22795 22795 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99489: Permission denied
+10-30 19:44:39.675 22795 22795 E Zygote  : createProcessGroup(99489, 0) failed: Permission denied
+10-30 19:44:39.685   423   423 D SurfaceFlinger: duplicate layer name: changing com.android.chrome/com.google.android.apps.chrome.Main to com.android.chrome/com.google.android.apps.chrome.Main#2
+10-30 19:44:39.695 22814 22814 E asset   : setgid: Operation not permitted
+10-30 19:44:39.700 22795 22795 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:39.717 22737 22737 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.732 22818 22818 E asset   : setgid: Operation not permitted
+10-30 19:44:39.733 22752 22786 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:39.734 22752 22786 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:39.741 22737 22794 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:39.742 22819 22819 E asset   : setgid: Operation not permitted
+10-30 19:44:39.743 22737 22794 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:39.749 22767 22767 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process14 isIsolated=true
+10-30 19:44:39.758 22767 22767 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:39.767 22767 22767 I cr_ChildProcessService: Creating new ChildProcessService pid=22767
+10-30 19:44:39.776 22767 22767 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.778 22227 22227 E cr_IntentUtils: getInt failed on bundle null
+10-30 19:44:39.783 22227 22227 E ResourceType: Style contains key with bad entry: 0x0101062c
+10-30 19:44:39.785 22780 22780 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process15 isIsolated=true
+10-30 19:44:39.789 22795 22795 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process16 isIsolated=true
+10-30 19:44:39.792 22780 22780 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:39.797 22795 22795 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:39.805   772 10894 I ActivityManager: Start proc 22837:com.android.chrome:sandboxed_process17/u0i490 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService17
+10-30 19:44:39.808 22767 22833 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:39.809 22767 22833 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:39.810 22780 22780 I cr_ChildProcessService: Creating new ChildProcessService pid=22780
+10-30 19:44:39.814 22837 22837 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99490: Permission denied
+10-30 19:44:39.814 22837 22837 E Zygote  : createProcessGroup(99490, 0) failed: Permission denied
+10-30 19:44:39.817 22780 22780 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.819 22795 22795 I cr_ChildProcessService: Creating new ChildProcessService pid=22795
+10-30 19:44:39.827 22795 22795 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.833 22227 22227 I cr_tabmodel: Appending tabs being restored to metadata lists, 0, startingNormalCount: 2, startingIncognitoCount: 0
+10-30 19:44:39.833 22227 22227 I cr_tabmodel: Serializing tab lists; counts: 2, 0
+10-30 19:44:39.844 22780 22842 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:39.848 22780 22842 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:39.849 22837 22837 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:39.850 22795 22845 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:39.852 22795 22845 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:39.863 22227 22227 I cr_OfflineDetector: Running updateState mConnectivityDetectorInitialized: true, mTimeWhenLastForegrounded: 1031534030, getElapsedTime: 1031534030, mTimeWhenLastOfflineNotificationReceived: 0, mTimeWhenLastOnline: 1031532998, mApplicationState: 1, mIsOfflineLastReportedByConnectivityDetector: false, mIsEffectivelyOffline: false
+10-30 19:44:39.863 22227 22227 I cr_OfflineDetector: updateState(): timeSinceLastForeground: 0, timeSinceOfflineNotificationReceived: 1031534030, timeSinceLastOnline: 1032, timeNeededForForeground: 2000, timeNeededForOffline: -1031532030
+10-30 19:44:39.873 22864 22864 E asset   : setgid: Operation not permitted
+10-30 19:44:39.889 22752 22786 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.891   422   422 E lowmemorykiller: Error writing /proc/22752/oom_score_adj; errno=22
+10-30 19:44:39.892   772 32228 I ActivityManager: Killing 22752:com.android.chrome:sandboxed_process13/u0a60i486 (adj 0): isolated not needed
+10-30 19:44:39.893   772   790 W zygote64: failed to open /acct/uid_99486/pid_22752/cgroup.procs: No such file or directory
+10-30 19:44:39.896 22737 22794 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.898 22767 22833 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.898   422   422 E lowmemorykiller: Error writing /proc/22737/oom_score_adj; errno=22
+10-30 19:44:39.899   772  4539 I ActivityManager: Killing 22737:com.android.chrome:sandboxed_process12/u0a60i485 (adj 0): isolated not needed
+10-30 19:44:39.904   422   422 E lowmemorykiller: Error writing /proc/22767/oom_score_adj; errno=22
+10-30 19:44:39.905   772 10895 I ActivityManager: Killing 22767:com.android.chrome:sandboxed_process14/u0a60i487 (adj 0): isolated not needed
+10-30 19:44:39.907 22227 22227 W ResourceType: Failure getting entry for 0x7f010216 (t=0 e=534) (error -75)
+10-30 19:44:39.908 22227 22227 W ResourceType: Failure getting entry for 0x7f0107c9 (t=0 e=1993) (error -75)
+10-30 19:44:39.911   772   790 W zygote64: failed to open /acct/uid_99485/pid_22737/cgroup.procs: No such file or directory
+10-30 19:44:39.914   772   790 W zygote64: failed to open /acct/uid_99487/pid_22767/cgroup.procs: No such file or directory
+10-30 19:44:39.943 22837 22837 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process17 isIsolated=true
+10-30 19:44:39.953 22837 22837 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:39.970 22837 22837 I cr_ChildProcessService: Creating new ChildProcessService pid=22837
+10-30 19:44:39.978   772   797 I ActivityManager: Displayed com.android.chrome/com.google.android.apps.chrome.Main: +1s997ms
+10-30 19:44:39.983 22837 22837 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:39.989 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22767)
+10-30 19:44:39.994 22780 22842 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:39.996 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22737)
+10-30 19:44:39.998 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22752)
+10-30 19:44:39.999   422   422 E lowmemorykiller: Error writing /proc/22780/oom_score_adj; errno=22
+10-30 19:44:40.000   772 32228 I ActivityManager: Killing 22780:com.android.chrome:sandboxed_process15/u0a60i488 (adj 0): isolated not needed
+10-30 19:44:40.002   772   790 W zygote64: failed to open /acct/uid_99488/pid_22780/cgroup.procs: No such file or directory
+10-30 19:44:40.004 22795 22845 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:40.007   422   422 E lowmemorykiller: Error writing /proc/22795/oom_score_adj; errno=22
+10-30 19:44:40.008   772  2970 I ActivityManager: Killing 22795:com.android.chrome:sandboxed_process16/u0a60i489 (adj 0): isolated not needed
+10-30 19:44:40.008   772   790 W zygote64: failed to open /acct/uid_99489/pid_22795/cgroup.procs: No such file or directory
+10-30 19:44:40.011 22837 22876 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:40.012 22837 22876 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:40.046 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22780)
+10-30 19:44:40.048 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22795)
+10-30 19:44:40.129   772  2970 I ActivityManager: Start proc 22888:com.android.chrome:sandboxed_process18/u0i491 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService18
+10-30 19:44:40.133 22888 22888 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99491: Permission denied
+10-30 19:44:40.133 22888 22888 E Zygote  : createProcessGroup(99491, 0) failed: Permission denied
+10-30 19:44:40.153   772 10894 I ActivityManager: Start proc 22899:com.android.chrome:sandboxed_process19/u0i492 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService19
+10-30 19:44:40.154 22899 22899 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99492: Permission denied
+10-30 19:44:40.154 22899 22899 E Zygote  : createProcessGroup(99492, 0) failed: Permission denied
+10-30 19:44:40.161 22888 22888 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:40.189 22899 22899 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:40.193 22914 22914 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99493: Permission denied
+10-30 19:44:40.193 22914 22914 E Zygote  : createProcessGroup(99493, 0) failed: Permission denied
+10-30 19:44:40.198   772  3037 I ActivityManager: Start proc 22914:com.android.chrome:sandboxed_process20/u0i493 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService20
+10-30 19:44:40.228 22928 22928 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99494: Permission denied
+10-30 19:44:40.228 22928 22928 E Zygote  : createProcessGroup(99494, 0) failed: Permission denied
+10-30 19:44:40.230   772  1324 I ActivityManager: Start proc 22928:com.android.chrome:sandboxed_process21/u0i494 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService21
+10-30 19:44:40.230 22929 22929 E asset   : setgid: Operation not permitted
+10-30 19:44:40.235 22914 22914 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:40.244 22934 22934 E asset   : setgid: Operation not permitted
+10-30 19:44:40.251 22252 22263 W DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
+10-30 19:44:40.255 22928 22928 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:40.260 22943 22943 E asset   : setgid: Operation not permitted
+10-30 19:44:40.261 22227 22322 I cr_BindingManager: Moderate binding enabled: maxSize=40
+10-30 19:44:40.267 22227 22346 W cr_CrashFileManager: /data/user/0/com.android.chrome/cache/Crash Reports does not exist or is not a directory
+10-30 19:44:40.267 22227 22346 I chatty  : uid=10060(u0_a60) identical 1 line
+10-30 19:44:40.267 22227 22346 W cr_CrashFileManager: /data/user/0/com.android.chrome/cache/Crash Reports does not exist or is not a directory
+10-30 19:44:40.286 22888 22888 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process18 isIsolated=true
+10-30 19:44:40.296 22888 22888 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:40.298 22899 22899 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process19 isIsolated=true
+10-30 19:44:40.316 22914 22914 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process20 isIsolated=true
+10-30 19:44:40.318 22888 22888 I cr_ChildProcessService: Creating new ChildProcessService pid=22888
+10-30 19:44:40.322 22899 22899 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:40.326 22950 22950 E asset   : setgid: Operation not permitted
+10-30 19:44:40.332 22899 22899 I cr_ChildProcessService: Creating new ChildProcessService pid=22899
+10-30 19:44:40.333 22888 22888 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:40.335 22914 22914 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:40.352 22899 22899 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:40.358 22914 22914 I cr_ChildProcessService: Creating new ChildProcessService pid=22914
+10-30 19:44:40.375 22888 22949 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:40.376 22888 22949 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:40.392 22928 22928 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process21 isIsolated=true
+10-30 19:44:40.392 22914 22914 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:40.399 22899 22952 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:40.400 22928 22928 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:40.403 22914 22956 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:40.405 22914 22956 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:40.408 22899 22952 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:40.426 22928 22928 I cr_ChildProcessService: Creating new ChildProcessService pid=22928
+10-30 19:44:40.426 22888 22949 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:40.434   422   422 E lowmemorykiller: Error writing /proc/22888/oom_score_adj; errno=22
+10-30 19:44:40.435   772 32228 I ActivityManager: Killing 22888:com.android.chrome:sandboxed_process18/u0a60i491 (adj 0): isolated not needed
+10-30 19:44:40.436   772   790 W zygote64: failed to open /acct/uid_99491/pid_22888/cgroup.procs: No such file or directory
+10-30 19:44:40.456 22928 22928 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:40.473 22928 22968 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:40.474 22928 22968 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:40.491 22899 22952 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:40.492 22914 22956 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:40.494   422   422 E lowmemorykiller: Error writing /proc/22899/oom_score_adj; errno=22
+10-30 19:44:40.495   772 10894 I ActivityManager: Killing 22899:com.android.chrome:sandboxed_process19/u0a60i492 (adj 0): isolated not needed
+10-30 19:44:40.497   422   422 E lowmemorykiller: Error writing /proc/22914/oom_score_adj; errno=22
+10-30 19:44:40.497   772   790 W zygote64: failed to open /acct/uid_99492/pid_22899/cgroup.procs: No such file or directory
+10-30 19:44:40.498   772  4540 I ActivityManager: Killing 22914:com.android.chrome:sandboxed_process20/u0a60i493 (adj 0): isolated not needed
+10-30 19:44:40.507   772   790 W zygote64: failed to open /acct/uid_99493/pid_22914/cgroup.procs: No such file or directory
+10-30 19:44:40.551 22928 22968 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:40.554   772  1324 I ActivityManager: Killing 22928:com.android.chrome:sandboxed_process21/u0a60i494 (adj 0): isolated not needed
+10-30 19:44:40.555   772   790 W zygote64: failed to open /acct/uid_99494/pid_22928/cgroup.procs: No such file or directory
+10-30 19:44:40.598 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22888)
+10-30 19:44:40.599 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22899)
+10-30 19:44:40.600 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22914)
+10-30 19:44:40.601 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22928)
+10-30 19:44:40.663  3535  3545 I zygote64: Background concurrent copying GC freed 17252(1228KB) AllocSpace objects, 12(240KB) LOS objects, 50% free, 5MB/10MB, paused 6.790ms total 67.180ms
+10-30 19:44:40.756 22358 22371 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+10-30 19:44:40.756 22252 22303 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+10-30 19:44:40.757 22837 22857 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+10-30 19:44:40.757 22227 22238 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+10-30 19:44:40.758 22288 22302 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+10-30 19:44:40.758 22323 22335 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+10-30 19:44:40.759 22309 22320 I vndksupport: sphal namespace is not configured for this process. Loading libutils.so from the current namespace instead.
+10-30 19:44:40.763   556   556 E Parcel  : Reading a NULL string not supported here.
+10-30 19:44:40.764   556   556 W Parcel  : **** enforceInterface() expected 'IAAudioService' but read ''
+10-30 19:44:40.764   360   360 E SELinux : avc:  denied  { find } for service=android.service.gatekeeper.IGateKeeperService pid=22967 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:gatekeeper_service:s0 tclass=service_manager
+10-30 19:44:40.765   360   360 E SELinux : avc:  denied  { find } for service=netd pid=22967 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:netd_service:s0 tclass=service_manager
+10-30 19:44:40.768 22967 22967 W atrace  : type=1400 audit(0.0:9597): avc: denied { call } for scontext=u:r:shell:s0 tcontext=u:r:wificond:s0 tclass=binder permissive=0
+10-30 19:44:40.772   360   360 E SELinux : avc:  denied  { find } for service=installd pid=22967 uid=2000 scontext=u:r:shell:s0 tcontext=u:object_r:installd_service:s0 tclass=service_manager
+10-30 19:44:40.777   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.displayservice::IDisplayService pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_display_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.778   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.schedulerservice::ISchedulingPolicyService pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_scheduler_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.778   361   361 E SELinux : avc:  denied  { find } for interface=android.frameworks.sensorservice::ISensorManager pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:fwk_sensor_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.779   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.biometrics.fingerprint::IBiometricsFingerprint pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:hal_fingerprint_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.780   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.dumpstate::IDumpstateDevice pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:hal_dumpstate_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.782   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio.deprecated::IOemHook pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.782   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio::IRadio pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.784   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.radio::ISap pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:hal_telephony_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.784   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.usb::IUsb pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:hal_usb_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.785   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.wifi.supplicant::ISupplicant pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:hal_wifi_supplicant_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.786   361   361 E SELinux : avc:  denied  { find } for interface=android.hardware.wifi::IWifi pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:hal_wifi_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.787   361   361 E SELinux : avc:  denied  { find } for interface=android.hidl.base::IBase pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:hidl_base_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.787   361   361 I chatty  : uid=1000(system) hwservicemanage identical 1 line
+10-30 19:44:40.788   361   361 E SELinux : avc:  denied  { find } for interface=android.hidl.base::IBase pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:hidl_base_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.790   361   361 E SELinux : avc:  denied  { find } for interface=android.system.wifi.keystore::IKeystore pid=22967 scontext=u:r:shell:s0 tcontext=u:object_r:system_wifi_keystore_hwservice:s0 tclass=hwservice_manager
+10-30 19:44:40.807 22252 22263 I DynamiteModule: Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:7
+10-30 19:44:40.807 22252 22263 I DynamiteModule: Selected remote version of com.google.android.gms.googlecertificates, version >= 7
+10-30 19:44:41.028 22252 22263 W zygote64: Skipping duplicate class check due to unrecognized classloader
+10-30 19:44:41.060 22252 22263 D GoogleCertificates: com.google.android.gms.googlecertificates module is loaded
+10-30 19:44:41.099   772  2969 W AppOps  : Bad call: specified package com.google.android.gms under uid 10045 but it is really 10020
+10-30 19:44:41.099   772  2969 W AppOps  : java.lang.RuntimeException: here
+10-30 19:44:41.099   772  2969 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+10-30 19:44:41.099   772  2969 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+10-30 19:44:41.099   772  2969 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+10-30 19:44:41.099   772  2969 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+10-30 19:44:41.101   772 32228 W AppOps  : Bad call: specified package com.google.android.gms under uid 10045 but it is really 10020
+10-30 19:44:41.101   772 32228 W AppOps  : java.lang.RuntimeException: here
+10-30 19:44:41.101   772 32228 W AppOps  : 	at com.android.server.AppOpsService.getOpsRawLocked(AppOpsService.java:1319)
+10-30 19:44:41.101   772 32228 W AppOps  : 	at com.android.server.AppOpsService.checkPackage(AppOpsService.java:1038)
+10-30 19:44:41.101   772 32228 W AppOps  : 	at com.android.internal.app.IAppOpsService$Stub.onTransact(IAppOpsService.java:169)
+10-30 19:44:41.101   772 32228 W AppOps  : 	at android.os.Binder.execTransact(Binder.java:674)
+10-30 19:44:41.136 22252 22252 I MemoryTrimmer: Trimming objects from memory, since app is in the background.
+10-30 19:44:41.255  3535  3535 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-30 19:44:41.255  3535  3535 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-30 19:44:41.268  3535  3535 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-30 19:44:41.270  3535  3753 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+10-30 19:44:41.321  3535  3574 I GmsCoreXrpcWrapper: Returning a channel provider with trafficStatsTag=12803 trafficStatsUid=-1
+10-30 19:44:41.583  3535  3574 I Icing   : Usage reports ok 3, Failed Usage reports 0, indexed 1, rejected 0
+10-30 19:44:42.209 22227 22227 W chromium: [WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:16643
+10-30 19:44:42.244   772  3041 I ActivityManager: Start proc 22993:com.android.chrome:sandboxed_process22/u0i495 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService22
+10-30 19:44:42.245 22993 22993 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99495: Permission denied
+10-30 19:44:42.245 22993 22993 E Zygote  : createProcessGroup(99495, 0) failed: Permission denied
+10-30 19:44:42.288 22993 22993 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:42.316 23006 23006 E asset   : setgid: Operation not permitted
+10-30 19:44:42.347 22993 22993 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process22 isIsolated=true
+10-30 19:44:42.351 22993 22993 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:42.359 22993 22993 I cr_ChildProcessService: Creating new ChildProcessService pid=22993
+10-30 19:44:42.368 22993 22993 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:42.392 22993 23008 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:42.393 22993 23008 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:42.421 22227 22227 W chromium: [WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:18160
+10-30 19:44:42.435 23014 23014 W ThreadPoolForeg: type=1400 audit(0.0:9598): avc: denied { setattr } for name="model-info.pb" dev="dm-2" ino=1504892 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:42.437 22227 22227 W chromium: [WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:265060
+10-30 19:44:42.442 23014 23014 W ThreadPoolForeg: type=1400 audit(0.0:9599): avc: denied { setattr } for name="model.tflite" dev="dm-2" ino=1504893 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:42.459 22993 23008 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:42.476 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=22993)
+10-30 19:44:42.477 23016 23016 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99496: Permission denied
+10-30 19:44:42.477 23016 23016 E Zygote  : createProcessGroup(99496, 0) failed: Permission denied
+10-30 19:44:42.477   772 10895 I ActivityManager: Start proc 23016:com.android.chrome:sandboxed_process23/u0i496 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService23
+10-30 19:44:42.479   772 13071 I ActivityManager: Process com.android.chrome:sandboxed_process22 (pid 22993) has died: vis  TOP 
+10-30 19:44:42.479   772   790 W zygote64: failed to open /acct/uid_99495/pid_22993/cgroup.procs: No such file or directory
+10-30 19:44:42.479   772 13071 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.SandboxedProcessService22 in 1000ms
+10-30 19:44:42.528 23016 23016 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:42.537 23029 23029 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99497: Permission denied
+10-30 19:44:42.537 23029 23029 E Zygote  : createProcessGroup(99497, 0) failed: Permission denied
+10-30 19:44:42.543   772  4539 I ActivityManager: Start proc 23029:com.android.chrome:sandboxed_process24/u0i497 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService24
+10-30 19:44:42.564 23029 23029 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:42.565 23042 23042 E asset   : setgid: Operation not permitted
+10-30 19:44:42.587 23044 23044 E asset   : setgid: Operation not permitted
+10-30 19:44:42.603 23016 23016 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process23 isIsolated=true
+10-30 19:44:42.607 23016 23016 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:42.618 23016 23016 I cr_ChildProcessService: Creating new ChildProcessService pid=23016
+10-30 19:44:42.620 23029 23029 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process24 isIsolated=true
+10-30 19:44:42.624 23016 23016 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:42.626 23029 23029 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:42.631 23029 23029 I cr_ChildProcessService: Creating new ChildProcessService pid=23029
+10-30 19:44:42.634 23016 23046 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:42.635 23016 23046 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:42.638 23029 23029 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:42.652 23029 23047 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:42.654 23029 23047 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:42.668 23051 23051 W ThreadPoolForeg: type=1400 audit(0.0:9600): avc: denied { setattr } for name="model-info.pb" dev="dm-2" ino=1504907 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:42.672 23051 23051 W ThreadPoolForeg: type=1400 audit(0.0:9601): avc: denied { setattr } for name="model.tflite" dev="dm-2" ino=1504908 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:42.675 23055 23055 W ThreadPoolForeg: type=1400 audit(0.0:9602): avc: denied { setattr } for name="model-info.pb" dev="dm-2" ino=1504909 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:42.677 23016 23046 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:42.678   422   422 E lowmemorykiller: Error writing /proc/23016/oom_score_adj; errno=22
+10-30 19:44:42.681   772  4540 I ActivityManager: Killing 23016:com.android.chrome:sandboxed_process23/u0a60i496 (adj 0): isolated not needed
+10-30 19:44:42.681   772   790 W zygote64: failed to open /acct/uid_99496/pid_23016/cgroup.procs: No such file or directory
+10-30 19:44:42.715 23055 23055 W ThreadPoolForeg: type=1400 audit(0.0:9603): avc: denied { setattr } for name="model.tflite" dev="dm-2" ino=1504895 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:42.722 22227 22227 W chromium: [WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:15859
+10-30 19:44:42.724 23029 23047 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:42.725   422   422 E lowmemorykiller: Error writing /proc/23029/oom_score_adj; errno=22
+10-30 19:44:42.726   772  3037 I ActivityManager: Killing 23029:com.android.chrome:sandboxed_process24/u0a60i497 (adj 0): isolated not needed
+10-30 19:44:42.726   772   790 W zygote64: failed to open /acct/uid_99497/pid_23029/cgroup.procs: No such file or directory
+10-30 19:44:42.737 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23016)
+10-30 19:44:42.742 22323 22345 I tflite  : Initialized TensorFlow Lite runtime.
+10-30 19:44:42.756 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23029)
+10-30 19:44:42.758 23061 23061 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99498: Permission denied
+10-30 19:44:42.758 23061 23061 E Zygote  : createProcessGroup(99498, 0) failed: Permission denied
+10-30 19:44:42.760   772 10860 I ActivityManager: Start proc 23061:com.android.chrome:sandboxed_process25/u0i498 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService25
+10-30 19:44:42.811 23061 23061 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:42.825 22227 22227 W chromium: [WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:2759
+10-30 19:44:42.841 23074 23074 E asset   : setgid: Operation not permitted
+10-30 19:44:42.861   772   781 I zygote64: Background concurrent copying GC freed 110128(6MB) AllocSpace objects, 210(6MB) LOS objects, 42% free, 17MB/30MB, paused 506us total 100.568ms
+10-30 19:44:42.869   772  2970 I ActivityManager: Start proc 23075:com.android.chrome:sandboxed_process26/u0i499 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService26
+10-30 19:44:42.883 23075 23075 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99499: Permission denied
+10-30 19:44:42.883 23075 23075 E Zygote  : createProcessGroup(99499, 0) failed: Permission denied
+10-30 19:44:42.895 23061 23061 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process25 isIsolated=true
+10-30 19:44:42.903 23061 23061 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:42.907 23075 23075 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:42.925 23061 23061 I cr_ChildProcessService: Creating new ChildProcessService pid=23061
+10-30 19:44:42.931 23061 23061 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:42.941 23089 23089 E asset   : setgid: Operation not permitted
+10-30 19:44:42.942 22837 22876 I tflite  : Initialized TensorFlow Lite runtime.
+10-30 19:44:42.948 23061 23088 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:42.949 23061 23088 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:42.978 23092 23092 W ThreadPoolForeg: type=1400 audit(0.0:9604): avc: denied { setattr } for name="model-info.pb" dev="dm-2" ino=1504915 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:42.979 23075 23075 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process26 isIsolated=true
+10-30 19:44:42.982 23092 23092 W ThreadPoolForeg: type=1400 audit(0.0:9605): avc: denied { setattr } for name="model.tflite" dev="dm-2" ino=1504916 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:42.983 23075 23075 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:42.988 23061 23088 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:42.990 23075 23075 I cr_ChildProcessService: Creating new ChildProcessService pid=23075
+10-30 19:44:42.993   422   422 E lowmemorykiller: Error writing /proc/23061/oom_score_adj; errno=22
+10-30 19:44:42.994   772  2969 I ActivityManager: Killing 23061:com.android.chrome:sandboxed_process25/u0a60i498 (adj 0): isolated not needed
+10-30 19:44:42.997   772   790 W zygote64: failed to open /acct/uid_99498/pid_23061/cgroup.procs: No such file or directory
+10-30 19:44:43.001 23075 23075 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:43.014 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23061)
+10-30 19:44:43.018 23075 23097 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:43.020 23075 23097 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:43.038 23101 23101 W ThreadPoolForeg: type=1400 audit(0.0:9606): avc: denied { setattr } for name="model-info.pb" dev="dm-2" ino=1504915 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:43.042 23101 23101 W ThreadPoolForeg: type=1400 audit(0.0:9607): avc: denied { setattr } for name="model.tflite" dev="dm-2" ino=1504920 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:43.049 23075 23097 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:43.050   422   422 E lowmemorykiller: Error writing /proc/23075/oom_score_adj; errno=22
+10-30 19:44:43.051   772  3037 I ActivityManager: Killing 23075:com.android.chrome:sandboxed_process26/u0a60i499 (adj 0): isolated not needed
+10-30 19:44:43.052   772   790 W zygote64: failed to open /acct/uid_99499/pid_23075/cgroup.procs: No such file or directory
+10-30 19:44:43.070 22227 22227 W chromium: [WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:116031
+10-30 19:44:43.105 23105 23105 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99500: Permission denied
+10-30 19:44:43.105 23105 23105 E Zygote  : createProcessGroup(99500, 0) failed: Permission denied
+10-30 19:44:43.114   772  4540 I ActivityManager: Start proc 23105:com.android.chrome:sandboxed_process27/u0i500 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService27
+10-30 19:44:43.123 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23075)
+10-30 19:44:43.145 23105 23105 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:43.169 23120 23120 E asset   : setgid: Operation not permitted
+10-30 19:44:43.198 23105 23105 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process27 isIsolated=true
+10-30 19:44:43.201 23105 23105 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:43.208 23105 23105 I cr_ChildProcessService: Creating new ChildProcessService pid=23105
+10-30 19:44:43.220 23105 23105 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:43.230 23105 23122 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:43.231 23105 23122 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:43.248 23126 23126 W ThreadPoolForeg: type=1400 audit(0.0:9608): avc: denied { setattr } for name="model-info.pb" dev="dm-2" ino=1504937 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:43.262 23126 23126 W ThreadPoolForeg: type=1400 audit(0.0:9609): avc: denied { setattr } for name="model.tflite" dev="dm-2" ino=1504938 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:43.275 23105 23122 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:43.276   422   422 E lowmemorykiller: Error writing /proc/23105/oom_score_adj; errno=22
+10-30 19:44:43.277   772 13071 I ActivityManager: Killing 23105:com.android.chrome:sandboxed_process27/u0a60i500 (adj 0): isolated not needed
+10-30 19:44:43.277   772   790 W zygote64: failed to open /acct/uid_99500/pid_23105/cgroup.procs: No such file or directory
+10-30 19:44:43.302 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23105)
+10-30 19:44:44.155 22227 22227 W chromium: [WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:1008531
+10-30 19:44:44.171 22227 22346 I cr_omaha: OmahaBase::generateAndPostRequest(): Sending request to Omaha:
+10-30 19:44:44.171 22227 22346 I cr_omaha: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?><request protocol="3.0" updater="Android" updaterversion="106.0.5249.79" updaterchannel="chrome" ismachine="1" requestid="{c69be75d-449d-4391-9744-9e8cea3baf54}" sessionid="{869c7464-da35-4959-b195-a91181e84581}" installsource="system_image" dedup="cr"><os platform="android" version="8.0.0" arch="arm" /><app brand="" client="ms-android-google" appid="{387E11AD-7109-45F6-83CF-CAA241ADC9DF}" version="106.0.5249.79" nextversion="" lang="en-US" installage="-1" ap="chrome;google;nexus 5x"><event eventtype="2" eventresult="1" /></app></request>
+10-30 19:44:44.187 23130 23130 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99501: Permission denied
+10-30 19:44:44.187 23130 23130 E Zygote  : createProcessGroup(99501, 0) failed: Permission denied
+10-30 19:44:44.187   772  3037 I ActivityManager: Start proc 23130:com.android.chrome:sandboxed_process28/u0i501 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService28
+10-30 19:44:44.204 23130 23130 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:44.235 23143 23143 E asset   : setgid: Operation not permitted
+10-30 19:44:44.268 23130 23130 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process28 isIsolated=true
+10-30 19:44:44.272 23130 23130 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:44.280 23130 23130 I cr_ChildProcessService: Creating new ChildProcessService pid=23130
+10-30 19:44:44.285 23130 23130 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:44.299 23130 23145 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:44.300 23130 23145 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:44.315 23150 23150 W ThreadPoolForeg: type=1400 audit(0.0:9610): avc: denied { setattr } for name="model-info.pb" dev="dm-2" ino=1504948 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:44.315 23150 23150 W ThreadPoolForeg: type=1400 audit(0.0:9611): avc: denied { setattr } for name="VERSION.txt" dev="dm-2" ino=1504949 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:44.318 23150 23150 W ThreadPoolForeg: type=1400 audit(0.0:9612): avc: denied { setattr } for name="override_list.pb.gz" dev="dm-2" ino=1504950 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:44.351 22227 22346 I cr_omaha: OmahaBase::generateAndPostRequest(): Received response from Omaha:
+10-30 19:44:44.351 22227 22346 I cr_omaha: <?xml version="1.0" encoding="UTF-8"?><response protocol="3.0" server="prod"><daystart elapsed_days="5781" elapsed_seconds="42282"/><app appid="{387E11AD-7109-45F6-83CF-CAA241ADC9DF}" status="ok"><event status="ok"/></app></response>
+10-30 19:44:44.361 22227 22346 I cr_omaha: Request to Server Successful. Timestamp for next request:1667159084361
+10-30 19:44:44.365 23150 23150 W ThreadPoolForeg: type=1400 audit(0.0:9613): avc: denied { setattr } for name="model.tflite" dev="dm-2" ino=1504951 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:44.370 22227 22346 I cr_omaha: OmahaBase::generateAndPostRequest(): Sending request to Omaha:
+10-30 19:44:44.370 22227 22346 I cr_omaha: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?><request protocol="3.0" updater="Android" updaterversion="106.0.5249.79" updaterchannel="chrome" ismachine="1" requestid="{81d2fe4f-d5ea-471c-ac45-7623ed5bebe1}" sessionid="{869c7464-da35-4959-b195-a91181e84581}" installsource="system_image" dedup="cr"><os platform="android" version="8.0.0" arch="arm" /><app brand="" client="ms-android-google" appid="{387E11AD-7109-45F6-83CF-CAA241ADC9DF}" version="106.0.5249.79" nextversion="" lang="en-US" installage="0" ap="chrome;google;nexus 5x"><updatecheck /><ping active="1" ad="5781" rd="5781" /></app></request>
+10-30 19:44:44.375 23130 23145 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:44.377   422   422 E lowmemorykiller: Error writing /proc/23130/oom_score_adj; errno=22
+10-30 19:44:44.378   772 10895 I ActivityManager: Killing 23130:com.android.chrome:sandboxed_process28/u0a60i501 (adj 0): isolated not needed
+10-30 19:44:44.378   772   790 W zygote64: failed to open /acct/uid_99501/pid_23130/cgroup.procs: No such file or directory
+10-30 19:44:44.387 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23130)
+10-30 19:44:44.406 22227 22346 I cr_omaha: OmahaBase::generateAndPostRequest(): Received response from Omaha:
+10-30 19:44:44.406 22227 22346 I cr_omaha: <?xml version="1.0" encoding="UTF-8"?><response protocol="3.0" server="prod"><daystart elapsed_days="5781" elapsed_seconds="42282"/><app appid="{387E11AD-7109-45F6-83CF-CAA241ADC9DF}" cohort="1:hyx:" cohortname="Stable Chrome" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app></response>
+10-30 19:44:44.408 22227 22346 I cr_omaha: Request to Server Successful. Timestamp for next request:1667159084408
+10-30 19:44:44.408 22227 22346 I cr_omaha: Attempting to schedule next job for: Mon Oct 31 00:44:44 GMT+01:00 2022
+10-30 19:44:44.412 22227 22227 I cr_omaha: Scheduled using JobService
+10-30 19:44:44.413 22227 22227 E cr_BkgrdTaskJS: Tried finishing non-current BackgroundTask.
+10-30 19:44:44.413 22227 22227 W chromium: [WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:9419
+10-30 19:44:44.432 23152 23152 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99502: Permission denied
+10-30 19:44:44.432 23152 23152 E Zygote  : createProcessGroup(99502, 0) failed: Permission denied
+10-30 19:44:44.437   772   784 I ActivityManager: Start proc 23152:com.android.chrome:sandboxed_process29/u0i502 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService29
+10-30 19:44:44.455 23152 23152 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:44.471 23165 23165 E asset   : setgid: Operation not permitted
+10-30 19:44:44.495 23152 23152 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process29 isIsolated=true
+10-30 19:44:44.506 23152 23152 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:44.513 23152 23152 I cr_ChildProcessService: Creating new ChildProcessService pid=23152
+10-30 19:44:44.518 23152 23152 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:44.527 23152 23167 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:44.528 23152 23167 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:44.542 23171 23171 W ThreadPoolForeg: type=1400 audit(0.0:9614): avc: denied { setattr } for name="model-info.pb" dev="dm-2" ino=1504954 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:44.545 23171 23171 W ThreadPoolForeg: type=1400 audit(0.0:9615): avc: denied { setattr } for name="model.tflite" dev="dm-2" ino=1504955 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:44.549 23152 23167 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:44.551   422   422 E lowmemorykiller: Error writing /proc/23152/oom_score_adj; errno=22
+10-30 19:44:44.552   772 10894 I ActivityManager: Killing 23152:com.android.chrome:sandboxed_process29/u0a60i502 (adj 0): isolated not needed
+10-30 19:44:44.552   772   790 W zygote64: failed to open /acct/uid_99502/pid_23152/cgroup.procs: No such file or directory
+10-30 19:44:44.567 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23152)
+10-30 19:44:44.646 22227 22227 I cr_tabmodel: Appending tabs being restored to metadata lists, 0, startingNormalCount: 2, startingIncognitoCount: 0
+10-30 19:44:44.646 22227 22227 I cr_tabmodel: Serializing tab lists; counts: 2, 0
+10-30 19:44:44.768 22227 22227 W chromium: [WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:4951
+10-30 19:44:44.794 23178 23178 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99503: Permission denied
+10-30 19:44:44.794 23178 23178 E Zygote  : createProcessGroup(99503, 0) failed: Permission denied
+10-30 19:44:44.797   772  4540 I ActivityManager: Start proc 23178:com.android.chrome:sandboxed_process30/u0i503 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService30
+10-30 19:44:44.810 23178 23178 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:44:44.824  3535  3535 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-30 19:44:44.824  3535  3535 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-30 19:44:44.830  3535  3535 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-30 19:44:44.833 23191 23191 E asset   : setgid: Operation not permitted
+10-30 19:44:44.874 23178 23178 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process30 isIsolated=true
+10-30 19:44:44.879 23178 23178 W SystemServiceRegistry: No service published for: uimode
+10-30 19:44:44.888 23178 23178 I cr_ChildProcessService: Creating new ChildProcessService pid=23178
+10-30 19:44:44.893 23178 23178 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:44:44.903 23178 23192 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:44:44.904 23178 23192 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:44:44.928 23195 23195 W ThreadPoolForeg: type=1400 audit(0.0:9616): avc: denied { setattr } for name="model-info.pb" dev="dm-2" ino=1504959 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:44.932 23195 23195 W ThreadPoolForeg: type=1400 audit(0.0:9617): avc: denied { setattr } for name="model.tflite" dev="dm-2" ino=1504960 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:44:44.938 23178 23192 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:44:44.939   422   422 E lowmemorykiller: Error writing /proc/23178/oom_score_adj; errno=22
+10-30 19:44:44.940   772 13022 I ActivityManager: Killing 23178:com.android.chrome:sandboxed_process30/u0a60i503 (adj 0): isolated not needed
+10-30 19:44:44.941   772   790 W zygote64: failed to open /acct/uid_99503/pid_23178/cgroup.procs: No such file or directory
+10-30 19:44:44.952 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23178)
+10-30 19:44:49.596 22227 22227 E cr_BTSPrefs: No data found for task id: 56
+10-30 19:44:49.598 22227 22227 E cr_BkgrdTaskScheduler: Task cannot be canceled because no data was found instorage or data was invalid
+10-30 19:44:53.709 22227 22227 W ResourceType: Failure getting entry for 0x7f010888 (t=0 e=2184) (error -75)
+10-30 19:44:53.753 22227 22227 I chatty  : uid=10060(u0_a60) identical 7 lines
+10-30 19:44:53.758 22227 22227 W ResourceType: Failure getting entry for 0x7f010888 (t=0 e=2184) (error -75)
+10-30 19:44:53.762 22227 22227 I cr_TopSites: Start a new task.
+10-30 19:44:53.762 22227 22346 I cr_TopSites: Serializing top sites lists finished; count: 9
+10-30 19:44:53.768 22227 22346 I cr_TopSites: Finished saving top sites list to file:/data/user/0/com.android.chrome/app_top_sites/top_sites
+10-30 19:45:13.017   772 32228 D WificondControl: Scan result ready event
+10-30 19:45:13.051  3960  3972 I ChimeraSrvcProxy: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl
+10-30 19:45:31.600 22227 22227 I cr_media: Create MediaDrmBridge with level L3 and origin C2EB4873F2515024213D13CB9817C266
+10-30 19:45:31.621   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.drm@1.0::IDrmFactory in either framework or device manifest, using default transport.
+10-30 19:45:31.731   562  5487 I DrmHal  : makeDrmFactories: using default drm instance
+10-30 19:45:31.743   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.drm@1.0::IDrmFactory in either framework or device manifest, using default transport.
+10-30 19:45:31.755   562   562 I DrmHal  : makeDrmFactories: using default drm instance
+10-30 19:45:31.755   562  5487 D WVCdm   : Instantiating CDM.
+10-30 19:45:31.764   562   562 I WVCdm   : CdmEngine::QueryStatus
+10-30 19:45:31.764   562   562 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:31.778   562   562 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:31.778   562   562 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:31.835   562   562 D QSEECOMAPI: : Loaded image: APP id = 866
+10-30 19:45:31.841   562   562 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:31.841   562   562 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:31.841   562   562 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf00a7000
+10-30 19:45:31.845   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:31.845   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:31.845   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:31.845   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:31.845   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:31.845   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:31.845   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:31.845   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:31.845   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:31.845   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:31.846   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:31.846   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:31.846   625 23208 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:31.846   625 23208 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:31.847   625 23208 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:31.847   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:31.847   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:31.847   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155531
+10-30 19:45:31.847   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155531; nsec = 0
+10-30 19:45:31.847   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:31.847   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:31.847   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:31.847   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:31.888   562   562 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:31.889   562   562 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:31.889   562   562 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 866
+10-30 19:45:31.897   562 19051 I WVCdm   : CdmEngine::OpenSession
+10-30 19:45:31.898   562 19051 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:31.904   562 19051 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:31.904   562 19051 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:31.955   562 19051 D QSEECOMAPI: : Loaded image: APP id = 867
+10-30 19:45:31.960   562 19051 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:31.960   562 19051 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:31.960   562 19051 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf00a7000
+10-30 19:45:31.963   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:31.963   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:31.963   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:31.963   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:31.963   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:31.963   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:31.963   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:31.963   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:31.963   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:31.963   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:31.963   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:31.964   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:31.964   625 23209 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:31.964   625 23209 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:31.964   625 23209 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:31.964   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:31.964   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:31.964   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155531
+10-30 19:45:31.964   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155531; nsec = 0
+10-30 19:45:31.964   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:31.964   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:31.964   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:31.965   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:31.988   562 19051 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:31.988   562 19051 D WVCdm   : CryptoSession::Open: Lock: requested_security_level: L3
+10-30 19:45:32.006   562 19051 W WVCdm   : DeviceFiles::RetrieveHashedFile: /data/mediadrm/IDM1013/L3/cert.bin does not exist
+10-30 19:45:32.007   562 19051 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:32.007   562 19051 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 867
+10-30 19:45:32.038   562  5487 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:32.044   562  5487 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:32.044   562  5487 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:32.094   562  5487 D QSEECOMAPI: : Loaded image: APP id = 868
+10-30 19:45:32.098   562  5487 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:32.098   562  5487 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:32.098   562  5487 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf00a7000
+10-30 19:45:32.102   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:32.102   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:32.102   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:32.102   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:32.102   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:32.102   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:32.102   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:32.102   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:32.102   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:32.102   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:32.102   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:32.102   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:32.103   625 23210 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:32.103   625 23210 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:32.103   625 23210 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:32.103   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:32.103   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:32.103   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155532
+10-30 19:45:32.103   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155532; nsec = 0
+10-30 19:45:32.103   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:32.103   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:32.103   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:32.103   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:32.138   562  5487 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:32.138   562  5487 D WVCdm   : CryptoSession::Open: Lock: requested_security_level: L3
+10-30 19:45:32.148 22227 22227 I cr_media: Provisioning origin ID C2EB4873F2515024213D13CB9817C266
+10-30 19:45:32.153 22227 22227 I MediaDrm: Drm event (1,0)
+10-30 19:45:32.153 22227 22227 E cr_media: EventListener: No session for event 1.
+10-30 19:45:32.448   562 19050 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:32.448   562 19050 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 868
+10-30 19:45:32.455 22227 22227 I cr_media: Create MediaDrmBridge with level L1 and origin C2EB4873F2515024213D13CB9817C266
+10-30 19:45:32.457   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.drm@1.0::IDrmFactory in either framework or device manifest, using default transport.
+10-30 19:45:32.461   562   644 I DrmHal  : makeDrmFactories: using default drm instance
+10-30 19:45:32.464   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.drm@1.0::IDrmFactory in either framework or device manifest, using default transport.
+10-30 19:45:32.468   562 19050 I DrmHal  : makeDrmFactories: using default drm instance
+10-30 19:45:32.470   562   644 I WVCdm   : CdmEngine::QueryStatus
+10-30 19:45:32.470   562   644 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:32.474   562   644 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:32.474   562   644 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:32.527   562   644 D QSEECOMAPI: : Loaded image: APP id = 869
+10-30 19:45:32.530   562   644 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:32.530   562   644 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:32.530   562   644 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf0076000
+10-30 19:45:32.535   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:32.535   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:32.535   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:32.535   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:32.535   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:32.535   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:32.535   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:32.535   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:32.535   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:32.535   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:32.535   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:32.535   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:32.536   625 23215 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:32.536   625 23215 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:32.536   625 23215 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:32.536   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:32.536   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:32.536   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155532
+10-30 19:45:32.536   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155532; nsec = 0
+10-30 19:45:32.536   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:32.536   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:32.536   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:32.536   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:32.572   562   644 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:32.573   562   644 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:32.573   562   644 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 869
+10-30 19:45:32.579   562  5487 I WVCdm   : CdmEngine::OpenSession
+10-30 19:45:32.579   562  5487 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:32.583   562  5487 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:32.583   562  5487 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:32.634   562  5487 D QSEECOMAPI: : Loaded image: APP id = 870
+10-30 19:45:32.637   562  5487 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:32.637   562  5487 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:32.637   562  5487 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf0076000
+10-30 19:45:32.641   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:32.641   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:32.641   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:32.641   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:32.641   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:32.641   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:32.641   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:32.641   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:32.642   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:32.642   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:32.642   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:32.642   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:32.642   625 23216 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:32.642   625 23216 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:32.642   625 23216 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:32.642   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:32.642   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:32.642   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155532
+10-30 19:45:32.642   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155532; nsec = 0
+10-30 19:45:32.642   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:32.642   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:32.642   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:32.643   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:32.678   562  5487 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:32.678   562  5487 D WVCdm   : CryptoSession::Open: Lock: requested_security_level: Default
+10-30 19:45:32.681   562  5487 W WVCdm   : DeviceFiles::RetrieveHashedFile: /data/mediadrm/IDM1013/L1/cert.bin does not exist
+10-30 19:45:32.683   562  5487 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:32.683   562  5487 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 870
+10-30 19:45:32.688   562 19051 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:32.695   562 19051 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:32.695   562 19051 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:32.747   562 19051 D QSEECOMAPI: : Loaded image: APP id = 871
+10-30 19:45:32.750   562 19051 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:32.750   562 19051 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:32.750   562 19051 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf00c5000
+10-30 19:45:32.754   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:32.754   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:32.754   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:32.754   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:32.754   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:32.754   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:32.754   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:32.754   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:32.754   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:32.754   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:32.754   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:32.754   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:32.755   625 23217 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:32.755   625 23217 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:32.755   625 23217 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:32.755   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:32.755   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:32.755   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155532
+10-30 19:45:32.755   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155532; nsec = 0
+10-30 19:45:32.755   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:32.755   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:32.755   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:32.756   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:32.793   562 19051 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:32.793   562 19051 D WVCdm   : CryptoSession::Open: Lock: requested_security_level: Default
+10-30 19:45:32.895   562 19051 E DrmWidevineDash: OEMCrypto_GenerateSignature : input wrapped_rsa_key == NULL!, return short buffer
+10-30 19:45:32.897 22227 22227 I cr_media: Provisioning origin ID C2EB4873F2515024213D13CB9817C266
+10-30 19:45:32.925 22227 22227 I MediaDrm: Drm event (1,0)
+10-30 19:45:32.925 22227 22227 E cr_media: EventListener: No session for event 1.
+10-30 19:45:32.942   562   644 E DrmWidevineDash: OEMCrypto_RewrapDeviceRSAKey : input wrapped_rsa_key == NULL!, return short buffer
+10-30 19:45:32.953 23218 23218 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99504: Permission denied
+10-30 19:45:32.953 23218 23218 E Zygote  : createProcessGroup(99504, 0) failed: Permission denied
+10-30 19:45:32.955   772 20193 I ActivityManager: Start proc 23218:com.android.chrome:sandboxed_process31/u0i504 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService31
+10-30 19:45:32.959   562   644 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:32.959   562   644 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 871
+10-30 19:45:32.969 22227 22227 I cr_media: Create MediaDrmBridge with level L3 and origin 05C4004C5B74496E567412874493418C
+10-30 19:45:32.972   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.drm@1.0::IDrmFactory in either framework or device manifest, using default transport.
+10-30 19:45:32.974 23218 23218 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:45:32.992 23231 23231 E asset   : setgid: Operation not permitted
+10-30 19:45:33.019   562  5487 I DrmHal  : makeDrmFactories: using default drm instance
+10-30 19:45:33.022   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.drm@1.0::IDrmFactory in either framework or device manifest, using default transport.
+10-30 19:45:33.030 23218 23218 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process31 isIsolated=true
+10-30 19:45:33.037 23218 23218 W SystemServiceRegistry: No service published for: uimode
+10-30 19:45:33.049 23218 23218 I cr_ChildProcessService: Creating new ChildProcessService pid=23218
+10-30 19:45:33.061 23218 23218 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:45:33.067   562 19051 I DrmHal  : makeDrmFactories: using default drm instance
+10-30 19:45:33.068   562  5487 D WVCdm   : Instantiating CDM.
+10-30 19:45:33.069   562   644 I WVCdm   : CdmEngine::QueryStatus
+10-30 19:45:33.070   562   644 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:33.072 23218 23233 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:45:33.074 23218 23233 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:45:33.074   562   644 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:33.074   562   644 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:33.112 23239 23239 W ThreadPoolForeg: type=1400 audit(0.0:9618): avc: denied { setattr } for name="LICENSE.txt" dev="dm-2" ino=1504983 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:33.118 23239 23239 W ThreadPoolForeg: type=1400 audit(0.0:9619): avc: denied { setattr } for name=46696C746572696E672052756C6573 dev="dm-2" ino=1504984 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:33.118 23239 23239 W ThreadPoolForeg: type=1400 audit(0.0:9620): avc: denied { setattr } for name="manifest.json" dev="dm-2" ino=1504985 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:33.125 23239 23239 W ThreadPoolForeg: type=1400 audit(0.0:9621): avc: denied { setattr } for name="verified_contents.json" dev="dm-2" ino=1504987 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:33.130   562   644 D QSEECOMAPI: : Loaded image: APP id = 872
+10-30 19:45:33.133   562   644 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:33.133   562   644 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:33.134   562   644 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf00a1000
+10-30 19:45:33.134 23218 23233 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:45:33.134   772 20193 I ActivityManager: Killing 23218:com.android.chrome:sandboxed_process31/u0a60i504 (adj 0): isolated not needed
+10-30 19:45:33.135   772   790 W zygote64: failed to open /acct/uid_99504/pid_23218/cgroup.procs: No such file or directory
+10-30 19:45:33.138   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:33.138   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:33.138   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:33.138   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:33.138   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:33.138   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:33.138   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:33.138   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:33.138   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:33.138   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:33.138   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:33.139   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:33.139   625 23243 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:33.139   625 23243 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:33.139   625 23243 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:33.139   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:33.139   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:33.139   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155533
+10-30 19:45:33.139   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155533; nsec = 0
+10-30 19:45:33.139   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:33.139   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:33.139   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:33.140   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:33.181   562   644 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:33.182   562   644 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:33.182   562   644 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 872
+10-30 19:45:33.187   562 19050 I WVCdm   : CdmEngine::OpenSession
+10-30 19:45:33.188   562 19050 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:33.191   562 19050 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:33.191   562 19050 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:33.239   562 19050 D QSEECOMAPI: : Loaded image: APP id = 873
+10-30 19:45:33.242   562 19050 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:33.242   562 19050 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:33.242   562 19050 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf00a1000
+10-30 19:45:33.246   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:33.246   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:33.246   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:33.246   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:33.246   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:33.246   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:33.246   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:33.246   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:33.246   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:33.246   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:33.247   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:33.247   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:33.248   625 23244 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:33.248   625 23244 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:33.248   625 23244 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:33.248   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:33.248   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:33.248   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155533
+10-30 19:45:33.248   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155533; nsec = 0
+10-30 19:45:33.248   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:33.248   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:33.248   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:33.249   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:33.282   562 19050 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:33.282   562 19050 D WVCdm   : CryptoSession::Open: Lock: requested_security_level: L3
+10-30 19:45:33.289   562 19050 W WVCdm   : DeviceFiles::RetrieveHashedFile: /data/mediadrm/IDM1013/L3/cert.bin does not exist
+10-30 19:45:33.290   562 19050 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:33.290   562 19050 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 873
+10-30 19:45:33.296   562 19050 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:33.301   562 19050 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:33.301   562 19050 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:33.348   562 19050 D QSEECOMAPI: : Loaded image: APP id = 874
+10-30 19:45:33.351   562 19050 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:33.351   562 19050 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:33.351   562 19050 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf00a1000
+10-30 19:45:33.355   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:33.355   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:33.355   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:33.355   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:33.355   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:33.355   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:33.355   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:33.355   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:33.355   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:33.355   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:33.355   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:33.355   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:33.356   625 23245 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:33.356   625 23245 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:33.356   625 23245 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:33.356   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:33.356   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:33.356   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155533
+10-30 19:45:33.356   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155533; nsec = 0
+10-30 19:45:33.356   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:33.356   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:33.356   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:33.356   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:33.390   562 19050 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:33.391   562 19050 D WVCdm   : CryptoSession::Open: Lock: requested_security_level: L3
+10-30 19:45:33.400 22227 22227 I cr_media: Provisioning origin ID 05C4004C5B74496E567412874493418C
+10-30 19:45:33.425 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23218)
+10-30 19:45:33.427 22227 22227 I MediaDrm: Drm event (1,0)
+10-30 19:45:33.427 22227 22227 E cr_media: EventListener: No session for event 1.
+10-30 19:45:33.487   562   562 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:33.487   562   562 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 874
+10-30 19:45:33.495 22227 22227 I cr_media: Create MediaDrmBridge with level L1 and origin 05C4004C5B74496E567412874493418C
+10-30 19:45:33.498   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.drm@1.0::IDrmFactory in either framework or device manifest, using default transport.
+10-30 19:45:33.503   562   644 I DrmHal  : makeDrmFactories: using default drm instance
+10-30 19:45:33.506   361   361 W /system/bin/hwservicemanager: getTransportFromManifest: Cannot find entry android.hardware.drm@1.0::IDrmFactory in either framework or device manifest, using default transport.
+10-30 19:45:33.509   562   562 I DrmHal  : makeDrmFactories: using default drm instance
+10-30 19:45:33.511   562  5487 I WVCdm   : CdmEngine::QueryStatus
+10-30 19:45:33.511   562  5487 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:33.516   562  5487 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:33.516   562  5487 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:33.568   562  5487 D QSEECOMAPI: : Loaded image: APP id = 875
+10-30 19:45:33.572   562  5487 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:33.572   562  5487 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:33.572   562  5487 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf0071000
+10-30 19:45:33.576   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:33.576   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:33.576   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:33.576   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:33.576   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:33.576   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:33.576   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:33.576   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:33.576   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:33.576   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:33.576   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:33.576   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:33.577   625 23250 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:33.577   625 23250 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:33.577   625 23250 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:33.577   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:33.577   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:33.577   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155533
+10-30 19:45:33.577   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155533; nsec = 0
+10-30 19:45:33.577   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:33.577   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:33.577   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:33.577   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:33.603   562  5487 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:33.604   562  5487 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:33.604   562  5487 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 875
+10-30 19:45:33.609   562   562 I WVCdm   : CdmEngine::OpenSession
+10-30 19:45:33.610   562   562 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:33.614   562   562 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:33.614   562   562 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:33.656   562   562 D QSEECOMAPI: : Loaded image: APP id = 876
+10-30 19:45:33.658   562   562 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:33.658   562   562 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:33.658   562   562 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf0071000
+10-30 19:45:33.661   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:33.661   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:33.661   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:33.661   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:33.661   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:33.661   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:33.661   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:33.661   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:33.661   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:33.661   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:33.661   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:33.661   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:33.662   625 23251 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:33.662   625 23251 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:33.662   625 23251 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:33.662   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:33.662   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:33.662   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155533
+10-30 19:45:33.662   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155533; nsec = 0
+10-30 19:45:33.662   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:33.662   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:33.662   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:33.662   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:33.684   562   562 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:33.684   562   562 D WVCdm   : CryptoSession::Open: Lock: requested_security_level: Default
+10-30 19:45:33.687   562   562 W WVCdm   : DeviceFiles::RetrieveHashedFile: /data/mediadrm/IDM1013/L1/cert.bin does not exist
+10-30 19:45:33.688   562   562 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:33.688   562   562 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 876
+10-30 19:45:33.692   562   644 I WVCdm   : Level3 Library 4445 May 19 2017 17:17:20
+10-30 19:45:33.700   562   644 D QSEECOMAPI: : QSEECom_get_handle sb_length = 0x19000
+10-30 19:45:33.700   562   644 D QSEECOMAPI: : App is not loaded in QSEE
+10-30 19:45:33.744   562   644 D QSEECOMAPI: : Loaded image: APP id = 877
+10-30 19:45:33.747   562   644 D QSAPPSVER: qsapps_get_capabilities: Capability from secure side: 0x0
+10-30 19:45:33.747   562   644 D QSAPPSVER: qsapps_get_capabilities: returns 0
+10-30 19:45:33.747   562   644 E DrmWidevineDash: sion_buffer g_wv_fhandle->ion_sbuffer  0x0xf00bf000
+10-30 19:45:33.751   372   376 D DrmLibTime: got the req here! ret=0
+10-30 19:45:33.751   372   376 D DrmLibTime: command id, time_cmd_id = 770
+10-30 19:45:33.751   372   376 D DrmLibTime: time_getutcsec starts!
+10-30 19:45:33.751   372   376 D DrmLibTime: QSEE Time Listener: time_getutcsec
+10-30 19:45:33.751   372   376 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+10-30 19:45:33.751   372   376 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+10-30 19:45:33.751   372   376 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+10-30 19:45:33.751   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+10-30 19:45:33.751   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+10-30 19:45:33.751   372   376 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+10-30 19:45:33.751   372   376 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+10-30 19:45:33.751   625   647 D QC-time-services: Daemon: Connection accepted:time_genoff
+10-30 19:45:33.752   625 23252 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+10-30 19:45:33.752   625 23252 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+10-30 19:45:33.752   625 23252 D QC-time-services: offset is: 0 for base: 13
+10-30 19:45:33.752   372   376 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+10-30 19:45:33.752   372   376 D DrmLibTime: QSEE Time Listener: ATS_MODEM is not set. Fallback to Android system time.
+10-30 19:45:33.752   372   376 D DrmLibTime: QSEE Time Listener: Retrieved Android system time: 1667155533
+10-30 19:45:33.752   372   376 D DrmLibTime: time_getutcsec returns 0, sec = 1667155533; nsec = 0
+10-30 19:45:33.752   372   376 D DrmLibTime: time_getutcsec finished! 
+10-30 19:45:33.753   372   376 D DrmLibTime: iotcl_continue_command finished! and return 0 
+10-30 19:45:33.753   372   376 D DrmLibTime: before calling ioctl to read the next time_cmd
+10-30 19:45:33.753   625   647 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+10-30 19:45:33.780   562   644 D WVCdm   : OEMCrypto_Initialize Level 1 success. I will use level 1.
+10-30 19:45:33.780   562   644 D WVCdm   : CryptoSession::Open: Lock: requested_security_level: Default
+10-30 19:45:33.866   562   644 E DrmWidevineDash: OEMCrypto_GenerateSignature : input wrapped_rsa_key == NULL!, return short buffer
+10-30 19:45:33.868 22227 22227 I cr_media: Provisioning origin ID 05C4004C5B74496E567412874493418C
+10-30 19:45:33.873 22227 22227 I MediaDrm: Drm event (1,0)
+10-30 19:45:33.873 22227 22227 E cr_media: EventListener: No session for event 1.
+10-30 19:45:33.951   562 19051 E DrmWidevineDash: OEMCrypto_RewrapDeviceRSAKey : input wrapped_rsa_key == NULL!, return short buffer
+10-30 19:45:33.974   562 19051 D QSEECOMAPI: : QSEECom_dealloc_memory 
+10-30 19:45:33.975   562 19051 D QSEECOMAPI: : QSEECom_shutdown_app, app_id = 877
+10-30 19:45:34.154 22227 22227 I cr_tabmodel: Appending tabs being restored to metadata lists, 0, startingNormalCount: 2, startingIncognitoCount: 0
+10-30 19:45:34.154 22227 22227 I cr_tabmodel: Serializing tab lists; counts: 2, 0
+10-30 19:45:35.331 23254 23254 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99505: Permission denied
+10-30 19:45:35.331 23254 23254 E Zygote  : createProcessGroup(99505, 0) failed: Permission denied
+10-30 19:45:35.333   772 13021 I ActivityManager: Start proc 23254:com.android.chrome:sandboxed_process32/u0i505 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService32
+10-30 19:45:35.347 23254 23254 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:45:35.366 23267 23267 E asset   : setgid: Operation not permitted
+10-30 19:45:35.398 23254 23254 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process32 isIsolated=true
+10-30 19:45:35.405 23254 23254 W SystemServiceRegistry: No service published for: uimode
+10-30 19:45:35.416 23254 23254 I cr_ChildProcessService: Creating new ChildProcessService pid=23254
+10-30 19:45:35.425 23254 23254 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:45:35.438 23254 23269 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:45:35.439 23254 23269 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:45:35.528 23273 23273 W ThreadPoolForeg: type=1400 audit(0.0:9622): avc: denied { setattr } for name="tl_en-us_2022-10-17_483521407_100000_index.bin" dev="dm-2" ino=1504997 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:35.532 23273 23273 W ThreadPoolForeg: type=1400 audit(0.0:9623): avc: denied { setattr } for name="manifest.json" dev="dm-2" ino=1504998 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:35.545 23273 23273 W ThreadPoolForeg: type=1400 audit(0.0:9624): avc: denied { setattr } for name="verified_contents.json" dev="dm-2" ino=1505003 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:35.556 23254 23269 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:45:35.559   422   422 E lowmemorykiller: Error writing /proc/23254/oom_score_adj; errno=22
+10-30 19:45:35.559   772 13021 I ActivityManager: Killing 23254:com.android.chrome:sandboxed_process32/u0a60i505 (adj 0): isolated not needed
+10-30 19:45:35.560   772   790 W zygote64: failed to open /acct/uid_99505/pid_23254/cgroup.procs: No such file or directory
+10-30 19:45:35.571 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23254)
+10-30 19:45:37.517 23276 23276 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99506: Permission denied
+10-30 19:45:37.517 23276 23276 E Zygote  : createProcessGroup(99506, 0) failed: Permission denied
+10-30 19:45:37.522   772  3041 I ActivityManager: Start proc 23276:com.android.chrome:sandboxed_process33/u0i506 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService33
+10-30 19:45:37.556 23276 23276 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:45:37.586 23289 23289 E asset   : setgid: Operation not permitted
+10-30 19:45:37.628 23276 23276 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process33 isIsolated=true
+10-30 19:45:37.634 23276 23276 W SystemServiceRegistry: No service published for: uimode
+10-30 19:45:37.647 23276 23276 I cr_ChildProcessService: Creating new ChildProcessService pid=23276
+10-30 19:45:37.658 23276 23276 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:45:37.670 23276 23291 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:45:37.672 23276 23291 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:45:37.722 23294 23294 W ThreadPoolForeg: type=1400 audit(0.0:9625): avc: denied { setattr } for name="optimization-hints.pb" dev="dm-2" ino=1505006 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:37.722 23294 23294 W ThreadPoolForeg: type=1400 audit(0.0:9626): avc: denied { setattr } for name="manifest.json" dev="dm-2" ino=1505008 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:37.735 23294 23294 W ThreadPoolForeg: type=1400 audit(0.0:9627): avc: denied { setattr } for name="verified_contents.json" dev="dm-2" ino=1505025 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:37.744 23276 23291 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:45:37.746   422   422 E lowmemorykiller: Error writing /proc/23276/oom_score_adj; errno=22
+10-30 19:45:37.747   772  3041 I ActivityManager: Killing 23276:com.android.chrome:sandboxed_process33/u0a60i506 (adj 0): isolated not needed
+10-30 19:45:37.747   772   790 W zygote64: failed to open /acct/uid_99506/pid_23276/cgroup.procs: No such file or directory
+10-30 19:45:37.774 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23276)
+10-30 19:45:40.136 23298 23298 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99507: Permission denied
+10-30 19:45:40.136 23298 23298 E Zygote  : createProcessGroup(99507, 0) failed: Permission denied
+10-30 19:45:40.142   772   785 I ActivityManager: Start proc 23298:com.android.chrome:sandboxed_process34/u0i507 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService34
+10-30 19:45:40.180 23298 23298 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:45:40.205 23311 23311 E asset   : setgid: Operation not permitted
+10-30 19:45:40.245 23298 23298 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process34 isIsolated=true
+10-30 19:45:40.252 23298 23298 W SystemServiceRegistry: No service published for: uimode
+10-30 19:45:40.265 23298 23298 I cr_ChildProcessService: Creating new ChildProcessService pid=23298
+10-30 19:45:40.274 23298 23298 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:45:40.286 23298 23313 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:45:40.287 23298 23313 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:45:40.332 23318 23318 W ThreadPoolForeg: type=1400 audit(0.0:9628): avc: denied { setattr } for name="ssl_error_assistant.pb" dev="dm-2" ino=1505028 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:40.332 23318 23318 W ThreadPoolForeg: type=1400 audit(0.0:9629): avc: denied { setattr } for name="ssl_error_assistant.pb" dev="dm-2" ino=1505028 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:40.335 23318 23318 W ThreadPoolForeg: type=1400 audit(0.0:9630): avc: denied { setattr } for name="manifest.json" dev="dm-2" ino=1505029 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:40.338 23318 23318 W ThreadPoolForeg: type=1400 audit(0.0:9631): avc: denied { setattr } for name="verified_contents.json" dev="dm-2" ino=1505032 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:40.353 23298 23313 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:45:40.355   422   422 E lowmemorykiller: Error writing /proc/23298/oom_score_adj; errno=22
+10-30 19:45:40.356   772   785 I ActivityManager: Killing 23298:com.android.chrome:sandboxed_process34/u0a60i507 (adj 0): isolated not needed
+10-30 19:45:40.356   772   790 W zygote64: failed to open /acct/uid_99507/pid_23298/cgroup.procs: No such file or directory
+10-30 19:45:40.368 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23298)
+10-30 19:45:43.055 23320 23320 E /system/bin/webview_zygote32: failed to make and chown /acct/uid_99508: Permission denied
+10-30 19:45:43.055 23320 23320 E Zygote  : createProcessGroup(99508, 0) failed: Permission denied
+10-30 19:45:43.059   772  2969 I ActivityManager: Start proc 23320:com.android.chrome:sandboxed_process35/u0i508 for webview_service com.android.chrome/org.chromium.content.app.SandboxedProcessService35
+10-30 19:45:43.094 23320 23320 I SamplingProfilerIntegration: Profiling disabled.
+10-30 19:45:43.119 23333 23333 E asset   : setgid: Operation not permitted
+10-30 19:45:43.155 23320 23320 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome:sandboxed_process35 isIsolated=true
+10-30 19:45:43.166 23320 23320 W SystemServiceRegistry: No service published for: uimode
+10-30 19:45:43.179 23320 23320 I cr_ChildProcessService: Creating new ChildProcessService pid=23320
+10-30 19:45:43.188 23320 23320 E WebViewFactory: can't load with relro file; address space not reserved
+10-30 19:45:43.200 23320 23335 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:45:43.202 23320 23335 I cr_CachingUmaRecorder: Flushed 3 samples from 3 histograms.
+10-30 19:45:43.262 23338 23338 W ThreadPoolForeg: type=1400 audit(0.0:9632): avc: denied { setattr } for name="download_file_types.pb" dev="dm-2" ino=1505042 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:43.262 23338 23338 W ThreadPoolForeg: type=1400 audit(0.0:9633): avc: denied { setattr } for name="download_file_types.pb" dev="dm-2" ino=1505042 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:43.262 23338 23338 W ThreadPoolForeg: type=1400 audit(0.0:9634): avc: denied { setattr } for name="manifest.json" dev="dm-2" ino=1505043 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:43.268 23338 23338 W ThreadPoolForeg: type=1400 audit(0.0:9635): avc: denied { setattr } for name="verified_contents.json" dev="dm-2" ino=1505049 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file permissive=0
+10-30 19:45:43.279 23320 23335 I chromium: [INFO:child_process_service.cc(69)] ChildProcessService: Exiting child process.
+10-30 19:45:43.281   422   422 E lowmemorykiller: Error writing /proc/23320/oom_score_adj; errno=22
+10-30 19:45:43.282   772  4540 I ActivityManager: Killing 23320:com.android.chrome:sandboxed_process35/u0a60i508 (adj 0): isolated not needed
+10-30 19:45:43.284   772   790 W zygote64: failed to open /acct/uid_99508/pid_23320/cgroup.procs: No such file or directory
+10-30 19:45:43.309 22227 22227 W chromium: [WARNING:compositor_view.cc(342)] Child process died (type=6) pid=23320)
+10-30 19:45:45.181   772  2970 I ActivityManager: Force stopping com.android.chrome appid=10060 user=0: from pid 23352
+10-30 19:45:45.182   772  2970 I ActivityManager: Killing 22358:com.android.chrome:privileged_process0/u0a60 (adj 0): stop com.android.chrome
+10-30 19:45:45.184   772  2970 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.content.app.PrivilegedProcessService0 in 1000ms
+10-30 19:45:45.189   772  2970 I ActivityManager: Killing 22227:com.android.chrome/u0a60 (adj 0): stop com.android.chrome
+10-30 19:45:45.203   772  2970 W ActivityManager: Force removing ActivityRecord{e9cb185 u0 com.android.chrome/com.google.android.apps.chrome.Main t558}: app died, no saved state
+10-30 19:45:45.207  3535  3535 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.key.retrieval.service.START dat=chimera-action:com.google.android.gms.auth.key.retrieval.service.START cmp=com.google.android.gms/.chimera.GmsApiService }
+10-30 19:45:45.208   772  2970 I WindowManager: Failed to capture screenshot of Token{8ac4bda ActivityRecord{e9cb185 u0 com.android.chrome/com.google.android.apps.chrome.Main t558 f}} appWin=Window{c2e10e4 u0 com.android.chrome/com.google.android.apps.chrome.Main} drawState=4
+10-30 19:45:45.209 22323 22323 I cr_ChildProcessService: Destroying ChildProcessService pid=22323
+10-30 19:45:45.219 22837 22837 I cr_ChildProcessService: Destroying ChildProcessService pid=22837
+10-30 19:45:45.223   772  2970 I ActivityManager: Killing 22837:com.android.chrome:sandboxed_process17/u0a60i490 (adj 0): isolated not needed
+10-30 19:45:45.223   772  2970 I ActivityManager: Killing 22323:com.android.chrome:sandboxed_process0/u0a60i473 (adj 0): isolated not needed
+10-30 19:45:45.236  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+10-30 19:45:45.254  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-30 19:45:45.267 29214 29297 I Adreno  : QUALCOMM build                   : 7142022, Ib5823dd10c
+10-30 19:45:45.267 29214 29297 I Adreno  : Build Date                       : 06/23/17
+10-30 19:45:45.267 29214 29297 I Adreno  : OpenGL ES Shader Compiler Version: EV031.18.00.00
+10-30 19:45:45.267 29214 29297 I Adreno  : Local Branch                     : O11A
+10-30 19:45:45.267 29214 29297 I Adreno  : Remote Branch                    : 
+10-30 19:45:45.267 29214 29297 I Adreno  : Remote Branch                    : 
+10-30 19:45:45.267 29214 29297 I Adreno  : Reconstruct Branch               : 
+10-30 19:45:45.269 29214 29297 I vndksupport: sphal namespace is not configured for this process. Loading /vendor/lib64/hw/gralloc.msm8992.so from the current namespace instead.
+10-30 19:45:45.274 29214 29297 I Adreno  : PFP: 0x00000000, ME: 0x00000000
+10-30 19:45:45.278 29214 29297 I OpenGLRenderer: Initialized EGL, version 1.4
+10-30 19:45:45.280 29214 29297 D OpenGLRenderer: Swap behavior 2
+10-30 19:45:45.284   772  1324 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=1315, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ], android.os.BinderProxy@1bdf108)
+10-30 19:45:45.284   772 32228 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=1314, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ], android.os.BinderProxy@18040a1)
+10-30 19:45:45.284   772 10895 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=1316, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ], android.os.BinderProxy@4d2c2c6)
+10-30 19:45:45.285   772   862 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=1316, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+10-30 19:45:45.286   772   862 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=1314, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+10-30 19:45:45.287   772   797 W ActivityManager: setHasOverlayUi called on unknown pid: 22227
+10-30 19:45:45.289   772   862 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ LISTEN id=1315, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+10-30 19:45:45.303   772   790 W zygote64: failed to open /acct/uid_99490/pid_22837/cgroup.procs: No such file or directory
+10-30 19:45:45.303   772   790 W zygote64: failed to open /acct/uid_99473/pid_22323/cgroup.procs: No such file or directory
+10-30 19:45:45.331   772  3037 W ActivityManager: Unable to start service Intent { act=com.google.android.gms.speech.service.START pkg=com.google.android.gms } U=0: not found
+10-30 19:45:45.339   772 10860 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@f699411
+10-30 19:45:45.339 22252 23364 E GmsClient: unable to connect to service: com.google.android.gms.speech.service.START on com.google.android.gms
+10-30 19:45:45.351 22252 22263 W SessionLifecycleManager: Handover failed. Creating new session controller.
+10-30 19:45:45.366 22252 22252 I OptInState: There is a new client and it does not support opt-in. Dropping request.
+10-30 19:45:45.421 22252 22252 I MicroDetectionWorker: #updateMicroDetector [detectionMode: [mDetectionMode: [1]]]
+10-30 19:45:45.421 22252 22252 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+10-30 19:45:45.430 22252 22252 I MicroDetectionWorker: onReady
+10-30 19:45:45.443 22252 22257 I zygote64: Do partial code cache collection, code=0B, data=12KB
+10-30 19:45:45.443 22252 23365 I GsaNativeCrashHandler: Loaded shared library: nativecrashreporter
+10-30 19:45:45.443 22252 22257 I zygote64: After code cache collection, code=0B, data=12KB
+10-30 19:45:45.443 22252 22257 I zygote64: Increasing code cache capacity to 128KB
+10-30 19:45:45.447 22252 22257 I zygote64: Do partial code cache collection, code=0B, data=12KB
+10-30 19:45:45.448 22252 22257 I zygote64: After code cache collection, code=0B, data=12KB
+10-30 19:45:45.448 22252 22257 I zygote64: Increasing code cache capacity to 256KB
+10-30 19:45:45.451 22252 22257 I zygote64: Method exceeds compiler instruction limit: 25337 in void org.ccil.cowan.tagsoup.HTMLSchema.<init>()
+10-30 19:45:45.477 22252 22262 I zygote64: Background concurrent copying GC freed 5288(362KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 2MB/4MB, paused 6ms total 47.088ms
+10-30 19:45:45.477 22252 23365 I MicroDataManager: Created a new hotword model for:
+10-30 19:45:45.477 22252 23365 I MicroDataManager: # com.google.android.apps.gsa.speech.microdetection.h@36410d17
+10-30 19:45:45.479 22252 22283 I MicroRecognitionRunner: Starting detection.
+10-30 19:45:45.480 22252 22285 I MicrophoneInputStream: mic_starting com.google.android.apps.gsa.speech.audio.af@7ca0592
+10-30 19:45:45.481   556   687 W DeviceHAL: Device 0xefa2d000 open_input_stream: Invalid argument
+10-30 19:45:45.482   556 23368 I AudioFlinger: AudioFlinger's thread 0xec907100 tid=23368 ready to run
+10-30 19:45:45.488   556   753 I SoundTriggerHwService::Module: onCallbackEvent no clients
+10-30 19:45:45.491 22252 22285 I MicrophoneInputStream: mic_started com.google.android.apps.gsa.speech.audio.af@7ca0592
+10-30 19:45:45.493   556 23369 D sound_trigger_platform: platform_stdev_check_and_update_concurrency: concurrency active 0, tx 1, rx 0, concurrency session_allowed 0
+10-30 19:45:45.493   556 23369 D audio_hw_primary: enable_snd_device: snd_device(72: voice-rec-mic)
+10-30 19:45:45.498   556 23369 D audio_hw_primary: enable_audio_route: usecase(9) apply and update mixer path: audio-record
+10-30 19:45:45.565 22252 22252 I MicroDetectionWorker: onReady
+10-30 19:45:45.631 23356 23356 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 19:45:45.758 23356 23356 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+10-30 19:45:45.781   772  3854 I ActivityManager: Force stopping com.android.chrome appid=10060 user=0: clear data
+10-30 19:45:45.785   772   788 I ActivityManager: Force stopping com.android.chrome appid=10060 user=-1: clearApplicationUserData
+10-30 19:45:45.803 29214 29297 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+10-30 19:45:45.890   560   560 I keystore: clear_uid 10060
+10-30 19:45:45.909 23356 23356 I app_process: System.exit called, status: 0
+10-30 19:45:45.909 23356 23356 I AndroidRuntime: VM exiting with result code 0.
+10-30 19:45:45.910  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+10-30 19:45:45.914   772   787 W ResourceType: No known package when getting value for resource number 0x7f0904db
+10-30 19:45:45.914   772   787 W ResourceType: No known package when getting value for resource number 0x7f140670
+10-30 19:45:45.914   772   787 W ResourceType: No known package when getting value for resource number 0x7f0904da
+10-30 19:45:45.914   772   787 W ResourceType: No known package when getting value for resource number 0x7f14018b
+10-30 19:45:45.914   772   787 W ResourceType: No known package when getting value for resource number 0x7f14066f
+10-30 19:45:45.914   772   787 W ResourceType: No known package when getting value for resource number 0x7f140434
+10-30 19:45:45.914   772   787 E ShortcutService: Ignoring excessive intent tag.
+10-30 19:45:45.941  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-30 19:45:45.947  3960 23384 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_DATA_CLEARED [CONTEXT service_id=17 ]
+10-30 19:45:45.975  3535  3759 I Icing   : doRemovePackageData com.android.chrome
+10-30 19:45:45.975  3535  3759 I Icing   : Removing corpus key com.android.chrome-omnibox for package com.android.chrome
+10-30 19:45:46.013  3535  3759 I native  : I0000 00:00:1667155546.013483    3759 flash-index.cc:1535] Flash index sort hb 20 prefix-hits 40 -> 36 at 15.692ms
+10-30 19:45:46.060  3535  3759 I Icing   : Removing corpus key com.android.chrome-.implicit: for package com.android.chrome
+10-30 19:45:46.097  3535  3759 I Icing   : Removing corpus key com.android.chrome-internal.3p:WebPage for package com.android.chrome
+10-30 19:45:46.166  3535  3759 I Icing   : Starting compaction min disk 99.985% min index 99.988%
+10-30 19:45:46.212   772  3041 I ActivityManager: Force stopping com.android.chrome appid=10060 user=0: from pid 23407
+10-30 19:45:46.217  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+10-30 19:45:46.228  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-30 19:45:46.269  3535  3759 I native  : I0000 00:00:1667155546.269914    3759 document-store.cc:1684] Scored 618 usage reports, missing_corpora 215 update_failed 0
+10-30 19:45:46.325  3535  3759 W native  : W0000 00:00:1667155546.325695    3759 words-map.cc:36] INVALID_ARGUMENT: Empty URI
+10-30 19:45:46.325  3535  3759 W native  : W0000 00:00:1667155546.325895    3759 words-map.cc:40] WordsMap was not properly initialized
+10-30 19:45:46.385  3535  3759 E native  : E0000 00:00:1667155546.385626    3759 compactor.cc:77] Could not index embedding for docid 1: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.386  3535  3759 E native  : E0000 00:00:1667155546.386450    3759 compactor.cc:77] Could not index embedding for docid 3: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.386  3535  3759 E native  : E0000 00:00:1667155546.386933    3759 compactor.cc:77] Could not index embedding for docid 5: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.387  3535  3759 E native  : E0000 00:00:1667155546.387474    3759 compactor.cc:77] Could not index embedding for docid 7: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.388  3535  3759 E native  : E0000 00:00:1667155546.387984    3759 compactor.cc:77] Could not index embedding for docid 9: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.388  3535  3759 E native  : E0000 00:00:1667155546.388434    3759 compactor.cc:77] Could not index embedding for docid 11: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.388  3535  3759 E native  : E0000 00:00:1667155546.388883    3759 compactor.cc:77] Could not index embedding for docid 13: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.389  3535  3759 E native  : E0000 00:00:1667155546.389349    3759 compactor.cc:77] Could not index embedding for docid 15: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.389  3535  3759 E native  : E0000 00:00:1667155546.389821    3759 compactor.cc:77] Could not index embedding for docid 17: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.390  3535  3759 E native  : E0000 00:00:1667155546.390289    3759 compactor.cc:77] Could not index embedding for docid 19: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.390  3535  3759 E native  : E0000 00:00:1667155546.390886    3759 compactor.cc:77] Could not index embedding for docid 21: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.391  3535  3759 E native  : E0000 00:00:1667155546.391432    3759 compactor.cc:77] Could not index embedding for docid 23: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.391  3535  3759 E native  : E0000 00:00:1667155546.391901    3759 compactor.cc:77] Could not index embedding for docid 25: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.396  3535  3759 E native  : E0000 00:00:1667155546.395991    3759 compactor.cc:77] Could not index embedding for docid 26: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.399  3535  3759 E native  : E0000 00:00:1667155546.399664    3759 compactor.cc:77] Could not index embedding for docid 27: INTERNAL: Unable to find Thing Proto section 
+10-30 19:45:46.438  3535  3759 I native  : I0000 00:00:1667155546.438552    3759 flash-index.cc:1535] Flash index sort hb 40 prefix-hits 68 -> 67 at 21.011ms
+10-30 19:45:46.468  3535  3759 W native  : W0000 00:00:1667155546.468757    3759 words-map.cc:36] INVALID_ARGUMENT: Empty URI
+10-30 19:45:46.468  3535  3759 W native  : W0000 00:00:1667155546.468915    3759 words-map.cc:40] WordsMap was not properly initialized
+10-30 19:45:46.519  3535  3759 I Icing   : updateResources: need to parse anue{com.android.chrome}
+10-30 19:45:46.599  3535  3759 I Icing   : Indexing com.android.chrome-omnibox from com.android.chrome
+10-30 19:45:46.606 23409 23409 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 19:45:46.616   772 10894 I ActivityManager: Start proc 23411:com.android.chrome/u0a60 for content provider com.android.chrome/com.google.android.apps.chrome.icing.IcingProvider
+10-30 19:45:46.669 23411 23411 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome isIsolated=false
+10-30 19:45:46.742 23409 23409 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+10-30 19:45:46.749   772  1324 I ActivityManager: Force stopping com.android.chrome appid=10060 user=0: clear data
+10-30 19:45:46.749   772  1324 I ActivityManager: Killing 23411:com.android.chrome/u0a60 (adj 200): stop com.android.chrome
+10-30 19:45:46.750  3535  3535 I ActivityThread: Removing dead content provider:android.content.ContentProviderProxy@c37a89c
+10-30 19:45:46.753   772   788 I ActivityManager: Force stopping com.android.chrome appid=10060 user=-1: clearApplicationUserData
+10-30 19:45:46.756   560   560 I keystore: clear_uid 10060
+10-30 19:45:46.776  1311  1311 D CarrierSvcBindHelper: No carrier app for: 0
+10-30 19:45:46.780   772   787 W ResourceType: No known package when getting value for resource number 0x7f0904db
+10-30 19:45:46.780   772   787 W ResourceType: No known package when getting value for resource number 0x7f140670
+10-30 19:45:46.782   772   787 W ResourceType: No known package when getting value for resource number 0x7f0904da
+10-30 19:45:46.782   772   787 W ResourceType: No known package when getting value for resource number 0x7f14018b
+10-30 19:45:46.782   772   787 W ResourceType: No known package when getting value for resource number 0x7f14066f
+10-30 19:45:46.782   772   787 W ResourceType: No known package when getting value for resource number 0x7f140434
+10-30 19:45:46.782   772   787 E ShortcutService: Ignoring excessive intent tag.
+10-30 19:45:46.782 23409 23409 I app_process: System.exit called, status: 0
+10-30 19:45:46.782 23409 23409 I AndroidRuntime: VM exiting with result code 0.
+10-30 19:45:46.790  3535  3759 E Icing   : Cursor call threw an exception: null
+10-30 19:45:46.791  3535  3759 E Icing   : Indexing content provider failed; will retry 3 times
+10-30 19:45:46.791  3535  3759 I Icing   : Indexing done com.android.chrome-omnibox
+10-30 19:45:46.791  3535  3759 E Icing   : Aborting indexing of corpus omnibox
+10-30 19:45:46.791  3535  3759 I Icing   : Retrying indexing in 300000ms
+10-30 19:45:46.791  3535  3759 W GmsTaskScheduler: com.google.android.gms.icing.service.IcingGcmTaskChimeraService is not available. This may cause the task to be lost.
+10-30 19:45:46.794  2964  2964 D RegisteredNfcFServicesCache: Service unchanged, not updating
+10-30 19:45:46.808  3960 23384 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_DATA_CLEARED [CONTEXT service_id=17 ]
+10-30 19:45:46.833  3535  3759 I Icing   : doRemovePackageData com.android.chrome
+10-30 19:45:46.833  3535  3759 I Icing   : Removing corpus key com.android.chrome-omnibox for package com.android.chrome
+10-30 19:45:46.900  3535  3759 I Icing   : updateResources: need to parse anue{com.android.chrome}
+10-30 19:45:46.952  3535  3759 I Icing   : Indexing com.android.chrome-omnibox from com.android.chrome
+10-30 19:45:46.963   772  1327 I ActivityManager: Start proc 23445:com.android.chrome/u0a60 for content provider com.android.chrome/com.google.android.apps.chrome.icing.IcingProvider
+10-30 19:45:47.007 23445 23445 I cr_SplitCompatApp: Launched version=106.0.5249.79 minSdkVersion=24 isBundle=true processName=com.android.chrome isIsolated=false
+10-30 19:45:47.155  3960  3971 I FontLog : Received query Google Sans, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 19:45:47.155  3960  3971 I FontLog : Query [Google Sans] resolved to {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:45:47.159  3960  3971 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:45:47.160  3960  3971 I FontLog : Fetch {Google Sans, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 19:45:47.192  3535  3759 I Icing   : Indexing done com.android.chrome-omnibox
+10-30 19:45:47.271  3960  4245 I FontLog : Pulling font file for id = 437, cache size = 7 [CONTEXT service_id=132 ]
+10-30 19:45:47.297 23445 23464 I cr_LibraryLoader: Successfully loaded native library
+10-30 19:45:47.298 23445 23464 I cr_CachingUmaRecorder: Flushed 20 samples from 19 histograms.
+10-30 19:45:47.386  3960  4217 I FontLog : Received query Google Sans:500, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 19:45:47.391  3960  4217 I FontLog : Query [Google Sans:500] resolved to {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:45:47.394  3960  4217 I FontLog : Font PFD returned from cache for {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:45:47.394  3960  4217 I FontLog : Fetch {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 19:45:47.444  3960  4244 I FontLog : Pulling font file for id = 438, cache size = 8 [CONTEXT service_id=132 ]
+10-30 19:45:47.467  3960  4245 I FontLog : Received query Google Sans:700, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-30 19:45:47.468  3960  4245 I FontLog : Query [Google Sans:700] resolved to {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-30 19:45:47.470  3960  4245 I FontLog : Fetch {Google Sans, wdth 100.0, wght 700, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-30 19:45:47.484  3960  3971 I FontLog : Pulling font file for id = 439, cache size = 7 [CONTEXT service_id=132 ]

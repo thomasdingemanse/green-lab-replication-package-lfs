@@ -1,0 +1,28 @@
+Battery History (0% used, 244 used of 256KB, 6 strings using 432):
+                    0 (10) RESET:TIME: 2022-10-30-17-44-18
+                    0 (1) 100 status=full health=good plug=none temp=320 volt=4351 charge=2680 +running +wake_lock +wifi_radio +phone_scanning +screen phone_state=out +wifi_running +wifi wifi_signal_strength=3 wifi_suppl=completed
+                    0 (2) 100 top=u0a60:"com.android.chrome"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +19ms (2) 100 stats=0:"dump"
+             +3s296ms (2) 100 stats=0:"remove-uid"
+             +3s389ms (2) 100 stats=0:"remove-uid"
+             +3s450ms (2) 100 stats=0:"remove-uid"
+             +3s488ms (2) 100 stats=0:"remove-uid"
+             +3s545ms (2) 100 stats=0:"remove-uid"
+             +3s554ms (2) 100 stats=0:"remove-uid"
+             +3s602ms (2) 100 stats=0:"remove-uid"
+             +3s632ms (2) 100 stats=0:"remove-uid"
+             +4s446ms (2) 100 stats=0:"remove-uid"
+             +5s542ms (2) 100 +job=u0a60:"com.android.chrome/org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService"
+             +5s552ms (2) 100 -job=u0a60:"com.android.chrome/org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService"
+            +48s454ms (1) 100 +wifi_scan
+            +54s650ms (2) 100 -wifi_scan stats=0:"remove-uid"
+            +57s788ms (2) 100 stats=0:"remove-uid"
+          +1m00s872ms (2) 100 stats=0:"remove-uid"
+          +1m04s330ms (2) 100 stats=0:"remove-uid"
+          +1m06s997ms (2) 100 -top=u0a60:"com.android.chrome"
+          +1m06s997ms (2) 100 +top=u0a45:"com.google.android.googlequicksearchbox"
+          +1m07s091ms (2) 100 stats=0:"remove-uid"
+          +1m07s155ms (3) 100 +audio stats=0:"remove-uid"
+          +1m12s586ms (2) 100 stats=0:"dump"

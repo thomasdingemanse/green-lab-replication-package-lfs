@@ -1,0 +1,28 @@
+Battery History (0% used, 240 used of 256KB, 5 strings using 310):
+                    0 (10) RESET:TIME: 2022-10-31-16-58-29
+                    0 (1) 100 status=charging health=good plug=none temp=342 volt=4341 charge=2679 +running +wake_lock +wifi_radio +phone_scanning +screen phone_state=out +wifi_running +wifi wifi_signal_strength=3 wifi_suppl=completed
+                    0 (2) 100 top=u0a99:"com.opera.browser"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +10ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+                +22ms (2) 100 stats=0:"dump"
+                +95ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+               +290ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +1s029ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +1s111ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +1s227ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +1s514ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +1s919ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +2s441ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +2s528ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +5s489ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +5s491ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +5s676ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +5s679ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+            +13s981ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+            +13s987ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+          +1m02s523ms (1) 100 +wifi_scan
+          +1m06s875ms (2) 100 -top=u0a99:"com.opera.browser"
+          +1m06s875ms (3) 100 +audio +top=u0a45:"com.google.android.googlequicksearchbox"
+          +1m08s849ms (1) 100 -wifi_scan
+          +1m13s310ms (2) 100 stats=0:"dump"

@@ -1,0 +1,38 @@
+Battery History (0% used, 340 used of 256KB, 5 strings using 310):
+                    0 (10) RESET:TIME: 2022-10-31-14-55-13
+                    0 (1) 100 status=charging health=good plug=none temp=322 volt=4341 charge=2677 +running +wake_lock +wifi_radio +phone_scanning +screen phone_state=out +wifi_running +wifi wifi_signal_strength=2 wifi_suppl=completed
+                    0 (2) 100 top=u0a99:"com.opera.browser"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                 +8ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+                +18ms (2) 100 stats=0:"dump"
+               +105ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+               +293ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+               +868ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+               +928ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +1s041ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +1s397ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +1s691ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +2s041ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +2s073ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +4s833ms (2) 100 wifi_signal_strength=3 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +4s936ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +5s438ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +5s440ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +7s579ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+             +7s585ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+            +10s201ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+            +10s209ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+            +12s534ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+            +12s536ms (2) 100 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+            +13s499ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+            +13s503ms (2) 100 wifi_signal_strength=2 -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+            +23s093ms (1) 100 wifi_signal_strength=3
+            +26s218ms (1) 100 wifi_signal_strength=2
+            +35s430ms (1) 100 wifi_signal_strength=3
+            +38s545ms (1) 100 wifi_signal_strength=2
+            +44s759ms (1) 100 wifi_signal_strength=3
+          +1m03s305ms (1) 100 wifi_signal_strength=2
+          +1m06s415ms (2) 100 wifi_signal_strength=3 -top=u0a99:"com.opera.browser"
+          +1m06s950ms (3) 100 +audio +top=u0a45:"com.google.android.googlequicksearchbox"
+          +1m12s500ms (2) 100 stats=0:"dump"

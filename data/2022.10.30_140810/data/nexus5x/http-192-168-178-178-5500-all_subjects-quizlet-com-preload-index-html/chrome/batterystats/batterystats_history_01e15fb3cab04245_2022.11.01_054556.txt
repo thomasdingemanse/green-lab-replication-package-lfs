@@ -1,0 +1,33 @@
+Battery History (0% used, 256 used of 256KB, 14 strings using 766):
+                    0 (10) RESET:TIME: 2022-11-01-05-45-57
+                    0 (1) 100 status=charging health=good plug=none temp=317 volt=4282 charge=2682 +running +wifi_radio +phone_scanning phone_state=out +wifi_running +wifi device_idle=full wifi_signal_strength=3 wifi_suppl=completed
+                    0 (2) 100 top=u0a60:"com.android.chrome"
+                    0 (2) 100 user=0:"0"
+                    0 (3) 100 +wake_lock=1001:"RILJ" userfg=0:"0"
+                +62ms (2) 100 -wake_lock stats=0:"dump"
+            +15s820ms (3) 100 +wake_lock=u0a20:"*walarm*:com.google.android.gms.gcm.HEARTBEAT_ALARM" +tmpwhitelist=u0a20:"broadcast:u0a20:com.google.android.gms.gcm.HEARTBEAT_ALARM"
+            +15s871ms (1) 100 -wake_lock
+            +22s664ms (2) 100 +wake_lock=u0a20:"GCM_READ"
+            +22s671ms (1) 100 -wake_lock
+            +22s677ms (2) 100 +wake_lock=u0a20:"GCM_WORK"
+            +22s684ms (1) 100 -wake_lock
+            +22s696ms (2) 100 +wake_lock=u0a20:"GCM_READ"
+            +22s700ms (1) 100 -wake_lock
+            +22s707ms (2) 100 +wake_lock=u0a20:"GCM_WORK"
+            +22s709ms (1) 100 -wake_lock
+            +25s876ms (2) 100 -tmpwhitelist=u0a20:"broadcast:u0a20:com.google.android.gms.gcm.HEARTBEAT_ALARM"
+            +37s795ms (2) 100 -wifi_radio stats=0:"wifi-data: inactive"
+            +54s361ms (2) 100 +wifi_radio stats=0:"wifi-data: active"
+          +1m07s176ms (2) 100 -top=u0a60:"com.android.chrome"
+          +1m07s176ms (2) 100 +top=u0a45:"com.google.android.googlequicksearchbox"
+          +1m07s179ms (2) 100 stats=0:"remove-uid"
+          +1m08s240ms (2) 100 +wake_lock=u0a20:"Wakeful StateMachine: GeofencerStateMachine"
+          +1m08s242ms (1) 100 -wake_lock
+          +1m08s392ms (2) 100 +wake_lock=u0a20:"Icing"
+          +1m09s128ms (1) 100 -wake_lock
+          +1m09s137ms (2) 100 +wake_lock=u0a20:"Wakeful StateMachine: GeofencerStateMachine"
+          +1m09s139ms (1) 100 -wake_lock
+          +1m09s175ms (2) 100 +wake_lock=u0a20:"Icing"
+          +1m09s784ms (1) 100 -wake_lock
+          +1m12s917ms (2) 100 +wake_lock=1001:"RILJ"
+          +1m12s927ms (2) 100 -wake_lock stats=0:"dump"

@@ -1,0 +1,33 @@
+Battery History (0% used, 280 used of 256KB, 9 strings using 546):
+                    0 (10) RESET:TIME: 2022-11-01-00-06-18
+                    0 (1) 100 status=full health=good plug=none temp=257 volt=4331 charge=2704 +running +wake_lock +wifi_radio +phone_scanning +screen phone_state=out +wifi_running +wifi wifi_signal_strength=3 wifi_suppl=completed
+                    0 (2) 100 top=u0a60:"com.android.chrome"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +19ms (2) 100 stats=0:"dump"
+             +4s425ms (2) 100 stats=0:"remove-uid"
+             +4s515ms (2) 100 stats=0:"remove-uid"
+             +4s612ms (2) 100 stats=0:"remove-uid"
+             +4s697ms (2) 100 stats=0:"remove-uid"
+             +4s704ms (2) 100 stats=0:"remove-uid"
+             +4s800ms (2) 100 stats=0:"remove-uid"
+             +4s836ms (2) 100 stats=0:"remove-uid"
+             +5s659ms (2) 100 +job=u0a60:"com.android.chrome/org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService"
+             +5s674ms (2) 100 -job=u0a60:"com.android.chrome/org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService"
+             +6s518ms (2) 100 stats=0:"remove-uid"
+             +7s055ms (2) 100 stats=0:"remove-uid"
+            +41s055ms (1) 100 +wifi_scan
+            +46s899ms (1) 100 -wifi_scan
+            +52s552ms (2) 100 -wifi_radio stats=0:"wifi-data: inactive"
+            +54s033ms (2) 100 +wifi_radio wakeupap=u0a60:""
+            +54s042ms (2) 100 stats=0:"wifi-data: active"
+            +55s916ms (2) 100 stats=0:"remove-uid"
+            +58s346ms (2) 100 stats=0:"remove-uid"
+          +1m00s867ms (2) 100 stats=0:"remove-uid"
+          +1m03s817ms (2) 100 stats=0:"remove-uid"
+          +1m06s914ms (2) 100 -top=u0a60:"com.android.chrome"
+          +1m06s914ms (2) 100 +top=u0a45:"com.google.android.googlequicksearchbox"
+          +1m06s992ms (2) 100 stats=0:"remove-uid"
+          +1m07s005ms (2) 100 stats=0:"remove-uid"
+          +1m07s078ms (3) 100 +audio stats=0:"remove-uid"
+          +1m12s596ms (2) 100 stats=0:"dump"

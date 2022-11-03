@@ -1,0 +1,51 @@
+Battery History (0% used, 400 used of 256KB, 22 strings using 1738):
+                    0 (10) RESET:TIME: 2022-10-31-06-28-40
+                    0 (1) 100 status=full health=good plug=none temp=247 volt=4328 charge=2704 +running +wake_lock +wifi_radio +phone_scanning +screen phone_state=out +wifi_running +wifi wifi_signal_strength=3 wifi_suppl=completed
+                    0 (2) 100 top=u0a60:"com.android.chrome"
+                    0 (2) 100 user=0:"0"
+                    0 (2) 100 userfg=0:"0"
+                +21ms (2) 100 stats=0:"dump"
+             +4s629ms (2) 100 stats=0:"remove-uid"
+             +4s649ms (2) 100 stats=0:"remove-uid"
+             +4s724ms (2) 100 stats=0:"remove-uid"
+             +4s743ms (2) 100 stats=0:"remove-uid"
+             +4s863ms (2) 100 stats=0:"remove-uid"
+             +6s646ms (1) 100 +wifi_scan
+             +6s978ms (1) 100 -wifi_scan
+            +10s149ms (2) 100 -wake_lock -screen
+            +10s190ms (2) 100 +wake_lock=1000:"startDream"
+            +10s237ms (1) 100 -wake_lock
+            +10s312ms (2) 100 +wake_lock=1000:"WifiSuspend"
+            +10s316ms (1) 100 -wake_lock
+            +10s340ms (2) 100 +wake_lock=1027:"NfcService:mRoutingWakeLock"
+            +10s348ms (1) 100 -wake_lock
+            +10s359ms (2) 100 +wake_lock=u0a20:"NlpWakeLock"
+            +10s364ms (1) 100 -wake_lock
+            +39s053ms (2) 100 -wifi_radio stats=0:"wifi-data: inactive"
+            +44s944ms (3) 100 +wake_lock=u0a99:"*job*/com.opera.browser.ping.provider/com.opera.browser.ping/com.opera.browser:android" +job=u0a99:"com.opera.browser.ping.provider/com.opera.browser.ping/com.opera.browser:android"
+            +45s088ms (2) 100 +sync=u0a99:"com.opera.browser.ping.provider/com.opera.browser.ping/com.opera.browser"
+            +45s101ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.crashhandler.CrashReportProcessingService"
+            +45s104ms (2) 100 -sync=u0a99:"com.opera.browser.ping.provider/com.opera.browser.ping/com.opera.browser"
+            +45s106ms (2) 100 +job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+            +45s106ms (2) 100 -wake_lock -job=u0a99:"com.opera.browser.ping.provider/com.opera.browser.ping/com.opera.browser:android"
+            +45s114ms (3) 100 +wake_lock=u0a99:"*job*/com.opera.browser/com.opera.android.crashhandler.CrashReportProcessingService" -job=u0a99:"com.opera.browser/com.opera.android.osp.OspCollectorService"
+            +45s133ms (2) 100 -wake_lock -job=u0a99:"com.opera.browser/com.opera.android.crashhandler.CrashReportProcessingService"
+            +47s105ms (2) 100 +wifi_radio wakeupap=u0a20:""
+            +47s125ms (2) 100 stats=0:"wifi-data: active"
+            +53s982ms (2) 100 stats=0:"remove-uid"
+            +56s349ms (2) 100 stats=0:"remove-uid"
+            +58s472ms (2) 100 stats=0:"remove-uid"
+          +1m01s253ms (2) 100 stats=0:"remove-uid"
+          +1m04s389ms (2) 100 stats=0:"remove-uid"
+          +1m07s081ms (2) 100 -top=u0a60:"com.android.chrome"
+          +1m07s081ms (2) 100 +top=u0a45:"com.google.android.googlequicksearchbox"
+          +1m07s098ms (3) 100 +wake_lock=u0a20:"Wakeful StateMachine: GeofencerStateMachine" stats=0:"remove-uid"
+          +1m07s927ms (1) 100 -wake_lock
+          +1m07s968ms (2) 100 +wake_lock=u0a20:"Icing"
+          +1m08s596ms (1) 100 -wake_lock
+          +1m08s923ms (2) 100 +wake_lock=u0a20:"Wakeful StateMachine: GeofencerStateMachine"
+          +1m08s924ms (1) 100 -wake_lock
+          +1m08s960ms (2) 100 +wake_lock=u0a20:"Icing"
+          +1m09s529ms (1) 100 -wake_lock
+          +1m12s655ms (2) 100 +wake_lock=1001:"RILJ"
+          +1m12s663ms (2) 100 -wake_lock stats=0:"dump"
